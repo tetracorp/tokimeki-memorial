@@ -1,0 +1,12 @@
+name: Exploring Tokimeki Memorial
+baseurl: https://tetracorp.github.io/tokimeki-memorial
+permalink: none
+
+markdown: kramdown
+kramdown:
+  no_auto_typographic: true
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jemoji

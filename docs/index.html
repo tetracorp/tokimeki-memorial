@@ -1,0 +1,44 @@
+---
+layout: default
+title: Main Index
+---
+
+  <p><em>Exploring Tokimeki Memorial</em> disassembles and analyzes the 1994
+  Japanese PlayStation game _Tokimeki Memorial_. Read
+  <a href="{{site.baseurl}}/about/this-project.html">about this project</a> for
+  an introduction.</p>
+
+  {% assign sortedPosts = site.posts | sort: 'slug' %}
+
+  <h3>Analysis methods</h3>
+  <ul class="posts">
+    {% for post in sortedPosts %}
+      {% if post.categories contains "methods" %}
+        <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h3>Undocumented game mechanics</h3>
+  <ul class="posts">
+    {% for post in sortedPosts %}
+      {% if post.categories contains "game-mechanics" %}
+        <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h3>Data</h3>
+  <ul class="posts">
+    {% for post in sortedPosts %}
+      {% if post.categories contains "data" %}
+      <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h3>Links</h3>
+  <ul class="posts">
+    <li><a href="https://tetracorp.github.io/k240/">Exploring K240</a>, a similar project for a 1994 Amiga RTS</li>
+    <li><a href="https://tetracorp.github.io/dungeons-of-avalon/">Exploring the Dungeons of Avalon</a>, a similar project for a 1992 RPG series</li>
+  </ul>
