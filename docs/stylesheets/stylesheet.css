@@ -301,7 +301,7 @@ footer p a:hover{
   text-decoration: underline;
 }
 
-code {
+p code, li code {
   font-size: 120%;
   background: #333333;
   padding: 0 2px;
