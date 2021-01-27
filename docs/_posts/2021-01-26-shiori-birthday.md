@@ -12,7 +12,7 @@ This has several mechanical effects.
 1. Table of Contents
 {:toc}
 
-## Invalid dates
+### Invalid dates
 
 You can't set either the player or Shiori's birthday to Feb 29. While 1996 is a
 leap year, the game won't let you have only one birthday in the entire game.
@@ -21,7 +21,7 @@ Naturally, you can't set either birthday to invalid dates (Feb 30, Feb 31, Apr
 31, Jun 31, Sep 31, or Nov 31). If you try, it will automatically set it to the
 last valid day of that month.
 
-## Club
+### Club
 
 Shiori's birthday determines which club she will join. This feature was already
 well known, with the exact formula even appearing in English in
@@ -220,7 +220,7 @@ Tennis
 : Nov: 10, 21
 : Dec: 6, 17, 28
 
-## Same birthday check
+### Same birthday check
 
 The game actually checks if the player and Shiori have the same birthday. This
 was widely known even at the time, since there's a unique birthday event. Of
@@ -287,6 +287,6 @@ The check is only passed if:
 6. Bit 7 of `get_g_zyotai_s` for Shiori is set (todo: determine significance of
    this function)
 
-## Other
+### Other
 
 There are other references to Shiori's birthday which I've yet to decode.

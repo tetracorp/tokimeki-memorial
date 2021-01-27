@@ -14,7 +14,7 @@ reverse-engineer this game, primarily the 1995 PlayStation release, in order to
 shed light on its obscure game mechanics and aid future analysis and translation
 projects.
 
-## Why this project?
+### Why this project?
 
 On 1 January 2021, Tim Rogers of Action Button published an in-depth nearly six
 hour long
@@ -29,7 +29,7 @@ undocumented game mechanics was similar to
 the PlayStation release of _Tokimeki Memorial: Forever With You_ in the same
 manner.
 
-## Goals
+### Goals
 
 My aims for this project are less ambitious than earlier my earlier projects
 examining the Commodore Amiga games [K240](https://tetracorp.github.io/k240/)
