@@ -2964,3 +2964,7 @@ Yoshio and then his sister Yumi. All but one of the other voiced characters
 appear thereafter in alphabetical order until we reach `etc.xa` and `bgm378.xa`,
 and finally Megumi Mikihara (Shiori's friend). Why did Megumi get stuck at the
 end? It's a mystery.
+
+The original regular _Tokimeki Memorial: Forever With You_ PSX release is
+identical to the Special Edition release except for the volume set ID
+(SLPS0065VER110 instead of SLPS0064VER110).
