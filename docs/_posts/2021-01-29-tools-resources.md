@@ -85,8 +85,7 @@ isoinfo
 [Nocash PSX Specifications](https://problemkaputt.de/psx-spx.htm)
 : Description of PSX systems from the author of an emulator.
 
-[Everything You Have Always Wanted to Know about the Playstation But Were Afraid to Ask v1.1](
-https://www.raphnet.net/electronique/psx_adaptor/Playstation.txt)
+[Everything You Have Always Wanted to Know about the Playstation But Were Afraid to Ask v1.1](https://www.raphnet.net/electronique/psx_adaptor/Playstation.txt)
 : A collection of documentation about the PSX hardware and history from 2000
   (originally [here](https://web.archive.org/web/20011211221846/http://www.execpc.com/~halkun/PSX/index.html)).
 
