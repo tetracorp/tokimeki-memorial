@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Effects of Shiori's birthday"
+title: "Effects of Shiori's birthday (WIP)"
 categories: game-mechanics
 ---
 
