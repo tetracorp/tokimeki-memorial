@@ -106,8 +106,8 @@ and a 0 means not pressed.
  0x8000 | 15  | □           | 
 
 Shifting the 32-bit value right 16 times will evaluate to zero only if none of
-these are pressed. In other words, holding any of these buttons will trigger the
-voice line.
+these are pressed. In other words, holding any of these buttons on the second
+controller will trigger the voice line.
 
 In my estimation, this is obviously a debug feature to test the voice line
 without requiring the playtester to actually complete the game. 
@@ -116,3 +116,45 @@ I previously observed a glitch which I can't remember how to replicate, where it
 will skip the visual for "anata ga" but still play the audio, so that it
 incorrectly syncs the audio for "anata ga" to the visual for "suki desu" and
 then continues to the opening FMV as normal.
+
+### Addendum: Subtitles
+
+The following subtitles appear in the code for Shiori's intro narration:
+
+    始まりがあれば終わりがあるように、
+    出会いがあればまた、別れもあるのです。
+    永遠に続く二人の関係、
+    それはどんなに幸せなことでしょう。
+    ここ、きらめき高校には、
+    一つの伝説があります。
+    校庭のはずれにある一本の古木。
+    そのたもとで卒業の日に、
+    女の子からの告白で生まれた
+    恋人達は、永遠に幸せな関係に
+    なれるという伝説が…
+    あなたが…、
+    す・き・で・す
+
+The following subtitles to the opening FMV also appear in the code (they're not
+hardcoded into the FMV, but play as dialog):
+
+    好きとか　嫌いとか
+    最初に言い出したのは　誰なのかしら
+    駆け抜けてゆく　私のメモリアル
+    今日も鏡のまえで　髪をとかして　
+    ピンクのリップは　Ｓｗｅｅｔ　Ｍａｇｉｃ
+    とっておきのコロン
+    さ・さ・や・き　キ・ラ・メ・キ
+    ド・キ・ド・キ　大好き
+    あなただけに見つめてほしい
+    Ｔａｋｅ　ｔｈｅ　Ｃｈａｎｃｅ
+    仕上げは上出来
+    Ｔｅｌｌ　Ｙｏｕｒ　Ｈｅａｒｔ
+    準備はＯＫ
+    素敵な予感　そよ風に乗せ
+    Ｔｒｙ　Ｙｏｕｒ　ＬＵＣＫ
+    制服のリボン
+    Ｔｅｌｌ　Ｙｏｕｒ　Ｌｏｖｅ
+    結び直したら
+    今日こそ言えそう
+    Ｌｏｖｅ　ｍｅ　ｐｌｅａｓｅ‥‥‥

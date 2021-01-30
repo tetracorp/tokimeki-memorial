@@ -15,7 +15,8 @@ This has several mechanical effects.
 ### Invalid dates
 
 You can't set either the player or Shiori's birthday to Feb 29. While 1996 is a
-leap year, the game won't let you have only one birthday in the entire game.
+leap year, the game won't let you select that. Perhaps the developers thought it
+would be unfair to have one birthday in the entire game.
 
 Naturally, you can't set either birthday to invalid dates (Feb 30, Feb 31, Apr
 31, Jun 31, Sep 31, or Nov 31). If you try, it will automatically set it to the
@@ -42,7 +43,7 @@ printf("aisyo %d \n");
 A side-effect is that there is a slightly uneven distribution of which club
 Shiori will join. There are 32 days which will cause Shiori to join the drama
 and swimming club (8.77% each), 33 days to join the art, brass band, computer,
-literature, or soccer club (9.04% each) and 45 days on which she will join the
+literature, or soccer club (9.04% each) and 34 days on which she will join the
 baseball, basketball, science or tennis club (9.32% each).
 
 Note the unusual way birthdates are stored. It would be easy to store the day

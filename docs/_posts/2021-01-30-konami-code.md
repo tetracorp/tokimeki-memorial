@@ -122,7 +122,7 @@ have yet to fully explore.
 
 There's a rumour that entering the Konami code during the intro causes Shiori to
 say "suki desu". This isn't true, although there is a separate way to trigger
-that event (see [Shiori says "suki desu"](shiori-suki-desu.html).
+that event (see [Shiori says "suki desu"](shiori-suki-desu.html)).
 
 However, there is indeed a check for the Konami code in the intro section, after
 you hit "game start" on the title screen. In testing, it appears to just skip
