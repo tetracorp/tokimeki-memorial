@@ -2968,3 +2968,1882 @@ end? It's a mystery.
 The original regular _Tokimeki Memorial: Forever With You_ PSX release is
 identical to the Special Edition release except for the volume set ID
 (SLPS0065VER110 instead of SLPS0064VER110).
+
+### jPSXdec
+
+    [jPSXdec v1.00]
+    ; Lines that begin with ; are ignored
+    Filename:/home/tetracorp/test.bin|Sector size:2352|Sector count:298514|First sector offset:0
+    #:0|ID:SYSTEM.CNF|Sectors:23-23|Type:File|Size:63|Path:SYSTEM.CNF|Has mode 2 form 2:No|Has CD audio:No
+    #:1|ID:PSX.EXE|Sectors:24-360|Type:File|Size:690176|Path:PSX.EXE|Has mode 2 form 2:No|Has CD audio:No
+    #:2|ID:KONAMIC3.STR|Sectors:400-2079|Type:File|Size:3440640|Path:KONAMIC3.STR|Has mode 2 form 2:Yes|Has CD audio:No
+    #:3|ID:KONAMIC3.STR[0]|Sectors:400-2078|Type:Video|Dimensions:320x240|Frame Count:168|Sector Frames:400-2070|Sectors/Frame:10/1|1st frame end sector:9|Disc Speed:2|Header Frames:1-168
+    #:4|ID:KONAMIC3.STR[0.0]|Sectors:407-1943|Type:XA|Channel:1|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:5|ID:OPENXA.STR|Sectors:2080-14514|Type:File|Size:25466880|Path:OPENXA.STR|Has mode 2 form 2:Yes|Has CD audio:No
+    #:6|ID:OPENXA.STR[0]|Sectors:2080-14514|Type:Video|Dimensions:288x192|Frame Count:829|Sector Frames:2080-14500|Sectors/Frame:15/1|1st frame end sector:14|Disc Speed:2|Header Frames:1-829
+    #:7|ID:OPENXA.STR[0.0]|Sectors:2087-14199|Type:XA|Channel:1|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:8|ID:CDROM/BATTLE/PARK.BIN|Sectors:14518-14560|Type:File|Size:88064|Path:CDROM/BATTLE/PARK.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:9|ID:CDROM/BATTLE/UTYU.BIN|Sectors:14561-14603|Type:File|Size:88064|Path:CDROM/BATTLE/UTYU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:10|ID:CDROM/BATTLE/VS_ACT.BIN|Sectors:14604-14636|Type:File|Size:67584|Path:CDROM/BATTLE/VS_ACT.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:11|ID:CDROM/BATTLE/VS_ARTS.BIN|Sectors:14637-14681|Type:File|Size:92160|Path:CDROM/BATTLE/VS_ARTS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:12|ID:CDROM/BATTLE/VS_ASA.BIN|Sectors:14682-14698|Type:File|Size:34816|Path:CDROM/BATTLE/VS_ASA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:13|ID:CDROM/BATTLE/VS_BAN.BIN|Sectors:14699-14796|Type:File|Size:200704|Path:CDROM/BATTLE/VS_BAN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:14|ID:CDROM/BATTLE/VS_BASK.BIN|Sectors:14797-14821|Type:File|Size:51200|Path:CDROM/BATTLE/VS_BASK.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:15|ID:CDROM/BATTLE/VS_BLOW.BIN|Sectors:14822-14855|Type:File|Size:69632|Path:CDROM/BATTLE/VS_BLOW.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:16|ID:CDROM/BATTLE/VS_BUN.BIN|Sectors:14856-14888|Type:File|Size:67584|Path:CDROM/BATTLE/VS_BUN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:17|ID:CDROM/BATTLE/VS_DENN.BIN|Sectors:14889-14933|Type:File|Size:92160|Path:CDROM/BATTLE/VS_DENN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:18|ID:CDROM/BATTLE/VS_HABU.BIN|Sectors:14934-15061|Type:File|Size:262144|Path:CDROM/BATTLE/VS_HABU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:19|ID:CDROM/BATTLE/VS_HIMO.BIN|Sectors:15062-15095|Type:File|Size:69632|Path:CDROM/BATTLE/VS_HIMO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:20|ID:CDROM/BATTLE/VS_HOME.BIN|Sectors:15096-15154|Type:File|Size:120832|Path:CDROM/BATTLE/VS_HOME.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:21|ID:CDROM/BATTLE/VS_HUJI.BIN|Sectors:15155-15163|Type:File|Size:18432|Path:CDROM/BATTLE/VS_HUJI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:22|ID:CDROM/BATTLE/VS_KAGA.BIN|Sectors:15164-15188|Type:File|Size:51200|Path:CDROM/BATTLE/VS_KAGA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:23|ID:CDROM/BATTLE/VS_KATA.BIN|Sectors:15189-15213|Type:File|Size:51200|Path:CDROM/BATTLE/VS_KATA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:24|ID:CDROM/BATTLE/VS_KISA.BIN|Sectors:15214-15230|Type:File|Size:34816|Path:CDROM/BATTLE/VS_KISA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:25|ID:CDROM/BATTLE/VS_KIYO.BIN|Sectors:15231-15255|Type:File|Size:51200|Path:CDROM/BATTLE/VS_KIYO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:26|ID:CDROM/BATTLE/VS_KOSI.BIN|Sectors:15256-15272|Type:File|Size:34816|Path:CDROM/BATTLE/VS_KOSI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:27|ID:CDROM/BATTLE/VS_KUMA.BIN|Sectors:15273-15384|Type:File|Size:229376|Path:CDROM/BATTLE/VS_KUMA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:28|ID:CDROM/BATTLE/VS_MIKI.BIN|Sectors:15385-15393|Type:File|Size:18432|Path:CDROM/BATTLE/VS_MIKI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:29|ID:CDROM/BATTLE/VS_NIJI.BIN|Sectors:15394-15410|Type:File|Size:34816|Path:CDROM/BATTLE/VS_NIJI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:30|ID:CDROM/BATTLE/VS_PARK.BIN|Sectors:15411-15453|Type:File|Size:88064|Path:CDROM/BATTLE/VS_PARK.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:31|ID:CDROM/BATTLE/VS_ROBO.BIN|Sectors:15454-15602|Type:File|Size:305152|Path:CDROM/BATTLE/VS_ROBO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:32|ID:CDROM/BATTLE/VS_SCIE.BIN|Sectors:15603-15636|Type:File|Size:69632|Path:CDROM/BATTLE/VS_SCIE.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:33|ID:CDROM/BATTLE/VS_SIKA.BIN|Sectors:15637-15748|Type:File|Size:229376|Path:CDROM/BATTLE/VS_SIKA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:34|ID:CDROM/BATTLE/VS_SOCC.BIN|Sectors:15749-15774|Type:File|Size:53248|Path:CDROM/BATTLE/VS_SOCC.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:35|ID:CDROM/BATTLE/VS_SWIM.BIN|Sectors:15775-15817|Type:File|Size:88064|Path:CDROM/BATTLE/VS_SWIM.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:36|ID:CDROM/BATTLE/VS_TENN.BIN|Sectors:15818-15858|Type:File|Size:83968|Path:CDROM/BATTLE/VS_TENN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:37|ID:CDROM/BATTLE/VS_UFO.BIN|Sectors:15859-16011|Type:File|Size:313344|Path:CDROM/BATTLE/VS_UFO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:38|ID:CDROM/BATTLE/VS_UTYU.BIN|Sectors:16012-16054|Type:File|Size:88064|Path:CDROM/BATTLE/VS_UTYU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:39|ID:CDROM/BATTLE/VS_YAKY.BIN|Sectors:16055-16079|Type:File|Size:51200|Path:CDROM/BATTLE/VS_YAKY.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:40|ID:CDROM/BATTLE/VS_YOSI.BIN|Sectors:16080-16104|Type:File|Size:51200|Path:CDROM/BATTLE/VS_YOSI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:41|ID:CDROM/BATTLE/VS_YUMI.BIN|Sectors:16105-16121|Type:File|Size:34816|Path:CDROM/BATTLE/VS_YUMI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:42|ID:CDROM/BS/C_01_27.BS|Sectors:16131-16140|Type:File|Size:20032|Path:CDROM/BS/C_01_27.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:43|ID:CDROM/BS/C_01_28.BS|Sectors:16141-16150|Type:File|Size:18732|Path:CDROM/BS/C_01_28.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:44|ID:CDROM/BS/C_01_29.BS|Sectors:16151-16159|Type:File|Size:17612|Path:CDROM/BS/C_01_29.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:45|ID:CDROM/BS/C_01_30.BS|Sectors:16160-16167|Type:File|Size:16224|Path:CDROM/BS/C_01_30.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:46|ID:CDROM/BS/C_01_31.BS|Sectors:16168-16176|Type:File|Size:18132|Path:CDROM/BS/C_01_31.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:47|ID:CDROM/BS/C_01_32.BS|Sectors:16177-16186|Type:File|Size:18928|Path:CDROM/BS/C_01_32.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:48|ID:CDROM/BS/C_01_33.BS|Sectors:16187-16196|Type:File|Size:18672|Path:CDROM/BS/C_01_33.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:49|ID:CDROM/BS/C_01_34.BS|Sectors:16197-16205|Type:File|Size:17900|Path:CDROM/BS/C_01_34.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:50|ID:CDROM/BS/C_01_35.BS|Sectors:16206-16214|Type:File|Size:17324|Path:CDROM/BS/C_01_35.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:51|ID:CDROM/BS/C_01_36.BS|Sectors:16215-16223|Type:File|Size:17032|Path:CDROM/BS/C_01_36.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:52|ID:CDROM/BS/C_01_37.BS|Sectors:16224-16233|Type:File|Size:19368|Path:CDROM/BS/C_01_37.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:53|ID:CDROM/BS/C_01_38.BS|Sectors:16234-16243|Type:File|Size:19684|Path:CDROM/BS/C_01_38.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:54|ID:CDROM/BS/C_01_39.BS|Sectors:16244-16251|Type:File|Size:15316|Path:CDROM/BS/C_01_39.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:55|ID:CDROM/BS/C_01_40.BS|Sectors:16252-16259|Type:File|Size:16060|Path:CDROM/BS/C_01_40.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:56|ID:CDROM/BS/C_01_41.BS|Sectors:16260-16267|Type:File|Size:15536|Path:CDROM/BS/C_01_41.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:57|ID:CDROM/BS/C_01_42.BS|Sectors:16268-16276|Type:File|Size:18008|Path:CDROM/BS/C_01_42.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:58|ID:CDROM/BS/C_01_43.BS|Sectors:16277-16282|Type:File|Size:12004|Path:CDROM/BS/C_01_43.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:59|ID:CDROM/BS/C_01_44.BS|Sectors:16283-16291|Type:File|Size:17396|Path:CDROM/BS/C_01_44.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:60|ID:CDROM/BS/C_01_45.BS|Sectors:16292-16300|Type:File|Size:17452|Path:CDROM/BS/C_01_45.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:61|ID:CDROM/BS/C_02_01A.BS|Sectors:16301-16309|Type:File|Size:16400|Path:CDROM/BS/C_02_01A.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:62|ID:CDROM/BS/C_02_01F.BS|Sectors:16310-16317|Type:File|Size:16128|Path:CDROM/BS/C_02_01F.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:63|ID:CDROM/BS/C_02_01H.BS|Sectors:16318-16325|Type:File|Size:16048|Path:CDROM/BS/C_02_01H.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:64|ID:CDROM/BS/C_02_01N.BS|Sectors:16326-16333|Type:File|Size:16356|Path:CDROM/BS/C_02_01N.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:65|ID:CDROM/BS/C_02_01S.BS|Sectors:16334-16342|Type:File|Size:16392|Path:CDROM/BS/C_02_01S.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:66|ID:CDROM/BS/C_02_02A.BS|Sectors:16343-16351|Type:File|Size:16980|Path:CDROM/BS/C_02_02A.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:67|ID:CDROM/BS/C_02_02F.BS|Sectors:16352-16360|Type:File|Size:17028|Path:CDROM/BS/C_02_02F.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:68|ID:CDROM/BS/C_02_02H.BS|Sectors:16361-16369|Type:File|Size:16936|Path:CDROM/BS/C_02_02H.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:69|ID:CDROM/BS/C_02_02N.BS|Sectors:16370-16378|Type:File|Size:16940|Path:CDROM/BS/C_02_02N.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:70|ID:CDROM/BS/C_02_03.BS|Sectors:16379-16386|Type:File|Size:14840|Path:CDROM/BS/C_02_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:71|ID:CDROM/BS/C_29_02.BS|Sectors:16387-16395|Type:File|Size:17520|Path:CDROM/BS/C_29_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:72|ID:CDROM/BS/C_29_10.BS|Sectors:16396-16405|Type:File|Size:18804|Path:CDROM/BS/C_29_10.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:73|ID:CDROM/BS/D_01_46.BS|Sectors:16406-16415|Type:File|Size:18680|Path:CDROM/BS/D_01_46.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:74|ID:CDROM/BS/D_01_47.BS|Sectors:16416-16424|Type:File|Size:17672|Path:CDROM/BS/D_01_47.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:75|ID:CDROM/BS/D_01_48.BS|Sectors:16425-16433|Type:File|Size:17536|Path:CDROM/BS/D_01_48.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:76|ID:CDROM/BS/D_01_49.BS|Sectors:16434-16442|Type:File|Size:17048|Path:CDROM/BS/D_01_49.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:77|ID:CDROM/BS/D_01_50.BS|Sectors:16443-16452|Type:File|Size:19668|Path:CDROM/BS/D_01_50.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:78|ID:CDROM/BS/D_01_51.BS|Sectors:16453-16460|Type:File|Size:15884|Path:CDROM/BS/D_01_51.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:79|ID:CDROM/BS/D_01_52.BS|Sectors:16461-16468|Type:File|Size:16276|Path:CDROM/BS/D_01_52.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:80|ID:CDROM/BS/D_01_52B.BS|Sectors:16469-16478|Type:File|Size:19144|Path:CDROM/BS/D_01_52B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:81|ID:CDROM/BS/D_01_53.BS|Sectors:16479-16487|Type:File|Size:17616|Path:CDROM/BS/D_01_53.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:82|ID:CDROM/BS/D_01_53B.BS|Sectors:16488-16496|Type:File|Size:16872|Path:CDROM/BS/D_01_53B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:83|ID:CDROM/BS/D_01_54.BS|Sectors:16497-16505|Type:File|Size:17384|Path:CDROM/BS/D_01_54.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:84|ID:CDROM/BS/D_01_55.BS|Sectors:16506-16515|Type:File|Size:19132|Path:CDROM/BS/D_01_55.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:85|ID:CDROM/BS/D_01_56.BS|Sectors:16516-16524|Type:File|Size:16396|Path:CDROM/BS/D_01_56.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:86|ID:CDROM/BS/D_01_57.BS|Sectors:16525-16534|Type:File|Size:19972|Path:CDROM/BS/D_01_57.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:87|ID:CDROM/BS/D_01_58.BS|Sectors:16535-16543|Type:File|Size:17456|Path:CDROM/BS/D_01_58.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:88|ID:CDROM/BS/D_01_59.BS|Sectors:16544-16552|Type:File|Size:16672|Path:CDROM/BS/D_01_59.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:89|ID:CDROM/BS/D_01_60.BS|Sectors:16553-16561|Type:File|Size:16900|Path:CDROM/BS/D_01_60.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:90|ID:CDROM/BS/D_01_61.BS|Sectors:16562-16571|Type:File|Size:19016|Path:CDROM/BS/D_01_61.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:91|ID:CDROM/BS/D_01_62.BS|Sectors:16572-16581|Type:File|Size:19020|Path:CDROM/BS/D_01_62.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:92|ID:CDROM/BS/D_01_63.BS|Sectors:16582-16591|Type:File|Size:18680|Path:CDROM/BS/D_01_63.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:93|ID:CDROM/BS/D_01_64.BS|Sectors:16592-16600|Type:File|Size:18176|Path:CDROM/BS/D_01_64.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:94|ID:CDROM/BS/D_01_65.BS|Sectors:16601-16609|Type:File|Size:17336|Path:CDROM/BS/D_01_65.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:95|ID:CDROM/BS/D_01_66.BS|Sectors:16610-16617|Type:File|Size:15696|Path:CDROM/BS/D_01_66.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:96|ID:CDROM/BS/D_01_67.BS|Sectors:16618-16627|Type:File|Size:18996|Path:CDROM/BS/D_01_67.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:97|ID:CDROM/BS/D_01_68.BS|Sectors:16628-16635|Type:File|Size:14736|Path:CDROM/BS/D_01_68.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:98|ID:CDROM/BS/D_01_69.BS|Sectors:16636-16644|Type:File|Size:17284|Path:CDROM/BS/D_01_69.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:99|ID:CDROM/BS/D_01_70.BS|Sectors:16645-16654|Type:File|Size:18468|Path:CDROM/BS/D_01_70.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:100|ID:CDROM/BS/D_01_71.BS|Sectors:16655-16663|Type:File|Size:17348|Path:CDROM/BS/D_01_71.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:101|ID:CDROM/BS/D_01_72.BS|Sectors:16664-16673|Type:File|Size:18484|Path:CDROM/BS/D_01_72.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:102|ID:CDROM/BS/D_01_73.BS|Sectors:16674-16683|Type:File|Size:19320|Path:CDROM/BS/D_01_73.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:103|ID:CDROM/BS/D_01_74.BS|Sectors:16684-16690|Type:File|Size:13960|Path:CDROM/BS/D_01_74.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:104|ID:CDROM/BS/D_01_81.BS|Sectors:16691-16699|Type:File|Size:18032|Path:CDROM/BS/D_01_81.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:105|ID:CDROM/BS/D_01_81B.BS|Sectors:16700-16707|Type:File|Size:15980|Path:CDROM/BS/D_01_81B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:106|ID:CDROM/BS/D_02_04.BS|Sectors:16708-16715|Type:File|Size:15992|Path:CDROM/BS/D_02_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:107|ID:CDROM/BS/D_02_05.BS|Sectors:16716-16725|Type:File|Size:19352|Path:CDROM/BS/D_02_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:108|ID:CDROM/BS/D_02_05B.BS|Sectors:16726-16733|Type:File|Size:15196|Path:CDROM/BS/D_02_05B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:109|ID:CDROM/BS/D_02_05C.BS|Sectors:16734-16742|Type:File|Size:17280|Path:CDROM/BS/D_02_05C.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:110|ID:CDROM/BS/D_02_06.BS|Sectors:16743-16752|Type:File|Size:18856|Path:CDROM/BS/D_02_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:111|ID:CDROM/BS/D_02_08.BS|Sectors:16753-16761|Type:File|Size:17768|Path:CDROM/BS/D_02_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:112|ID:CDROM/BS/D_03_01.BS|Sectors:16762-16770|Type:File|Size:17156|Path:CDROM/BS/D_03_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:113|ID:CDROM/BS/D_03_02.BS|Sectors:16771-16780|Type:File|Size:19384|Path:CDROM/BS/D_03_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:114|ID:CDROM/BS/D_03_03.BS|Sectors:16781-16788|Type:File|Size:16240|Path:CDROM/BS/D_03_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:115|ID:CDROM/BS/D_03_04.BS|Sectors:16789-16797|Type:File|Size:17616|Path:CDROM/BS/D_03_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:116|ID:CDROM/BS/D_03_05.BS|Sectors:16798-16807|Type:File|Size:19096|Path:CDROM/BS/D_03_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:117|ID:CDROM/BS/D_03_06.BS|Sectors:16808-16816|Type:File|Size:17500|Path:CDROM/BS/D_03_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:118|ID:CDROM/BS/D_03_07.BS|Sectors:16817-16825|Type:File|Size:18276|Path:CDROM/BS/D_03_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:119|ID:CDROM/BS/D_03_08.BS|Sectors:16826-16834|Type:File|Size:16716|Path:CDROM/BS/D_03_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:120|ID:CDROM/BS/D_03_09.BS|Sectors:16835-16841|Type:File|Size:14136|Path:CDROM/BS/D_03_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:121|ID:CDROM/BS/D_04_01.BS|Sectors:16842-16851|Type:File|Size:18692|Path:CDROM/BS/D_04_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:122|ID:CDROM/BS/D_04_02.BS|Sectors:16852-16859|Type:File|Size:16336|Path:CDROM/BS/D_04_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:123|ID:CDROM/BS/D_04_03.BS|Sectors:16860-16867|Type:File|Size:15752|Path:CDROM/BS/D_04_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:124|ID:CDROM/BS/D_04_06.BS|Sectors:16868-16876|Type:File|Size:16748|Path:CDROM/BS/D_04_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:125|ID:CDROM/BS/D_05_01.BS|Sectors:16877-16885|Type:File|Size:17888|Path:CDROM/BS/D_05_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:126|ID:CDROM/BS/D_05_02.BS|Sectors:16886-16895|Type:File|Size:19056|Path:CDROM/BS/D_05_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:127|ID:CDROM/BS/D_05_03.BS|Sectors:16896-16905|Type:File|Size:19804|Path:CDROM/BS/D_05_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:128|ID:CDROM/BS/D_06_01A.BS|Sectors:16906-16914|Type:File|Size:17712|Path:CDROM/BS/D_06_01A.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:129|ID:CDROM/BS/D_06_01B.BS|Sectors:16915-16923|Type:File|Size:17664|Path:CDROM/BS/D_06_01B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:130|ID:CDROM/BS/D_06_01C.BS|Sectors:16924-16932|Type:File|Size:18380|Path:CDROM/BS/D_06_01C.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:131|ID:CDROM/BS/D_06_02.BS|Sectors:16933-16941|Type:File|Size:16692|Path:CDROM/BS/D_06_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:132|ID:CDROM/BS/D_06_03.BS|Sectors:16942-16950|Type:File|Size:16984|Path:CDROM/BS/D_06_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:133|ID:CDROM/BS/D_06_04.BS|Sectors:16951-16960|Type:File|Size:18940|Path:CDROM/BS/D_06_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:134|ID:CDROM/BS/D_06_05.BS|Sectors:16961-16970|Type:File|Size:19276|Path:CDROM/BS/D_06_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:135|ID:CDROM/BS/D_06_06.BS|Sectors:16971-16980|Type:File|Size:20108|Path:CDROM/BS/D_06_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:136|ID:CDROM/BS/D_06_07.BS|Sectors:16981-16989|Type:File|Size:16456|Path:CDROM/BS/D_06_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:137|ID:CDROM/BS/D_06_08.BS|Sectors:16990-16998|Type:File|Size:16936|Path:CDROM/BS/D_06_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:138|ID:CDROM/BS/D_06_09.BS|Sectors:16999-17008|Type:File|Size:20084|Path:CDROM/BS/D_06_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:139|ID:CDROM/BS/D_06_10.BS|Sectors:17009-17018|Type:File|Size:19012|Path:CDROM/BS/D_06_10.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:140|ID:CDROM/BS/D_06_11.BS|Sectors:17019-17028|Type:File|Size:18820|Path:CDROM/BS/D_06_11.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:141|ID:CDROM/BS/D_06_12.BS|Sectors:17029-17036|Type:File|Size:15768|Path:CDROM/BS/D_06_12.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:142|ID:CDROM/BS/D_07_02.BS|Sectors:17037-17045|Type:File|Size:17884|Path:CDROM/BS/D_07_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:143|ID:CDROM/BS/D_07_03.BS|Sectors:17046-17054|Type:File|Size:16576|Path:CDROM/BS/D_07_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:144|ID:CDROM/BS/D_07_04.BS|Sectors:17055-17064|Type:File|Size:18600|Path:CDROM/BS/D_07_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:145|ID:CDROM/BS/D_07_05.BS|Sectors:17065-17074|Type:File|Size:18992|Path:CDROM/BS/D_07_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:146|ID:CDROM/BS/D_07_06.BS|Sectors:17075-17083|Type:File|Size:17020|Path:CDROM/BS/D_07_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:147|ID:CDROM/BS/D_07_07.BS|Sectors:17084-17093|Type:File|Size:18740|Path:CDROM/BS/D_07_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:148|ID:CDROM/BS/D_07_08.BS|Sectors:17094-17102|Type:File|Size:16576|Path:CDROM/BS/D_07_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:149|ID:CDROM/BS/D_08_01.BS|Sectors:17103-17111|Type:File|Size:17528|Path:CDROM/BS/D_08_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:150|ID:CDROM/BS/D_09_02.BS|Sectors:17112-17121|Type:File|Size:18560|Path:CDROM/BS/D_09_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:151|ID:CDROM/BS/D_09_02B.BS|Sectors:17122-17130|Type:File|Size:16940|Path:CDROM/BS/D_09_02B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:152|ID:CDROM/BS/D_10_05.BS|Sectors:17131-17139|Type:File|Size:17528|Path:CDROM/BS/D_10_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:153|ID:CDROM/BS/D_10_05B.BS|Sectors:17140-17148|Type:File|Size:17672|Path:CDROM/BS/D_10_05B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:154|ID:CDROM/BS/D_10_06.BS|Sectors:17149-17157|Type:File|Size:16604|Path:CDROM/BS/D_10_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:155|ID:CDROM/BS/D_10_06B.BS|Sectors:17158-17166|Type:File|Size:17752|Path:CDROM/BS/D_10_06B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:156|ID:CDROM/BS/D_10_07.BS|Sectors:17167-17175|Type:File|Size:16724|Path:CDROM/BS/D_10_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:157|ID:CDROM/BS/D_10_07B.BS|Sectors:17176-17185|Type:File|Size:20000|Path:CDROM/BS/D_10_07B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:158|ID:CDROM/BS/D_10_08.BS|Sectors:17186-17194|Type:File|Size:17516|Path:CDROM/BS/D_10_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:159|ID:CDROM/BS/D_11_06.BS|Sectors:17195-17204|Type:File|Size:20000|Path:CDROM/BS/D_11_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:160|ID:CDROM/BS/D_11_07.BS|Sectors:17205-17213|Type:File|Size:17596|Path:CDROM/BS/D_11_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:161|ID:CDROM/BS/D_11_08.BS|Sectors:17214-17222|Type:File|Size:17564|Path:CDROM/BS/D_11_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:162|ID:CDROM/BS/D_11_09.BS|Sectors:17223-17231|Type:File|Size:18160|Path:CDROM/BS/D_11_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:163|ID:CDROM/BS/D_11_10.BS|Sectors:17232-17240|Type:File|Size:16600|Path:CDROM/BS/D_11_10.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:164|ID:CDROM/BS/D_11_11.BS|Sectors:17241-17249|Type:File|Size:17308|Path:CDROM/BS/D_11_11.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:165|ID:CDROM/BS/D_11_12.BS|Sectors:17250-17258|Type:File|Size:18392|Path:CDROM/BS/D_11_12.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:166|ID:CDROM/BS/D_11_13.BS|Sectors:17259-17267|Type:File|Size:17616|Path:CDROM/BS/D_11_13.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:167|ID:CDROM/BS/D_11_14.BS|Sectors:17268-17276|Type:File|Size:16868|Path:CDROM/BS/D_11_14.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:168|ID:CDROM/BS/D_11_16A.BS|Sectors:17277-17284|Type:File|Size:15580|Path:CDROM/BS/D_11_16A.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:169|ID:CDROM/BS/D_11_16B.BS|Sectors:17285-17292|Type:File|Size:14780|Path:CDROM/BS/D_11_16B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:170|ID:CDROM/BS/D_11_16C.BS|Sectors:17293-17300|Type:File|Size:14748|Path:CDROM/BS/D_11_16C.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:171|ID:CDROM/BS/D_11_16D.BS|Sectors:17301-17307|Type:File|Size:12320|Path:CDROM/BS/D_11_16D.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:172|ID:CDROM/BS/D_11_16E.BS|Sectors:17308-17314|Type:File|Size:13320|Path:CDROM/BS/D_11_16E.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:173|ID:CDROM/BS/D_11_16F.BS|Sectors:17315-17321|Type:File|Size:14108|Path:CDROM/BS/D_11_16F.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:174|ID:CDROM/BS/D_11_16G.BS|Sectors:17322-17328|Type:File|Size:13204|Path:CDROM/BS/D_11_16G.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:175|ID:CDROM/BS/D_11_16H.BS|Sectors:17329-17337|Type:File|Size:16688|Path:CDROM/BS/D_11_16H.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:176|ID:CDROM/BS/D_11_17.BS|Sectors:17338-17345|Type:File|Size:16248|Path:CDROM/BS/D_11_17.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:177|ID:CDROM/BS/D_11_18.BS|Sectors:17346-17354|Type:File|Size:17868|Path:CDROM/BS/D_11_18.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:178|ID:CDROM/BS/D_11_19A.BS|Sectors:17355-17363|Type:File|Size:17460|Path:CDROM/BS/D_11_19A.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:179|ID:CDROM/BS/D_11_19B.BS|Sectors:17364-17373|Type:File|Size:19780|Path:CDROM/BS/D_11_19B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:180|ID:CDROM/BS/D_11_19C.BS|Sectors:17374-17382|Type:File|Size:16952|Path:CDROM/BS/D_11_19C.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:181|ID:CDROM/BS/D_11_19D.BS|Sectors:17383-17391|Type:File|Size:18152|Path:CDROM/BS/D_11_19D.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:182|ID:CDROM/BS/D_12_02.BS|Sectors:17392-17400|Type:File|Size:17944|Path:CDROM/BS/D_12_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:183|ID:CDROM/BS/D_12_03.BS|Sectors:17401-17409|Type:File|Size:16868|Path:CDROM/BS/D_12_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:184|ID:CDROM/BS/D_12_04.BS|Sectors:17410-17418|Type:File|Size:17212|Path:CDROM/BS/D_12_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:185|ID:CDROM/BS/D_12_05.BS|Sectors:17419-17427|Type:File|Size:17096|Path:CDROM/BS/D_12_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:186|ID:CDROM/BS/D_12_06.BS|Sectors:17428-17435|Type:File|Size:16228|Path:CDROM/BS/D_12_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:187|ID:CDROM/BS/D_12_07.BS|Sectors:17436-17445|Type:File|Size:18852|Path:CDROM/BS/D_12_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:188|ID:CDROM/BS/D_12_08.BS|Sectors:17446-17454|Type:File|Size:17324|Path:CDROM/BS/D_12_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:189|ID:CDROM/BS/D_12_09.BS|Sectors:17455-17462|Type:File|Size:16280|Path:CDROM/BS/D_12_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:190|ID:CDROM/BS/D_12_10.BS|Sectors:17463-17471|Type:File|Size:16392|Path:CDROM/BS/D_12_10.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:191|ID:CDROM/BS/D_12_11.BS|Sectors:17472-17480|Type:File|Size:17912|Path:CDROM/BS/D_12_11.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:192|ID:CDROM/BS/D_12_12.BS|Sectors:17481-17490|Type:File|Size:18860|Path:CDROM/BS/D_12_12.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:193|ID:CDROM/BS/D_12_13.BS|Sectors:17491-17500|Type:File|Size:20000|Path:CDROM/BS/D_12_13.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:194|ID:CDROM/BS/D_12_14.BS|Sectors:17501-17509|Type:File|Size:17328|Path:CDROM/BS/D_12_14.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:195|ID:CDROM/BS/D_13_02.BS|Sectors:17510-17519|Type:File|Size:19832|Path:CDROM/BS/D_13_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:196|ID:CDROM/BS/D_13_03.BS|Sectors:17520-17527|Type:File|Size:16312|Path:CDROM/BS/D_13_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:197|ID:CDROM/BS/D_13_04.BS|Sectors:17528-17537|Type:File|Size:19264|Path:CDROM/BS/D_13_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:198|ID:CDROM/BS/D_13_04B.BS|Sectors:17538-17546|Type:File|Size:16940|Path:CDROM/BS/D_13_04B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:199|ID:CDROM/BS/D_13_04C.BS|Sectors:17547-17555|Type:File|Size:18132|Path:CDROM/BS/D_13_04C.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:200|ID:CDROM/BS/D_13_05.BS|Sectors:17556-17565|Type:File|Size:19272|Path:CDROM/BS/D_13_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:201|ID:CDROM/BS/D_13_05B.BS|Sectors:17566-17574|Type:File|Size:16420|Path:CDROM/BS/D_13_05B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:202|ID:CDROM/BS/D_13_06.BS|Sectors:17575-17583|Type:File|Size:18104|Path:CDROM/BS/D_13_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:203|ID:CDROM/BS/D_13_06B.BS|Sectors:17584-17593|Type:File|Size:19576|Path:CDROM/BS/D_13_06B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:204|ID:CDROM/BS/D_13_06C.BS|Sectors:17594-17603|Type:File|Size:19132|Path:CDROM/BS/D_13_06C.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:205|ID:CDROM/BS/D_13_07.BS|Sectors:17604-17612|Type:File|Size:17124|Path:CDROM/BS/D_13_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:206|ID:CDROM/BS/D_13_08.BS|Sectors:17613-17621|Type:File|Size:17024|Path:CDROM/BS/D_13_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:207|ID:CDROM/BS/D_14_03.BS|Sectors:17622-17630|Type:File|Size:18352|Path:CDROM/BS/D_14_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:208|ID:CDROM/BS/D_14_04.BS|Sectors:17631-17639|Type:File|Size:17216|Path:CDROM/BS/D_14_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:209|ID:CDROM/BS/D_14_05.BS|Sectors:17640-17648|Type:File|Size:17084|Path:CDROM/BS/D_14_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:210|ID:CDROM/BS/D_15_03.BS|Sectors:17649-17657|Type:File|Size:16616|Path:CDROM/BS/D_15_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:211|ID:CDROM/BS/D_15_04.BS|Sectors:17658-17666|Type:File|Size:17344|Path:CDROM/BS/D_15_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:212|ID:CDROM/BS/D_15_05.BS|Sectors:17667-17676|Type:File|Size:19144|Path:CDROM/BS/D_15_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:213|ID:CDROM/BS/D_15_06.BS|Sectors:17677-17685|Type:File|Size:16940|Path:CDROM/BS/D_15_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:214|ID:CDROM/BS/D_15_07.BS|Sectors:17686-17695|Type:File|Size:19040|Path:CDROM/BS/D_15_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:215|ID:CDROM/BS/D_16_03.BS|Sectors:17696-17704|Type:File|Size:18020|Path:CDROM/BS/D_16_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:216|ID:CDROM/BS/D_16_04.BS|Sectors:17705-17713|Type:File|Size:18076|Path:CDROM/BS/D_16_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:217|ID:CDROM/BS/D_16_05.BS|Sectors:17714-17722|Type:File|Size:17568|Path:CDROM/BS/D_16_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:218|ID:CDROM/BS/D_16_06.BS|Sectors:17723-17731|Type:File|Size:16952|Path:CDROM/BS/D_16_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:219|ID:CDROM/BS/D_17_02.BS|Sectors:17732-17741|Type:File|Size:19064|Path:CDROM/BS/D_17_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:220|ID:CDROM/BS/D_17_03.BS|Sectors:17742-17751|Type:File|Size:19180|Path:CDROM/BS/D_17_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:221|ID:CDROM/BS/D_18_04.BS|Sectors:17752-17761|Type:File|Size:19288|Path:CDROM/BS/D_18_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:222|ID:CDROM/BS/D_18_05.BS|Sectors:17762-17771|Type:File|Size:18576|Path:CDROM/BS/D_18_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:223|ID:CDROM/BS/D_19_02.BS|Sectors:17772-17779|Type:File|Size:16268|Path:CDROM/BS/D_19_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:224|ID:CDROM/BS/D_19_03.BS|Sectors:17780-17788|Type:File|Size:17952|Path:CDROM/BS/D_19_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:225|ID:CDROM/BS/D_20_02.BS|Sectors:17789-17798|Type:File|Size:18460|Path:CDROM/BS/D_20_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:226|ID:CDROM/BS/D_20_03.BS|Sectors:17799-17808|Type:File|Size:20000|Path:CDROM/BS/D_20_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:227|ID:CDROM/BS/D_21_02.BS|Sectors:17809-17817|Type:File|Size:17100|Path:CDROM/BS/D_21_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:228|ID:CDROM/BS/D_21_03.BS|Sectors:17818-17826|Type:File|Size:16916|Path:CDROM/BS/D_21_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:229|ID:CDROM/BS/D_22_04.BS|Sectors:17827-17835|Type:File|Size:16868|Path:CDROM/BS/D_22_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:230|ID:CDROM/BS/D_22_05.BS|Sectors:17836-17845|Type:File|Size:18744|Path:CDROM/BS/D_22_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:231|ID:CDROM/BS/D_22_06.BS|Sectors:17846-17854|Type:File|Size:17712|Path:CDROM/BS/D_22_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:232|ID:CDROM/BS/D_23_02.BS|Sectors:17855-17864|Type:File|Size:19684|Path:CDROM/BS/D_23_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:233|ID:CDROM/BS/D_23_03.BS|Sectors:17865-17874|Type:File|Size:18616|Path:CDROM/BS/D_23_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:234|ID:CDROM/BS/D_24_03.BS|Sectors:17875-17883|Type:File|Size:18344|Path:CDROM/BS/D_24_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:235|ID:CDROM/BS/D_24_04.BS|Sectors:17884-17893|Type:File|Size:19604|Path:CDROM/BS/D_24_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:236|ID:CDROM/BS/D_25_02.BS|Sectors:17894-17903|Type:File|Size:19100|Path:CDROM/BS/D_25_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:237|ID:CDROM/BS/D_25_03.BS|Sectors:17904-17911|Type:File|Size:16176|Path:CDROM/BS/D_25_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:238|ID:CDROM/BS/D_26_03.BS|Sectors:17912-17920|Type:File|Size:17532|Path:CDROM/BS/D_26_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:239|ID:CDROM/BS/D_26_04.BS|Sectors:17921-17929|Type:File|Size:17208|Path:CDROM/BS/D_26_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:240|ID:CDROM/BS/D_26_05.BS|Sectors:17930-17938|Type:File|Size:16404|Path:CDROM/BS/D_26_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:241|ID:CDROM/BS/D_27_02.BS|Sectors:17939-17948|Type:File|Size:18760|Path:CDROM/BS/D_27_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:242|ID:CDROM/BS/D_27_03.BS|Sectors:17949-17958|Type:File|Size:19080|Path:CDROM/BS/D_27_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:243|ID:CDROM/BS/D_28_03.BS|Sectors:17959-17968|Type:File|Size:19216|Path:CDROM/BS/D_28_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:244|ID:CDROM/BS/D_28_04.BS|Sectors:17969-17978|Type:File|Size:19064|Path:CDROM/BS/D_28_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:245|ID:CDROM/BS/D_29_03.BS|Sectors:17979-17987|Type:File|Size:17080|Path:CDROM/BS/D_29_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:246|ID:CDROM/BS/D_29_04.BS|Sectors:17988-17996|Type:File|Size:17616|Path:CDROM/BS/D_29_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:247|ID:CDROM/BS/D_29_05.BS|Sectors:17997-18005|Type:File|Size:17500|Path:CDROM/BS/D_29_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:248|ID:CDROM/BS/D_29_06.BS|Sectors:18006-18014|Type:File|Size:16644|Path:CDROM/BS/D_29_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:249|ID:CDROM/BS/D_29_07.BS|Sectors:18015-18024|Type:File|Size:18788|Path:CDROM/BS/D_29_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:250|ID:CDROM/BS/D_29_08.BS|Sectors:18025-18034|Type:File|Size:18836|Path:CDROM/BS/D_29_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:251|ID:CDROM/BS/D_29_09.BS|Sectors:18035-18043|Type:File|Size:18172|Path:CDROM/BS/D_29_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:252|ID:CDROM/BS/D_30_01.BS|Sectors:18044-18053|Type:File|Size:19884|Path:CDROM/BS/D_30_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:253|ID:CDROM/BS/D_30_1.BS|Sectors:18054-18063|Type:File|Size:19884|Path:CDROM/BS/D_30_1.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:254|ID:CDROM/BS/I_01_14.BS|Sectors:18064-18072|Type:File|Size:16404|Path:CDROM/BS/I_01_14.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:255|ID:CDROM/BS/I_01_15.BS|Sectors:18073-18082|Type:File|Size:19088|Path:CDROM/BS/I_01_15.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:256|ID:CDROM/BS/I_01_16.BS|Sectors:18083-18089|Type:File|Size:12532|Path:CDROM/BS/I_01_16.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:257|ID:CDROM/BS/I_01_17.BS|Sectors:18090-18097|Type:File|Size:15580|Path:CDROM/BS/I_01_17.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:258|ID:CDROM/BS/I_01_18.BS|Sectors:18098-18107|Type:File|Size:19012|Path:CDROM/BS/I_01_18.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:259|ID:CDROM/BS/I_01_19.BS|Sectors:18108-18115|Type:File|Size:14796|Path:CDROM/BS/I_01_19.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:260|ID:CDROM/BS/I_01_20.BS|Sectors:18116-18124|Type:File|Size:17600|Path:CDROM/BS/I_01_20.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:261|ID:CDROM/BS/I_01_21.BS|Sectors:18125-18133|Type:File|Size:18084|Path:CDROM/BS/I_01_21.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:262|ID:CDROM/BS/I_01_22.BS|Sectors:18134-18143|Type:File|Size:18708|Path:CDROM/BS/I_01_22.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:263|ID:CDROM/BS/I_01_23.BS|Sectors:18144-18150|Type:File|Size:14212|Path:CDROM/BS/I_01_23.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:264|ID:CDROM/BS/I_01_24.BS|Sectors:18151-18159|Type:File|Size:18348|Path:CDROM/BS/I_01_24.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:265|ID:CDROM/BS/I_01_25.BS|Sectors:18160-18166|Type:File|Size:14060|Path:CDROM/BS/I_01_25.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:266|ID:CDROM/BS/I_01_26.BS|Sectors:18167-18176|Type:File|Size:20104|Path:CDROM/BS/I_01_26.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:267|ID:CDROM/BS/I_01_78.BS|Sectors:18177-18183|Type:File|Size:14052|Path:CDROM/BS/I_01_78.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:268|ID:CDROM/BS/I_01_80.BS|Sectors:18184-18190|Type:File|Size:13916|Path:CDROM/BS/I_01_80.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:269|ID:CDROM/BS/I_01_81.BS|Sectors:18191-18200|Type:File|Size:18552|Path:CDROM/BS/I_01_81.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:270|ID:CDROM/BS/I_01_81B.BS|Sectors:18201-18208|Type:File|Size:15980|Path:CDROM/BS/I_01_81B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:271|ID:CDROM/BS/I_01_82.BS|Sectors:18209-18215|Type:File|Size:13816|Path:CDROM/BS/I_01_82.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:272|ID:CDROM/BS/I_01_83.BS|Sectors:18216-18224|Type:File|Size:16628|Path:CDROM/BS/I_01_83.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:273|ID:CDROM/BS/I_02_08.BS|Sectors:18225-18233|Type:File|Size:17648|Path:CDROM/BS/I_02_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:274|ID:CDROM/BS/I_02_09.BS|Sectors:18234-18242|Type:File|Size:16588|Path:CDROM/BS/I_02_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:275|ID:CDROM/BS/I_02_10.BS|Sectors:18243-18250|Type:File|Size:15768|Path:CDROM/BS/I_02_10.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:276|ID:CDROM/BS/I_03_09.BS|Sectors:18251-18257|Type:File|Size:14136|Path:CDROM/BS/I_03_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:277|ID:CDROM/BS/I_04_04.BS|Sectors:18258-18265|Type:File|Size:15744|Path:CDROM/BS/I_04_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:278|ID:CDROM/BS/I_04_05.BS|Sectors:18266-18272|Type:File|Size:13500|Path:CDROM/BS/I_04_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:279|ID:CDROM/BS/I_06_13.BS|Sectors:18273-18281|Type:File|Size:17296|Path:CDROM/BS/I_06_13.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:280|ID:CDROM/BS/I_06_14.BS|Sectors:18282-18291|Type:File|Size:18744|Path:CDROM/BS/I_06_14.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:281|ID:CDROM/BS/I_06_15.BS|Sectors:18292-18300|Type:File|Size:18164|Path:CDROM/BS/I_06_15.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:282|ID:CDROM/BS/I_07_01.BS|Sectors:18301-18310|Type:File|Size:18812|Path:CDROM/BS/I_07_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:283|ID:CDROM/BS/I_07_09.BS|Sectors:18311-18317|Type:File|Size:13976|Path:CDROM/BS/I_07_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:284|ID:CDROM/BS/I_07_10.BS|Sectors:18318-18326|Type:File|Size:17524|Path:CDROM/BS/I_07_10.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:285|ID:CDROM/BS/I_07_11.BS|Sectors:18327-18335|Type:File|Size:17760|Path:CDROM/BS/I_07_11.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:286|ID:CDROM/BS/I_07_12.BS|Sectors:18336-18344|Type:File|Size:17900|Path:CDROM/BS/I_07_12.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:287|ID:CDROM/BS/I_07_13.BS|Sectors:18345-18353|Type:File|Size:17900|Path:CDROM/BS/I_07_13.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:288|ID:CDROM/BS/I_07_14.BS|Sectors:18354-18361|Type:File|Size:16192|Path:CDROM/BS/I_07_14.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:289|ID:CDROM/BS/I_09_01.BS|Sectors:18362-18370|Type:File|Size:17972|Path:CDROM/BS/I_09_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:290|ID:CDROM/BS/I_09_03.BS|Sectors:18371-18380|Type:File|Size:18552|Path:CDROM/BS/I_09_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:291|ID:CDROM/BS/I_10_01.BS|Sectors:18381-18389|Type:File|Size:16856|Path:CDROM/BS/I_10_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:292|ID:CDROM/BS/I_10_02.BS|Sectors:18390-18399|Type:File|Size:19028|Path:CDROM/BS/I_10_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:293|ID:CDROM/BS/I_10_03.BS|Sectors:18400-18407|Type:File|Size:14684|Path:CDROM/BS/I_10_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:294|ID:CDROM/BS/I_10_04.BS|Sectors:18408-18416|Type:File|Size:17140|Path:CDROM/BS/I_10_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:295|ID:CDROM/BS/I_10_09.BS|Sectors:18417-18422|Type:File|Size:11708|Path:CDROM/BS/I_10_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:296|ID:CDROM/BS/I_10_10.BS|Sectors:18423-18431|Type:File|Size:17608|Path:CDROM/BS/I_10_10.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:297|ID:CDROM/BS/I_11_01.BS|Sectors:18432-18440|Type:File|Size:18416|Path:CDROM/BS/I_11_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:298|ID:CDROM/BS/I_11_02.BS|Sectors:18441-18446|Type:File|Size:10708|Path:CDROM/BS/I_11_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:299|ID:CDROM/BS/I_11_03.BS|Sectors:18447-18455|Type:File|Size:17980|Path:CDROM/BS/I_11_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:300|ID:CDROM/BS/I_11_04.BS|Sectors:18456-18464|Type:File|Size:16956|Path:CDROM/BS/I_11_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:301|ID:CDROM/BS/I_11_05.BS|Sectors:18465-18473|Type:File|Size:16516|Path:CDROM/BS/I_11_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:302|ID:CDROM/BS/I_11_15.BS|Sectors:18474-18482|Type:File|Size:18340|Path:CDROM/BS/I_11_15.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:303|ID:CDROM/BS/I_12_01.BS|Sectors:18483-18491|Type:File|Size:17284|Path:CDROM/BS/I_12_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:304|ID:CDROM/BS/I_13_01.BS|Sectors:18492-18500|Type:File|Size:16632|Path:CDROM/BS/I_13_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:305|ID:CDROM/BS/I_14_01.BS|Sectors:18501-18509|Type:File|Size:17764|Path:CDROM/BS/I_14_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:306|ID:CDROM/BS/I_14_02.BS|Sectors:18510-18517|Type:File|Size:15148|Path:CDROM/BS/I_14_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:307|ID:CDROM/BS/I_15_01.BS|Sectors:18518-18527|Type:File|Size:19004|Path:CDROM/BS/I_15_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:308|ID:CDROM/BS/I_15_02.BS|Sectors:18528-18535|Type:File|Size:16212|Path:CDROM/BS/I_15_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:309|ID:CDROM/BS/I_16_01.BS|Sectors:18536-18541|Type:File|Size:12280|Path:CDROM/BS/I_16_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:310|ID:CDROM/BS/I_16_02.BS|Sectors:18542-18549|Type:File|Size:14376|Path:CDROM/BS/I_16_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:311|ID:CDROM/BS/I_17_01.BS|Sectors:18550-18559|Type:File|Size:19244|Path:CDROM/BS/I_17_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:312|ID:CDROM/BS/I_17_04.BS|Sectors:18560-18569|Type:File|Size:19800|Path:CDROM/BS/I_17_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:313|ID:CDROM/BS/I_18_01.BS|Sectors:18570-18576|Type:File|Size:13896|Path:CDROM/BS/I_18_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:314|ID:CDROM/BS/I_18_02.BS|Sectors:18577-18585|Type:File|Size:17672|Path:CDROM/BS/I_18_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:315|ID:CDROM/BS/I_18_03.BS|Sectors:18586-18594|Type:File|Size:16820|Path:CDROM/BS/I_18_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:316|ID:CDROM/BS/I_19_01.BS|Sectors:18595-18603|Type:File|Size:16900|Path:CDROM/BS/I_19_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:317|ID:CDROM/BS/I_20_01.BS|Sectors:18604-18612|Type:File|Size:17396|Path:CDROM/BS/I_20_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:318|ID:CDROM/BS/I_21_01.BS|Sectors:18613-18620|Type:File|Size:16180|Path:CDROM/BS/I_21_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:319|ID:CDROM/BS/I_22_01.BS|Sectors:18621-18628|Type:File|Size:15076|Path:CDROM/BS/I_22_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:320|ID:CDROM/BS/I_22_02.BS|Sectors:18629-18636|Type:File|Size:14840|Path:CDROM/BS/I_22_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:321|ID:CDROM/BS/I_22_03.BS|Sectors:18637-18645|Type:File|Size:17880|Path:CDROM/BS/I_22_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:322|ID:CDROM/BS/I_22_07.BS|Sectors:18646-18655|Type:File|Size:18868|Path:CDROM/BS/I_22_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:323|ID:CDROM/BS/I_23_01.BS|Sectors:18656-18665|Type:File|Size:20076|Path:CDROM/BS/I_23_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:324|ID:CDROM/BS/I_23_04.BS|Sectors:18666-18669|Type:File|Size:7576|Path:CDROM/BS/I_23_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:325|ID:CDROM/BS/I_24_01.BS|Sectors:18670-18678|Type:File|Size:17532|Path:CDROM/BS/I_24_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:326|ID:CDROM/BS/I_24_02.BS|Sectors:18679-18687|Type:File|Size:18132|Path:CDROM/BS/I_24_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:327|ID:CDROM/BS/I_25_01.BS|Sectors:18688-18697|Type:File|Size:19340|Path:CDROM/BS/I_25_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:328|ID:CDROM/BS/I_26_01.BS|Sectors:18698-18706|Type:File|Size:18180|Path:CDROM/BS/I_26_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:329|ID:CDROM/BS/I_26_02.BS|Sectors:18707-18714|Type:File|Size:16252|Path:CDROM/BS/I_26_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:330|ID:CDROM/BS/I_27_01.BS|Sectors:18715-18724|Type:File|Size:19960|Path:CDROM/BS/I_27_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:331|ID:CDROM/BS/I_28_01.BS|Sectors:18725-18734|Type:File|Size:19288|Path:CDROM/BS/I_28_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:332|ID:CDROM/BS/I_28_02.BS|Sectors:18735-18744|Type:File|Size:19296|Path:CDROM/BS/I_28_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:333|ID:CDROM/BS/I_28_02S.BS|Sectors:18745-18754|Type:File|Size:19296|Path:CDROM/BS/I_28_02S.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:334|ID:CDROM/BS/I_29_01.BS|Sectors:18755-18762|Type:File|Size:16232|Path:CDROM/BS/I_29_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:335|ID:CDROM/BS/P_01_01.BS|Sectors:18763-18771|Type:File|Size:18432|Path:CDROM/BS/P_01_01.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:336|ID:CDROM/BS/P_01_02.BS|Sectors:18772-18780|Type:File|Size:18432|Path:CDROM/BS/P_01_02.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:337|ID:CDROM/BS/P_01_03.BS|Sectors:18781-18789|Type:File|Size:16392|Path:CDROM/BS/P_01_03.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:338|ID:CDROM/BS/P_01_03B.BS|Sectors:18790-18793|Type:File|Size:8192|Path:CDROM/BS/P_01_03B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:339|ID:CDROM/BS/P_01_10.BS|Sectors:18794-18802|Type:File|Size:18432|Path:CDROM/BS/P_01_10.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:340|ID:CDROM/BS/P_01_12.BS|Sectors:18803-18811|Type:File|Size:18432|Path:CDROM/BS/P_01_12.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:341|ID:CDROM/BS/X_01_13.BS|Sectors:18812-18820|Type:File|Size:18432|Path:CDROM/BS/X_01_13.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:342|ID:CDROM/BS/X_02_07.BS|Sectors:18821-18830|Type:File|Size:20480|Path:CDROM/BS/X_02_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:343|ID:CDROM/BUNKA/AS_S6.BIN|Sectors:18833-18852|Type:File|Size:40960|Path:CDROM/BUNKA/AS_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:344|ID:CDROM/BUNKA/AS_S6S.BIN|Sectors:18853-18854|Type:File|Size:4096|Path:CDROM/BUNKA/AS_S6S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:345|ID:CDROM/BUNKA/AS_S6W.BIN|Sectors:18855-18870|Type:File|Size:32768|Path:CDROM/BUNKA/AS_S6W.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:346|ID:CDROM/BUNKA/BUN_FU.BIN|Sectors:18871-18873|Type:File|Size:6144|Path:CDROM/BUNKA/BUN_FU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:347|ID:CDROM/BUNKA/BUN_PC.BIN|Sectors:18874-18878|Type:File|Size:10240|Path:CDROM/BUNKA/BUN_PC.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:348|ID:CDROM/BUNKA/FU_S6.BIN|Sectors:18879-18895|Type:File|Size:34816|Path:CDROM/BUNKA/FU_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:349|ID:CDROM/BUNKA/FU_S6B.BIN|Sectors:18896-18919|Type:File|Size:49152|Path:CDROM/BUNKA/FU_S6B.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:350|ID:CDROM/BUNKA/FU_S6I.BIN|Sectors:18920-18922|Type:File|Size:6144|Path:CDROM/BUNKA/FU_S6I.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:351|ID:CDROM/BUNKA/FU_S6O.BIN|Sectors:18923-18945|Type:File|Size:47104|Path:CDROM/BUNKA/FU_S6O.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:352|ID:CDROM/BUNKA/FU_S6S.BIN|Sectors:18946-18946|Type:File|Size:2048|Path:CDROM/BUNKA/FU_S6S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:353|ID:CDROM/BUNKA/FU_S6W.BIN|Sectors:18947-18961|Type:File|Size:30720|Path:CDROM/BUNKA/FU_S6W.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:354|ID:CDROM/BUNKA/HI_S6.BIN|Sectors:18962-18987|Type:File|Size:53248|Path:CDROM/BUNKA/HI_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:355|ID:CDROM/BUNKA/HI_S6B.BIN|Sectors:18988-18997|Type:File|Size:20480|Path:CDROM/BUNKA/HI_S6B.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:356|ID:CDROM/BUNKA/HI_S6I.BIN|Sectors:18998-18999|Type:File|Size:4096|Path:CDROM/BUNKA/HI_S6I.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:357|ID:CDROM/BUNKA/HI_S6O.BIN|Sectors:19000-19008|Type:File|Size:18432|Path:CDROM/BUNKA/HI_S6O.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:358|ID:CDROM/BUNKA/KG_S6.BIN|Sectors:19009-19023|Type:File|Size:30720|Path:CDROM/BUNKA/KG_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:359|ID:CDROM/BUNKA/KG_S6S.BIN|Sectors:19024-19025|Type:File|Size:4096|Path:CDROM/BUNKA/KG_S6S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:360|ID:CDROM/BUNKA/KG_S6W.BIN|Sectors:19026-19044|Type:File|Size:38912|Path:CDROM/BUNKA/KG_S6W.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:361|ID:CDROM/BUNKA/KO_S6.BIN|Sectors:19045-19057|Type:File|Size:26624|Path:CDROM/BUNKA/KO_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:362|ID:CDROM/BUNKA/KO_S6S.BIN|Sectors:19058-19058|Type:File|Size:2048|Path:CDROM/BUNKA/KO_S6S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:363|ID:CDROM/BUNKA/KO_S6W.BIN|Sectors:19059-19074|Type:File|Size:32768|Path:CDROM/BUNKA/KO_S6W.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:364|ID:CDROM/BUNKA/KS_S61.BIN|Sectors:19075-19094|Type:File|Size:40960|Path:CDROM/BUNKA/KS_S61.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:365|ID:CDROM/BUNKA/KS_S62.BIN|Sectors:19095-19112|Type:File|Size:36864|Path:CDROM/BUNKA/KS_S62.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:366|ID:CDROM/BUNKA/KS_S6B.BIN|Sectors:19113-19123|Type:File|Size:22528|Path:CDROM/BUNKA/KS_S6B.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:367|ID:CDROM/BUNKA/KS_S6I.BIN|Sectors:19124-19125|Type:File|Size:4096|Path:CDROM/BUNKA/KS_S6I.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:368|ID:CDROM/BUNKA/KS_S6O.BIN|Sectors:19126-19132|Type:File|Size:14336|Path:CDROM/BUNKA/KS_S6O.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:369|ID:CDROM/BUNKA/KT_S61.BIN|Sectors:19133-19157|Type:File|Size:51200|Path:CDROM/BUNKA/KT_S61.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:370|ID:CDROM/BUNKA/KT_S62.BIN|Sectors:19158-19180|Type:File|Size:47104|Path:CDROM/BUNKA/KT_S62.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:371|ID:CDROM/BUNKA/KT_S63.BIN|Sectors:19181-19195|Type:File|Size:30720|Path:CDROM/BUNKA/KT_S63.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:372|ID:CDROM/BUNKA/KT_S6B.BIN|Sectors:19196-19207|Type:File|Size:24576|Path:CDROM/BUNKA/KT_S6B.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:373|ID:CDROM/BUNKA/KT_S6I.BIN|Sectors:19208-19209|Type:File|Size:4096|Path:CDROM/BUNKA/KT_S6I.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:374|ID:CDROM/BUNKA/KT_S6O.BIN|Sectors:19210-19218|Type:File|Size:18432|Path:CDROM/BUNKA/KT_S6O.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:375|ID:CDROM/BUNKA/KY_S6.BIN|Sectors:19219-19233|Type:File|Size:30720|Path:CDROM/BUNKA/KY_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:376|ID:CDROM/BUNKA/KY_S6S.BIN|Sectors:19234-19234|Type:File|Size:2048|Path:CDROM/BUNKA/KY_S6S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:377|ID:CDROM/BUNKA/KY_S6W.BIN|Sectors:19235-19250|Type:File|Size:32768|Path:CDROM/BUNKA/KY_S6W.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:378|ID:CDROM/BUNKA/MI_S6.BIN|Sectors:19251-19260|Type:File|Size:20480|Path:CDROM/BUNKA/MI_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:379|ID:CDROM/BUNKA/MI_S6S.BIN|Sectors:19261-19261|Type:File|Size:2048|Path:CDROM/BUNKA/MI_S6S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:380|ID:CDROM/BUNKA/MI_S6W.BIN|Sectors:19262-19270|Type:File|Size:18432|Path:CDROM/BUNKA/MI_S6W.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:381|ID:CDROM/BUNKA/NI_S6.BIN|Sectors:19271-19280|Type:File|Size:20480|Path:CDROM/BUNKA/NI_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:382|ID:CDROM/BUNKA/NI_S6S.BIN|Sectors:19281-19281|Type:File|Size:2048|Path:CDROM/BUNKA/NI_S6S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:383|ID:CDROM/BUNKA/NI_S6W.BIN|Sectors:19282-19293|Type:File|Size:24576|Path:CDROM/BUNKA/NI_S6W.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:384|ID:CDROM/BUNKA/SA_S6.BIN|Sectors:19294-19312|Type:File|Size:38912|Path:CDROM/BUNKA/SA_S6.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:385|ID:CDROM/BUNKA/SA_S6S.BIN|Sectors:19313-19313|Type:File|Size:2048|Path:CDROM/BUNKA/SA_S6S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:386|ID:CDROM/BUNKA/SA_S6W.BIN|Sectors:19314-19326|Type:File|Size:26624|Path:CDROM/BUNKA/SA_S6W.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:387|ID:CDROM/BUNKA/TWINBEE.BIN|Sectors:19327-19327|Type:File|Size:2048|Path:CDROM/BUNKA/TWINBEE.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:388|ID:CDROM/BUNKA/URANAI.BIN|Sectors:19328-19328|Type:File|Size:2048|Path:CDROM/BUNKA/URANAI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:389|ID:CDROM/BUNKASD/B_BUNGEI.BIN|Sectors:19330-19411|Type:File|Size:167936|Path:CDROM/BUNKASD/B_BUNGEI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:390|ID:CDROM/BUNKASD/B_DENNOU.BIN|Sectors:19412-19544|Type:File|Size:272384|Path:CDROM/BUNKASD/B_DENNOU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:391|ID:CDROM/BUNKASD/B_JIKKEN.BIN|Sectors:19545-19655|Type:File|Size:227328|Path:CDROM/BUNKASD/B_JIKKEN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:392|ID:CDROM/BUNKASD/B_KARUTO.BIN|Sectors:19656-19865|Type:File|Size:430080|Path:CDROM/BUNKASD/B_KARUTO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:393|ID:CDROM/BUNKASD/B_KINTA.BIN|Sectors:19866-20045|Type:File|Size:368640|Path:CDROM/BUNKASD/B_KINTA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:394|ID:CDROM/BUNKASD/B_LASER.BIN|Sectors:20046-20142|Type:File|Size:198656|Path:CDROM/BUNKASD/B_LASER.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:395|ID:CDROM/BUNKASD/B_ROMEO.BIN|Sectors:20143-20252|Type:File|Size:225280|Path:CDROM/BUNKASD/B_ROMEO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:396|ID:CDROM/BUNKASD/B_SUISOU.BIN|Sectors:20253-20338|Type:File|Size:176128|Path:CDROM/BUNKASD/B_SUISOU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:397|ID:CDROM/BUNKASD/B_TENSOU.BIN|Sectors:20339-20447|Type:File|Size:223232|Path:CDROM/BUNKASD/B_TENSOU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:398|ID:CDROM/BUSTUP/AS01.BIN|Sectors:20453-20497|Type:File|Size:92160|Path:CDROM/BUSTUP/AS01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:399|ID:CDROM/BUSTUP/AS02.BIN|Sectors:20498-20542|Type:File|Size:92160|Path:CDROM/BUSTUP/AS02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:400|ID:CDROM/BUSTUP/AS10.BIN|Sectors:20543-20587|Type:File|Size:92160|Path:CDROM/BUSTUP/AS10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:401|ID:CDROM/BUSTUP/AS11.BIN|Sectors:20588-20632|Type:File|Size:92160|Path:CDROM/BUSTUP/AS11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:402|ID:CDROM/BUSTUP/AS12.BIN|Sectors:20633-20677|Type:File|Size:92160|Path:CDROM/BUSTUP/AS12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:403|ID:CDROM/BUSTUP/AS13.BIN|Sectors:20678-20722|Type:File|Size:92160|Path:CDROM/BUSTUP/AS13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:404|ID:CDROM/BUSTUP/AS14A.BIN|Sectors:20723-20767|Type:File|Size:92160|Path:CDROM/BUSTUP/AS14A.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:405|ID:CDROM/BUSTUP/AS14B.BIN|Sectors:20768-20812|Type:File|Size:92160|Path:CDROM/BUSTUP/AS14B.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:406|ID:CDROM/BUSTUP/AS14C.BIN|Sectors:20813-20857|Type:File|Size:92160|Path:CDROM/BUSTUP/AS14C.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:407|ID:CDROM/BUSTUP/AS15.BIN|Sectors:20858-20902|Type:File|Size:92160|Path:CDROM/BUSTUP/AS15.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:408|ID:CDROM/BUSTUP/AS16.BIN|Sectors:20903-20947|Type:File|Size:92160|Path:CDROM/BUSTUP/AS16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:409|ID:CDROM/BUSTUP/AS34.BIN|Sectors:20948-20992|Type:File|Size:92160|Path:CDROM/BUSTUP/AS34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:410|ID:CDROM/BUSTUP/HI01.BIN|Sectors:20993-21037|Type:File|Size:92160|Path:CDROM/BUSTUP/HI01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:411|ID:CDROM/BUSTUP/HI02.BIN|Sectors:21038-21082|Type:File|Size:92160|Path:CDROM/BUSTUP/HI02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:412|ID:CDROM/BUSTUP/HI05.BIN|Sectors:21083-21127|Type:File|Size:92160|Path:CDROM/BUSTUP/HI05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:413|ID:CDROM/BUSTUP/HI10.BIN|Sectors:21128-21172|Type:File|Size:92160|Path:CDROM/BUSTUP/HI10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:414|ID:CDROM/BUSTUP/HI11.BIN|Sectors:21173-21217|Type:File|Size:92160|Path:CDROM/BUSTUP/HI11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:415|ID:CDROM/BUSTUP/HI12.BIN|Sectors:21218-21262|Type:File|Size:92160|Path:CDROM/BUSTUP/HI12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:416|ID:CDROM/BUSTUP/HI13.BIN|Sectors:21263-21307|Type:File|Size:92160|Path:CDROM/BUSTUP/HI13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:417|ID:CDROM/BUSTUP/HI14.BIN|Sectors:21308-21352|Type:File|Size:92160|Path:CDROM/BUSTUP/HI14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:418|ID:CDROM/BUSTUP/HI16.BIN|Sectors:21353-21397|Type:File|Size:92160|Path:CDROM/BUSTUP/HI16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:419|ID:CDROM/BUSTUP/HI26.BIN|Sectors:21398-21442|Type:File|Size:92160|Path:CDROM/BUSTUP/HI26.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:420|ID:CDROM/BUSTUP/HI27.BIN|Sectors:21443-21487|Type:File|Size:92160|Path:CDROM/BUSTUP/HI27.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:421|ID:CDROM/BUSTUP/HI34.BIN|Sectors:21488-21532|Type:File|Size:92160|Path:CDROM/BUSTUP/HI34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:422|ID:CDROM/BUSTUP/HU01.BIN|Sectors:21533-21577|Type:File|Size:92160|Path:CDROM/BUSTUP/HU01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:423|ID:CDROM/BUSTUP/HU02.BIN|Sectors:21578-21622|Type:File|Size:92160|Path:CDROM/BUSTUP/HU02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:424|ID:CDROM/BUSTUP/HU03.BIN|Sectors:21623-21667|Type:File|Size:92160|Path:CDROM/BUSTUP/HU03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:425|ID:CDROM/BUSTUP/HU04.BIN|Sectors:21668-21712|Type:File|Size:92160|Path:CDROM/BUSTUP/HU04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:426|ID:CDROM/BUSTUP/HU05.BIN|Sectors:21713-21757|Type:File|Size:92160|Path:CDROM/BUSTUP/HU05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:427|ID:CDROM/BUSTUP/HU06.BIN|Sectors:21758-21802|Type:File|Size:92160|Path:CDROM/BUSTUP/HU06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:428|ID:CDROM/BUSTUP/HU07.BIN|Sectors:21803-21847|Type:File|Size:92160|Path:CDROM/BUSTUP/HU07.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:429|ID:CDROM/BUSTUP/HU08.BIN|Sectors:21848-21892|Type:File|Size:92160|Path:CDROM/BUSTUP/HU08.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:430|ID:CDROM/BUSTUP/HU09.BIN|Sectors:21893-21937|Type:File|Size:92160|Path:CDROM/BUSTUP/HU09.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:431|ID:CDROM/BUSTUP/HU10.BIN|Sectors:21938-21982|Type:File|Size:92160|Path:CDROM/BUSTUP/HU10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:432|ID:CDROM/BUSTUP/HU11.BIN|Sectors:21983-22027|Type:File|Size:92160|Path:CDROM/BUSTUP/HU11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:433|ID:CDROM/BUSTUP/HU12.BIN|Sectors:22028-22072|Type:File|Size:92160|Path:CDROM/BUSTUP/HU12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:434|ID:CDROM/BUSTUP/HU13.BIN|Sectors:22073-22117|Type:File|Size:92160|Path:CDROM/BUSTUP/HU13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:435|ID:CDROM/BUSTUP/HU14.BIN|Sectors:22118-22162|Type:File|Size:92160|Path:CDROM/BUSTUP/HU14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:436|ID:CDROM/BUSTUP/HU15.BIN|Sectors:22163-22207|Type:File|Size:92160|Path:CDROM/BUSTUP/HU15.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:437|ID:CDROM/BUSTUP/HU16.BIN|Sectors:22208-22252|Type:File|Size:92160|Path:CDROM/BUSTUP/HU16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:438|ID:CDROM/BUSTUP/HU17.BIN|Sectors:22253-22297|Type:File|Size:92160|Path:CDROM/BUSTUP/HU17.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:439|ID:CDROM/BUSTUP/HU18.BIN|Sectors:22298-22342|Type:File|Size:92160|Path:CDROM/BUSTUP/HU18.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:440|ID:CDROM/BUSTUP/HU26.BIN|Sectors:22343-22387|Type:File|Size:92160|Path:CDROM/BUSTUP/HU26.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:441|ID:CDROM/BUSTUP/HU27.BIN|Sectors:22388-22432|Type:File|Size:92160|Path:CDROM/BUSTUP/HU27.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:442|ID:CDROM/BUSTUP/HU34.BIN|Sectors:22433-22477|Type:File|Size:92160|Path:CDROM/BUSTUP/HU34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:443|ID:CDROM/BUSTUP/HU36.BIN|Sectors:22478-22522|Type:File|Size:92160|Path:CDROM/BUSTUP/HU36.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:444|ID:CDROM/BUSTUP/IJ01.BIN|Sectors:22523-22567|Type:File|Size:92160|Path:CDROM/BUSTUP/IJ01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:445|ID:CDROM/BUSTUP/IJ02.BIN|Sectors:22568-22612|Type:File|Size:92160|Path:CDROM/BUSTUP/IJ02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:446|ID:CDROM/BUSTUP/IJ16.BIN|Sectors:22613-22657|Type:File|Size:92160|Path:CDROM/BUSTUP/IJ16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:447|ID:CDROM/BUSTUP/KA01.BIN|Sectors:22658-22702|Type:File|Size:92160|Path:CDROM/BUSTUP/KA01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:448|ID:CDROM/BUSTUP/KA02.BIN|Sectors:22703-22747|Type:File|Size:92160|Path:CDROM/BUSTUP/KA02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:449|ID:CDROM/BUSTUP/KA04.BIN|Sectors:22748-22792|Type:File|Size:92160|Path:CDROM/BUSTUP/KA04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:450|ID:CDROM/BUSTUP/KA10.BIN|Sectors:22793-22837|Type:File|Size:92160|Path:CDROM/BUSTUP/KA10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:451|ID:CDROM/BUSTUP/KA11.BIN|Sectors:22838-22882|Type:File|Size:92160|Path:CDROM/BUSTUP/KA11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:452|ID:CDROM/BUSTUP/KA12.BIN|Sectors:22883-22927|Type:File|Size:92160|Path:CDROM/BUSTUP/KA12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:453|ID:CDROM/BUSTUP/KA13.BIN|Sectors:22928-22972|Type:File|Size:92160|Path:CDROM/BUSTUP/KA13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:454|ID:CDROM/BUSTUP/KA14.BIN|Sectors:22973-23017|Type:File|Size:92160|Path:CDROM/BUSTUP/KA14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:455|ID:CDROM/BUSTUP/KA16.BIN|Sectors:23018-23062|Type:File|Size:92160|Path:CDROM/BUSTUP/KA16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:456|ID:CDROM/BUSTUP/KA17.BIN|Sectors:23063-23107|Type:File|Size:92160|Path:CDROM/BUSTUP/KA17.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:457|ID:CDROM/BUSTUP/KA26.BIN|Sectors:23108-23152|Type:File|Size:92160|Path:CDROM/BUSTUP/KA26.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:458|ID:CDROM/BUSTUP/KA27.BIN|Sectors:23153-23197|Type:File|Size:92160|Path:CDROM/BUSTUP/KA27.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:459|ID:CDROM/BUSTUP/KA28.BIN|Sectors:23198-23242|Type:File|Size:92160|Path:CDROM/BUSTUP/KA28.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:460|ID:CDROM/BUSTUP/KA34.BIN|Sectors:23243-23287|Type:File|Size:92160|Path:CDROM/BUSTUP/KA34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:461|ID:CDROM/BUSTUP/KG01.BIN|Sectors:23288-23332|Type:File|Size:92160|Path:CDROM/BUSTUP/KG01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:462|ID:CDROM/BUSTUP/KG02.BIN|Sectors:23333-23377|Type:File|Size:92160|Path:CDROM/BUSTUP/KG02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:463|ID:CDROM/BUSTUP/KG10.BIN|Sectors:23378-23422|Type:File|Size:92160|Path:CDROM/BUSTUP/KG10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:464|ID:CDROM/BUSTUP/KG11.BIN|Sectors:23423-23467|Type:File|Size:92160|Path:CDROM/BUSTUP/KG11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:465|ID:CDROM/BUSTUP/KG12.BIN|Sectors:23468-23512|Type:File|Size:92160|Path:CDROM/BUSTUP/KG12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:466|ID:CDROM/BUSTUP/KG13.BIN|Sectors:23513-23557|Type:File|Size:92160|Path:CDROM/BUSTUP/KG13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:467|ID:CDROM/BUSTUP/KG14.BIN|Sectors:23558-23602|Type:File|Size:92160|Path:CDROM/BUSTUP/KG14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:468|ID:CDROM/BUSTUP/KG15.BIN|Sectors:23603-23647|Type:File|Size:92160|Path:CDROM/BUSTUP/KG15.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:469|ID:CDROM/BUSTUP/KG16.BIN|Sectors:23648-23692|Type:File|Size:92160|Path:CDROM/BUSTUP/KG16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:470|ID:CDROM/BUSTUP/KG16S.BIN|Sectors:23693-23737|Type:File|Size:92160|Path:CDROM/BUSTUP/KG16S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:471|ID:CDROM/BUSTUP/KG17.BIN|Sectors:23738-23782|Type:File|Size:92160|Path:CDROM/BUSTUP/KG17.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:472|ID:CDROM/BUSTUP/KG34.BIN|Sectors:23783-23827|Type:File|Size:92160|Path:CDROM/BUSTUP/KG34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:473|ID:CDROM/BUSTUP/KI01.BIN|Sectors:23828-23872|Type:File|Size:92160|Path:CDROM/BUSTUP/KI01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:474|ID:CDROM/BUSTUP/KI02.BIN|Sectors:23873-23917|Type:File|Size:92160|Path:CDROM/BUSTUP/KI02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:475|ID:CDROM/BUSTUP/KI03.BIN|Sectors:23918-23962|Type:File|Size:92160|Path:CDROM/BUSTUP/KI03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:476|ID:CDROM/BUSTUP/KI10.BIN|Sectors:23963-24007|Type:File|Size:92160|Path:CDROM/BUSTUP/KI10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:477|ID:CDROM/BUSTUP/KI11.BIN|Sectors:24008-24052|Type:File|Size:92160|Path:CDROM/BUSTUP/KI11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:478|ID:CDROM/BUSTUP/KI12.BIN|Sectors:24053-24097|Type:File|Size:92160|Path:CDROM/BUSTUP/KI12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:479|ID:CDROM/BUSTUP/KI13.BIN|Sectors:24098-24142|Type:File|Size:92160|Path:CDROM/BUSTUP/KI13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:480|ID:CDROM/BUSTUP/KI14.BIN|Sectors:24143-24187|Type:File|Size:92160|Path:CDROM/BUSTUP/KI14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:481|ID:CDROM/BUSTUP/KI16.BIN|Sectors:24188-24232|Type:File|Size:92160|Path:CDROM/BUSTUP/KI16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:482|ID:CDROM/BUSTUP/KI17.BIN|Sectors:24233-24277|Type:File|Size:92160|Path:CDROM/BUSTUP/KI17.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:483|ID:CDROM/BUSTUP/KI26.BIN|Sectors:24278-24322|Type:File|Size:92160|Path:CDROM/BUSTUP/KI26.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:484|ID:CDROM/BUSTUP/KI27.BIN|Sectors:24323-24367|Type:File|Size:92160|Path:CDROM/BUSTUP/KI27.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:485|ID:CDROM/BUSTUP/KI28.BIN|Sectors:24368-24412|Type:File|Size:92160|Path:CDROM/BUSTUP/KI28.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:486|ID:CDROM/BUSTUP/KI34.BIN|Sectors:24413-24457|Type:File|Size:92160|Path:CDROM/BUSTUP/KI34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:487|ID:CDROM/BUSTUP/KO01.BIN|Sectors:24458-24502|Type:File|Size:92160|Path:CDROM/BUSTUP/KO01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:488|ID:CDROM/BUSTUP/KO02.BIN|Sectors:24503-24547|Type:File|Size:92160|Path:CDROM/BUSTUP/KO02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:489|ID:CDROM/BUSTUP/KO07.BIN|Sectors:24548-24592|Type:File|Size:92160|Path:CDROM/BUSTUP/KO07.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:490|ID:CDROM/BUSTUP/KO10.BIN|Sectors:24593-24637|Type:File|Size:92160|Path:CDROM/BUSTUP/KO10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:491|ID:CDROM/BUSTUP/KO11.BIN|Sectors:24638-24682|Type:File|Size:92160|Path:CDROM/BUSTUP/KO11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:492|ID:CDROM/BUSTUP/KO12.BIN|Sectors:24683-24727|Type:File|Size:92160|Path:CDROM/BUSTUP/KO12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:493|ID:CDROM/BUSTUP/KO13.BIN|Sectors:24728-24772|Type:File|Size:92160|Path:CDROM/BUSTUP/KO13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:494|ID:CDROM/BUSTUP/KO14.BIN|Sectors:24773-24817|Type:File|Size:92160|Path:CDROM/BUSTUP/KO14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:495|ID:CDROM/BUSTUP/KO15.BIN|Sectors:24818-24862|Type:File|Size:92160|Path:CDROM/BUSTUP/KO15.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:496|ID:CDROM/BUSTUP/KO16.BIN|Sectors:24863-24907|Type:File|Size:92160|Path:CDROM/BUSTUP/KO16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:497|ID:CDROM/BUSTUP/KO18.BIN|Sectors:24908-24952|Type:File|Size:92160|Path:CDROM/BUSTUP/KO18.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:498|ID:CDROM/BUSTUP/KO26.BIN|Sectors:24953-24997|Type:File|Size:92160|Path:CDROM/BUSTUP/KO26.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:499|ID:CDROM/BUSTUP/KO27.BIN|Sectors:24998-25042|Type:File|Size:92160|Path:CDROM/BUSTUP/KO27.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:500|ID:CDROM/BUSTUP/KO34.BIN|Sectors:25043-25087|Type:File|Size:92160|Path:CDROM/BUSTUP/KO34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:501|ID:CDROM/BUSTUP/KY01.BIN|Sectors:25088-25132|Type:File|Size:92160|Path:CDROM/BUSTUP/KY01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:502|ID:CDROM/BUSTUP/KY02.BIN|Sectors:25133-25177|Type:File|Size:92160|Path:CDROM/BUSTUP/KY02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:503|ID:CDROM/BUSTUP/KY08.BIN|Sectors:25178-25222|Type:File|Size:92160|Path:CDROM/BUSTUP/KY08.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:504|ID:CDROM/BUSTUP/KY10.BIN|Sectors:25223-25267|Type:File|Size:92160|Path:CDROM/BUSTUP/KY10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:505|ID:CDROM/BUSTUP/KY11.BIN|Sectors:25268-25312|Type:File|Size:92160|Path:CDROM/BUSTUP/KY11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:506|ID:CDROM/BUSTUP/KY12.BIN|Sectors:25313-25357|Type:File|Size:92160|Path:CDROM/BUSTUP/KY12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:507|ID:CDROM/BUSTUP/KY13.BIN|Sectors:25358-25402|Type:File|Size:92160|Path:CDROM/BUSTUP/KY13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:508|ID:CDROM/BUSTUP/KY14.BIN|Sectors:25403-25447|Type:File|Size:92160|Path:CDROM/BUSTUP/KY14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:509|ID:CDROM/BUSTUP/KY15.BIN|Sectors:25448-25492|Type:File|Size:92160|Path:CDROM/BUSTUP/KY15.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:510|ID:CDROM/BUSTUP/KY16.BIN|Sectors:25493-25537|Type:File|Size:92160|Path:CDROM/BUSTUP/KY16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:511|ID:CDROM/BUSTUP/KY17.BIN|Sectors:25538-25582|Type:File|Size:92160|Path:CDROM/BUSTUP/KY17.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:512|ID:CDROM/BUSTUP/KY26.BIN|Sectors:25583-25627|Type:File|Size:92160|Path:CDROM/BUSTUP/KY26.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:513|ID:CDROM/BUSTUP/KY27.BIN|Sectors:25628-25672|Type:File|Size:92160|Path:CDROM/BUSTUP/KY27.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:514|ID:CDROM/BUSTUP/KY29.BIN|Sectors:25673-25717|Type:File|Size:92160|Path:CDROM/BUSTUP/KY29.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:515|ID:CDROM/BUSTUP/KY34.BIN|Sectors:25718-25762|Type:File|Size:92160|Path:CDROM/BUSTUP/KY34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:516|ID:CDROM/BUSTUP/MI01.BIN|Sectors:25763-25807|Type:File|Size:92160|Path:CDROM/BUSTUP/MI01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:517|ID:CDROM/BUSTUP/MI02.BIN|Sectors:25808-25852|Type:File|Size:92160|Path:CDROM/BUSTUP/MI02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:518|ID:CDROM/BUSTUP/MI10.BIN|Sectors:25853-25897|Type:File|Size:92160|Path:CDROM/BUSTUP/MI10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:519|ID:CDROM/BUSTUP/MI11.BIN|Sectors:25898-25942|Type:File|Size:92160|Path:CDROM/BUSTUP/MI11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:520|ID:CDROM/BUSTUP/MI12.BIN|Sectors:25943-25987|Type:File|Size:92160|Path:CDROM/BUSTUP/MI12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:521|ID:CDROM/BUSTUP/MI13.BIN|Sectors:25988-26032|Type:File|Size:92160|Path:CDROM/BUSTUP/MI13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:522|ID:CDROM/BUSTUP/MI14.BIN|Sectors:26033-26077|Type:File|Size:92160|Path:CDROM/BUSTUP/MI14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:523|ID:CDROM/BUSTUP/MI16.BIN|Sectors:26078-26122|Type:File|Size:92160|Path:CDROM/BUSTUP/MI16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:524|ID:CDROM/BUSTUP/MI17.BIN|Sectors:26123-26167|Type:File|Size:92160|Path:CDROM/BUSTUP/MI17.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:525|ID:CDROM/BUSTUP/MI30.BIN|Sectors:26168-26212|Type:File|Size:92160|Path:CDROM/BUSTUP/MI30.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:526|ID:CDROM/BUSTUP/MI34.BIN|Sectors:26213-26257|Type:File|Size:92160|Path:CDROM/BUSTUP/MI34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:527|ID:CDROM/BUSTUP/NI01.BIN|Sectors:26258-26302|Type:File|Size:92160|Path:CDROM/BUSTUP/NI01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:528|ID:CDROM/BUSTUP/NI02.BIN|Sectors:26303-26347|Type:File|Size:92160|Path:CDROM/BUSTUP/NI02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:529|ID:CDROM/BUSTUP/NI06.BIN|Sectors:26348-26392|Type:File|Size:92160|Path:CDROM/BUSTUP/NI06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:530|ID:CDROM/BUSTUP/NI10.BIN|Sectors:26393-26437|Type:File|Size:92160|Path:CDROM/BUSTUP/NI10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:531|ID:CDROM/BUSTUP/NI11.BIN|Sectors:26438-26482|Type:File|Size:92160|Path:CDROM/BUSTUP/NI11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:532|ID:CDROM/BUSTUP/NI12.BIN|Sectors:26483-26527|Type:File|Size:92160|Path:CDROM/BUSTUP/NI12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:533|ID:CDROM/BUSTUP/NI13.BIN|Sectors:26528-26572|Type:File|Size:92160|Path:CDROM/BUSTUP/NI13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:534|ID:CDROM/BUSTUP/NI14.BIN|Sectors:26573-26617|Type:File|Size:92160|Path:CDROM/BUSTUP/NI14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:535|ID:CDROM/BUSTUP/NI15.BIN|Sectors:26618-26662|Type:File|Size:92160|Path:CDROM/BUSTUP/NI15.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:536|ID:CDROM/BUSTUP/NI16.BIN|Sectors:26663-26707|Type:File|Size:92160|Path:CDROM/BUSTUP/NI16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:537|ID:CDROM/BUSTUP/NI17.BIN|Sectors:26708-26752|Type:File|Size:92160|Path:CDROM/BUSTUP/NI17.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:538|ID:CDROM/BUSTUP/NI26.BIN|Sectors:26753-26797|Type:File|Size:92160|Path:CDROM/BUSTUP/NI26.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:539|ID:CDROM/BUSTUP/NI27.BIN|Sectors:26798-26842|Type:File|Size:92160|Path:CDROM/BUSTUP/NI27.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:540|ID:CDROM/BUSTUP/NI34.BIN|Sectors:26843-26887|Type:File|Size:92160|Path:CDROM/BUSTUP/NI34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:541|ID:CDROM/BUSTUP/SA01.BIN|Sectors:26888-26932|Type:File|Size:92160|Path:CDROM/BUSTUP/SA01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:542|ID:CDROM/BUSTUP/SA02.BIN|Sectors:26933-26977|Type:File|Size:92160|Path:CDROM/BUSTUP/SA02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:543|ID:CDROM/BUSTUP/SA09.BIN|Sectors:26978-27022|Type:File|Size:92160|Path:CDROM/BUSTUP/SA09.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:544|ID:CDROM/BUSTUP/SA10.BIN|Sectors:27023-27067|Type:File|Size:92160|Path:CDROM/BUSTUP/SA10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:545|ID:CDROM/BUSTUP/SA11.BIN|Sectors:27068-27112|Type:File|Size:92160|Path:CDROM/BUSTUP/SA11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:546|ID:CDROM/BUSTUP/SA12.BIN|Sectors:27113-27157|Type:File|Size:92160|Path:CDROM/BUSTUP/SA12.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:547|ID:CDROM/BUSTUP/SA13.BIN|Sectors:27158-27202|Type:File|Size:92160|Path:CDROM/BUSTUP/SA13.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:548|ID:CDROM/BUSTUP/SA14.BIN|Sectors:27203-27247|Type:File|Size:92160|Path:CDROM/BUSTUP/SA14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:549|ID:CDROM/BUSTUP/SA15.BIN|Sectors:27248-27292|Type:File|Size:92160|Path:CDROM/BUSTUP/SA15.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:550|ID:CDROM/BUSTUP/SA16.BIN|Sectors:27293-27337|Type:File|Size:92160|Path:CDROM/BUSTUP/SA16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:551|ID:CDROM/BUSTUP/SA26.BIN|Sectors:27338-27382|Type:File|Size:92160|Path:CDROM/BUSTUP/SA26.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:552|ID:CDROM/BUSTUP/SA34.BIN|Sectors:27383-27427|Type:File|Size:92160|Path:CDROM/BUSTUP/SA34.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:553|ID:CDROM/BUSTUP/SO16.BIN|Sectors:27428-27472|Type:File|Size:92160|Path:CDROM/BUSTUP/SO16.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:554|ID:CDROM/BUSTUP/TA01.BIN|Sectors:27473-27517|Type:File|Size:92160|Path:CDROM/BUSTUP/TA01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:555|ID:CDROM/BUSTUP/TA02.BIN|Sectors:27518-27562|Type:File|Size:92160|Path:CDROM/BUSTUP/TA02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:556|ID:CDROM/BUSTUP/TA10.BIN|Sectors:27563-27607|Type:File|Size:92160|Path:CDROM/BUSTUP/TA10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:557|ID:CDROM/BUSTUP/TA14.BIN|Sectors:27608-27652|Type:File|Size:92160|Path:CDROM/BUSTUP/TA14.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:558|ID:CDROM/BUSTUP/TA35.BIN|Sectors:27653-27697|Type:File|Size:92160|Path:CDROM/BUSTUP/TA35.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:559|ID:CDROM/BUSTUP/YO01.BIN|Sectors:27698-27742|Type:File|Size:92160|Path:CDROM/BUSTUP/YO01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:560|ID:CDROM/BUSTUP/YO02.BIN|Sectors:27743-27787|Type:File|Size:92160|Path:CDROM/BUSTUP/YO02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:561|ID:CDROM/BUSTUP/YO11.BIN|Sectors:27788-27832|Type:File|Size:92160|Path:CDROM/BUSTUP/YO11.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:562|ID:CDROM/CLUB_SD/SD_P0E.NBN|Sectors:27834-27874|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P0E.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:563|ID:CDROM/CLUB_SD/SD_P0EW.NBN|Sectors:27875-27915|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P0EW.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:564|ID:CDROM/CLUB_SD/SD_P0F.NBN|Sectors:27916-27956|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P0F.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:565|ID:CDROM/CLUB_SD/SD_P0FW.NBN|Sectors:27957-27997|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P0FW.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:566|ID:CDROM/CLUB_SD/SD_P10.NBN|Sectors:27998-28038|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P10.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:567|ID:CDROM/CLUB_SD/SD_P10W.NBN|Sectors:28039-28079|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P10W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:568|ID:CDROM/CLUB_SD/SD_P11.NBN|Sectors:28080-28120|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P11.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:569|ID:CDROM/CLUB_SD/SD_P11W.NBN|Sectors:28121-28161|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P11W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:570|ID:CDROM/CLUB_SD/SD_P12.NBN|Sectors:28162-28202|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P12.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:571|ID:CDROM/CLUB_SD/SD_P12W.NBN|Sectors:28203-28243|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P12W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:572|ID:CDROM/CLUB_SD/SD_P13.NBN|Sectors:28244-28284|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P13.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:573|ID:CDROM/CLUB_SD/SD_P13W.NBN|Sectors:28285-28325|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P13W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:574|ID:CDROM/CLUB_SD/SD_P14.NBN|Sectors:28326-28366|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P14.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:575|ID:CDROM/CLUB_SD/SD_P15.NBN|Sectors:28367-28407|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P15.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:576|ID:CDROM/CLUB_SD/SD_P16.NBN|Sectors:28408-28448|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P16.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:577|ID:CDROM/CLUB_SD/SD_P17.NBN|Sectors:28449-28489|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P17.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:578|ID:CDROM/CLUB_SD/SD_P18.NBN|Sectors:28490-28530|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P18.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:579|ID:CDROM/CLUB_SD/SD_P19.NBN|Sectors:28531-28571|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P19.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:580|ID:CDROM/CLUB_SD/SD_P1A.NBN|Sectors:28572-28612|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P1A.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:581|ID:CDROM/CLUB_SD/SD_P1B.NBN|Sectors:28613-28653|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P1B.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:582|ID:CDROM/CLUB_SD/SD_P1C.NBN|Sectors:28654-28694|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P1C.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:583|ID:CDROM/CLUB_SD/SD_P1D.NBN|Sectors:28695-28735|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P1D.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:584|ID:CDROM/CLUB_SD/SD_P1E.NBN|Sectors:28736-28776|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P1E.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:585|ID:CDROM/CLUB_SD/SD_P1EW.NBN|Sectors:28777-28817|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P1EW.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:586|ID:CDROM/CLUB_SD/SD_P1F.NBN|Sectors:28818-28858|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P1F.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:587|ID:CDROM/CLUB_SD/SD_P1FW.NBN|Sectors:28859-28899|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P1FW.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:588|ID:CDROM/CLUB_SD/SD_P20.NBN|Sectors:28900-28940|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P20.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:589|ID:CDROM/CLUB_SD/SD_P20W.NBN|Sectors:28941-28981|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P20W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:590|ID:CDROM/CLUB_SD/SD_P21.NBN|Sectors:28982-29022|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P21.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:591|ID:CDROM/CLUB_SD/SD_P21W.NBN|Sectors:29023-29063|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P21W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:592|ID:CDROM/CLUB_SD/SD_P22.NBN|Sectors:29064-29104|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P22.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:593|ID:CDROM/CLUB_SD/SD_P23.NBN|Sectors:29105-29145|Type:File|Size:83968|Path:CDROM/CLUB_SD/SD_P23.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:594|ID:CDROM/END_OBJ/EBD_KY.BIN|Sectors:29149-29305|Type:File|Size:321536|Path:CDROM/END_OBJ/EBD_KY.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:595|ID:CDROM/END_OBJ/END_AL.BIN|Sectors:29306-29374|Type:File|Size:141312|Path:CDROM/END_OBJ/END_AL.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:596|ID:CDROM/END_OBJ/END_AS.BIN|Sectors:29375-29515|Type:File|Size:288768|Path:CDROM/END_OBJ/END_AS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:597|ID:CDROM/END_OBJ/END_FU.BIN|Sectors:29516-29656|Type:File|Size:288768|Path:CDROM/END_OBJ/END_FU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:598|ID:CDROM/END_OBJ/END_HI.BIN|Sectors:29657-29781|Type:File|Size:256000|Path:CDROM/END_OBJ/END_HI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:599|ID:CDROM/END_OBJ/END_IJ.BIN|Sectors:29782-29922|Type:File|Size:288768|Path:CDROM/END_OBJ/END_IJ.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:600|ID:CDROM/END_OBJ/END_KA.BIN|Sectors:29923-30063|Type:File|Size:288768|Path:CDROM/END_OBJ/END_KA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:601|ID:CDROM/END_OBJ/END_KG.BIN|Sectors:30064-30212|Type:File|Size:305152|Path:CDROM/END_OBJ/END_KG.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:602|ID:CDROM/END_OBJ/END_KI.BIN|Sectors:30213-30345|Type:File|Size:272384|Path:CDROM/END_OBJ/END_KI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:603|ID:CDROM/END_OBJ/END_KI2.BIN|Sectors:30346-30486|Type:File|Size:288768|Path:CDROM/END_OBJ/END_KI2.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:604|ID:CDROM/END_OBJ/END_KO.BIN|Sectors:30487-30636|Type:File|Size:307200|Path:CDROM/END_OBJ/END_KO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:605|ID:CDROM/END_OBJ/END_KY.BIN|Sectors:30637-30793|Type:File|Size:321536|Path:CDROM/END_OBJ/END_KY.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:606|ID:CDROM/END_OBJ/END_KY2.BIN|Sectors:30794-30950|Type:File|Size:321536|Path:CDROM/END_OBJ/END_KY2.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:607|ID:CDROM/END_OBJ/END_MI.BIN|Sectors:30951-31091|Type:File|Size:288768|Path:CDROM/END_OBJ/END_MI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:608|ID:CDROM/END_OBJ/END_NI.BIN|Sectors:31092-31232|Type:File|Size:288768|Path:CDROM/END_OBJ/END_NI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:609|ID:CDROM/END_OBJ/END_SA.BIN|Sectors:31233-31373|Type:File|Size:288768|Path:CDROM/END_OBJ/END_SA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:610|ID:CDROM/END_OBJ/END_TA.BIN|Sectors:31374-31514|Type:File|Size:288768|Path:CDROM/END_OBJ/END_TA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:611|ID:CDROM/END_OBJ/END_TREE.BIN|Sectors:31515-31575|Type:File|Size:124928|Path:CDROM/END_OBJ/END_TREE.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:612|ID:CDROM/END_OBJ/RUNNING.BIN|Sectors:31576-31695|Type:File|Size:245760|Path:CDROM/END_OBJ/RUNNING.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:613|ID:CDROM/END_OBJ/STAFFCOL.BIN|Sectors:31696-31700|Type:File|Size:10240|Path:CDROM/END_OBJ/STAFFCOL.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:614|ID:CDROM/END_OBJ/STAFTXAS.BIN|Sectors:31701-31713|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXAS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:615|ID:CDROM/END_OBJ/STAFTXHI.BIN|Sectors:31714-31726|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXHI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:616|ID:CDROM/END_OBJ/STAFTXHU.BIN|Sectors:31727-31739|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXHU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:617|ID:CDROM/END_OBJ/STAFTXIJ.BIN|Sectors:31740-31752|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXIJ.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:618|ID:CDROM/END_OBJ/STAFTXKA.BIN|Sectors:31753-31765|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXKA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:619|ID:CDROM/END_OBJ/STAFTXKG.BIN|Sectors:31766-31778|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXKG.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:620|ID:CDROM/END_OBJ/STAFTXKI.BIN|Sectors:31779-31791|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXKI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:621|ID:CDROM/END_OBJ/STAFTXKO.BIN|Sectors:31792-31804|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXKO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:622|ID:CDROM/END_OBJ/STAFTXKY.BIN|Sectors:31805-31817|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXKY.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:623|ID:CDROM/END_OBJ/STAFTXMI.BIN|Sectors:31818-31830|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXMI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:624|ID:CDROM/END_OBJ/STAFTXNI.BIN|Sectors:31831-31843|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXNI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:625|ID:CDROM/END_OBJ/STAFTXSA.BIN|Sectors:31844-31856|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXSA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:626|ID:CDROM/END_OBJ/STAFTXTA.BIN|Sectors:31857-31869|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXTA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:627|ID:CDROM/END_OBJ/STAFTXYO.BIN|Sectors:31870-31882|Type:File|Size:26624|Path:CDROM/END_OBJ/STAFTXYO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:628|ID:CDROM/EN_GAME/KINGYO.BIN|Sectors:31884-31946|Type:File|Size:129024|Path:CDROM/EN_GAME/KINGYO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:629|ID:CDROM/EN_GAME/KINGYO.NBN|Sectors:31947-32010|Type:File|Size:131072|Path:CDROM/EN_GAME/KINGYO.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:630|ID:CDROM/EN_GAME/SHATEKI.BIN|Sectors:32011-32118|Type:File|Size:221184|Path:CDROM/EN_GAME/SHATEKI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:631|ID:CDROM/ETC_SD/SD_P30.NBN|Sectors:32120-32128|Type:File|Size:18432|Path:CDROM/ETC_SD/SD_P30.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:632|ID:CDROM/ETC_SD/SD_P30W.NBN|Sectors:32129-32137|Type:File|Size:18432|Path:CDROM/ETC_SD/SD_P30W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:633|ID:CDROM/ETC_SD/SD_P31.NBN|Sectors:32138-32146|Type:File|Size:18432|Path:CDROM/ETC_SD/SD_P31.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:634|ID:CDROM/EVENT/EV_AS01.BIN|Sectors:32150-32210|Type:File|Size:124928|Path:CDROM/EVENT/EV_AS01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:635|ID:CDROM/EVENT/EV_AS02.BIN|Sectors:32211-32271|Type:File|Size:124928|Path:CDROM/EVENT/EV_AS02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:636|ID:CDROM/EVENT/EV_AS03.BIN|Sectors:32272-32340|Type:File|Size:141312|Path:CDROM/EVENT/EV_AS03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:637|ID:CDROM/EVENT/EV_AS04.BIN|Sectors:32341-32401|Type:File|Size:124928|Path:CDROM/EVENT/EV_AS04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:638|ID:CDROM/EVENT/EV_AS05.BIN|Sectors:32402-32462|Type:File|Size:124928|Path:CDROM/EVENT/EV_AS05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:639|ID:CDROM/EVENT/EV_AS06.BIN|Sectors:32463-32531|Type:File|Size:141312|Path:CDROM/EVENT/EV_AS06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:640|ID:CDROM/EVENT/EV_FU01.BIN|Sectors:32532-32608|Type:File|Size:157696|Path:CDROM/EVENT/EV_FU01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:641|ID:CDROM/EVENT/EV_FU03.BIN|Sectors:32609-32677|Type:File|Size:141312|Path:CDROM/EVENT/EV_FU03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:642|ID:CDROM/EVENT/EV_FU04.BIN|Sectors:32678-32746|Type:File|Size:141312|Path:CDROM/EVENT/EV_FU04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:643|ID:CDROM/EVENT/EV_FU05.BIN|Sectors:32747-32815|Type:File|Size:141312|Path:CDROM/EVENT/EV_FU05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:644|ID:CDROM/EVENT/EV_FU06.BIN|Sectors:32816-32868|Type:File|Size:108544|Path:CDROM/EVENT/EV_FU06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:645|ID:CDROM/EVENT/EV_FU07.BIN|Sectors:32869-32953|Type:File|Size:174080|Path:CDROM/EVENT/EV_FU07.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:646|ID:CDROM/EVENT/EV_FU08.BIN|Sectors:32954-33022|Type:File|Size:141312|Path:CDROM/EVENT/EV_FU08.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:647|ID:CDROM/EVENT/EV_HI01.BIN|Sectors:33023-33091|Type:File|Size:141312|Path:CDROM/EVENT/EV_HI01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:648|ID:CDROM/EVENT/EV_HI02.BIN|Sectors:33092-33144|Type:File|Size:108544|Path:CDROM/EVENT/EV_HI02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:649|ID:CDROM/EVENT/EV_HI03.BIN|Sectors:33145-33205|Type:File|Size:124928|Path:CDROM/EVENT/EV_HI03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:650|ID:CDROM/EVENT/EV_HI04.BIN|Sectors:33206-33274|Type:File|Size:141312|Path:CDROM/EVENT/EV_HI04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:651|ID:CDROM/EVENT/EV_HI05.BIN|Sectors:33275-33343|Type:File|Size:141312|Path:CDROM/EVENT/EV_HI05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:652|ID:CDROM/EVENT/EV_HI06.BIN|Sectors:33344-33380|Type:File|Size:75776|Path:CDROM/EVENT/EV_HI06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:653|ID:CDROM/EVENT/EV_IJ02.BIN|Sectors:33381-33433|Type:File|Size:108544|Path:CDROM/EVENT/EV_IJ02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:654|ID:CDROM/EVENT/EV_KA01.BIN|Sectors:33434-33494|Type:File|Size:124928|Path:CDROM/EVENT/EV_KA01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:655|ID:CDROM/EVENT/EV_KA02.BIN|Sectors:33495-33595|Type:File|Size:206848|Path:CDROM/EVENT/EV_KA02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:656|ID:CDROM/EVENT/EV_KA03.BIN|Sectors:33596-33664|Type:File|Size:141312|Path:CDROM/EVENT/EV_KA03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:657|ID:CDROM/EVENT/EV_KA04.BIN|Sectors:33665-33725|Type:File|Size:124928|Path:CDROM/EVENT/EV_KA04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:658|ID:CDROM/EVENT/EV_KA05.BIN|Sectors:33726-33786|Type:File|Size:124928|Path:CDROM/EVENT/EV_KA05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:659|ID:CDROM/EVENT/EV_KA06.BIN|Sectors:33787-33855|Type:File|Size:141312|Path:CDROM/EVENT/EV_KA06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:660|ID:CDROM/EVENT/EV_KG01.BIN|Sectors:33856-33916|Type:File|Size:124928|Path:CDROM/EVENT/EV_KG01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:661|ID:CDROM/EVENT/EV_KG02.BIN|Sectors:33917-33977|Type:File|Size:124928|Path:CDROM/EVENT/EV_KG02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:662|ID:CDROM/EVENT/EV_KG03.BIN|Sectors:33978-34038|Type:File|Size:124928|Path:CDROM/EVENT/EV_KG03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:663|ID:CDROM/EVENT/EV_KG04.BIN|Sectors:34039-34099|Type:File|Size:124928|Path:CDROM/EVENT/EV_KG04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:664|ID:CDROM/EVENT/EV_KG05.BIN|Sectors:34100-34160|Type:File|Size:124928|Path:CDROM/EVENT/EV_KG05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:665|ID:CDROM/EVENT/EV_KG07.BIN|Sectors:34161-34229|Type:File|Size:141312|Path:CDROM/EVENT/EV_KG07.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:666|ID:CDROM/EVENT/EV_KG10.BIN|Sectors:34230-34342|Type:File|Size:231424|Path:CDROM/EVENT/EV_KG10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:667|ID:CDROM/EVENT/EV_KI01.BIN|Sectors:34343-34403|Type:File|Size:124928|Path:CDROM/EVENT/EV_KI01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:668|ID:CDROM/EVENT/EV_KI02.BIN|Sectors:34404-34472|Type:File|Size:141312|Path:CDROM/EVENT/EV_KI02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:669|ID:CDROM/EVENT/EV_KI03.BIN|Sectors:34473-34541|Type:File|Size:141312|Path:CDROM/EVENT/EV_KI03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:670|ID:CDROM/EVENT/EV_KI04.BIN|Sectors:34542-34602|Type:File|Size:124928|Path:CDROM/EVENT/EV_KI04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:671|ID:CDROM/EVENT/EV_KI05.BIN|Sectors:34603-34663|Type:File|Size:124928|Path:CDROM/EVENT/EV_KI05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:672|ID:CDROM/EVENT/EV_KI10.BIN|Sectors:34664-34776|Type:File|Size:231424|Path:CDROM/EVENT/EV_KI10.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:673|ID:CDROM/EVENT/EV_KO01.BIN|Sectors:34777-34837|Type:File|Size:124928|Path:CDROM/EVENT/EV_KO01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:674|ID:CDROM/EVENT/EV_KO03.BIN|Sectors:34838-34898|Type:File|Size:124928|Path:CDROM/EVENT/EV_KO03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:675|ID:CDROM/EVENT/EV_KO04.BIN|Sectors:34899-34959|Type:File|Size:124928|Path:CDROM/EVENT/EV_KO04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:676|ID:CDROM/EVENT/EV_KO05.BIN|Sectors:34960-35020|Type:File|Size:124928|Path:CDROM/EVENT/EV_KO05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:677|ID:CDROM/EVENT/EV_KO06.BIN|Sectors:35021-35073|Type:File|Size:108544|Path:CDROM/EVENT/EV_KO06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:678|ID:CDROM/EVENT/EV_KO07.BIN|Sectors:35074-35142|Type:File|Size:141312|Path:CDROM/EVENT/EV_KO07.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:679|ID:CDROM/EVENT/EV_KY01.BIN|Sectors:35143-35203|Type:File|Size:124928|Path:CDROM/EVENT/EV_KY01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:680|ID:CDROM/EVENT/EV_KY02.BIN|Sectors:35204-35264|Type:File|Size:124928|Path:CDROM/EVENT/EV_KY02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:681|ID:CDROM/EVENT/EV_KY03.BIN|Sectors:35265-35333|Type:File|Size:141312|Path:CDROM/EVENT/EV_KY03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:682|ID:CDROM/EVENT/EV_KY04.BIN|Sectors:35334-35402|Type:File|Size:141312|Path:CDROM/EVENT/EV_KY04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:683|ID:CDROM/EVENT/EV_KY05.BIN|Sectors:35403-35463|Type:File|Size:124928|Path:CDROM/EVENT/EV_KY05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:684|ID:CDROM/EVENT/EV_MI01.BIN|Sectors:35464-35532|Type:File|Size:141312|Path:CDROM/EVENT/EV_MI01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:685|ID:CDROM/EVENT/EV_MI03.BIN|Sectors:35533-35593|Type:File|Size:124928|Path:CDROM/EVENT/EV_MI03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:686|ID:CDROM/EVENT/EV_MI04.BIN|Sectors:35594-35662|Type:File|Size:141312|Path:CDROM/EVENT/EV_MI04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:687|ID:CDROM/EVENT/EV_MI05.BIN|Sectors:35663-35723|Type:File|Size:124928|Path:CDROM/EVENT/EV_MI05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:688|ID:CDROM/EVENT/EV_MI06.BIN|Sectors:35724-35784|Type:File|Size:124928|Path:CDROM/EVENT/EV_MI06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:689|ID:CDROM/EVENT/EV_MI07.BIN|Sectors:35785-35853|Type:File|Size:141312|Path:CDROM/EVENT/EV_MI07.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:690|ID:CDROM/EVENT/EV_NI01.BIN|Sectors:35854-35914|Type:File|Size:124928|Path:CDROM/EVENT/EV_NI01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:691|ID:CDROM/EVENT/EV_NI02.BIN|Sectors:35915-35975|Type:File|Size:124928|Path:CDROM/EVENT/EV_NI02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:692|ID:CDROM/EVENT/EV_NI03.BIN|Sectors:35976-36044|Type:File|Size:141312|Path:CDROM/EVENT/EV_NI03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:693|ID:CDROM/EVENT/EV_NI04.BIN|Sectors:36045-36105|Type:File|Size:124928|Path:CDROM/EVENT/EV_NI04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:694|ID:CDROM/EVENT/EV_NI05.BIN|Sectors:36106-36166|Type:File|Size:124928|Path:CDROM/EVENT/EV_NI05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:695|ID:CDROM/EVENT/EV_NI06.BIN|Sectors:36167-36284|Type:File|Size:241664|Path:CDROM/EVENT/EV_NI06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:696|ID:CDROM/EVENT/EV_SA01.BIN|Sectors:36285-36353|Type:File|Size:141312|Path:CDROM/EVENT/EV_SA01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:697|ID:CDROM/EVENT/EV_SA03.BIN|Sectors:36354-36414|Type:File|Size:124928|Path:CDROM/EVENT/EV_SA03.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:698|ID:CDROM/EVENT/EV_SA04.BIN|Sectors:36415-36475|Type:File|Size:124928|Path:CDROM/EVENT/EV_SA04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:699|ID:CDROM/EVENT/EV_SA05.BIN|Sectors:36476-36536|Type:File|Size:124928|Path:CDROM/EVENT/EV_SA05.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:700|ID:CDROM/EVENT/EV_SA06.BIN|Sectors:36537-36605|Type:File|Size:141312|Path:CDROM/EVENT/EV_SA06.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:701|ID:CDROM/EVENT/EV_SA07.BIN|Sectors:36606-36674|Type:File|Size:141312|Path:CDROM/EVENT/EV_SA07.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:702|ID:CDROM/EVENT/EV_TA02.BIN|Sectors:36675-36727|Type:File|Size:108544|Path:CDROM/EVENT/EV_TA02.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:703|ID:CDROM/EVENT/EV_TA04.BIN|Sectors:36728-36788|Type:File|Size:124928|Path:CDROM/EVENT/EV_TA04.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:704|ID:CDROM/EVENT/EV_YO01.BIN|Sectors:36789-36849|Type:File|Size:124928|Path:CDROM/EVENT/EV_YO01.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:705|ID:CDROM/EVENT/KATA_KAR.BIN|Sectors:36850-36850|Type:File|Size:2048|Path:CDROM/EVENT/KATA_KAR.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:706|ID:CDROM/EVENT/NOZOKI1.BIN|Sectors:36851-36903|Type:File|Size:108544|Path:CDROM/EVENT/NOZOKI1.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:707|ID:CDROM/EVENT/NOZOKI2.BIN|Sectors:36904-36956|Type:File|Size:108544|Path:CDROM/EVENT/NOZOKI2.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:708|ID:CDROM/EVENT/NOZOKI3.BIN|Sectors:36957-37009|Type:File|Size:108544|Path:CDROM/EVENT/NOZOKI3.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:709|ID:CDROM/EVENT/NOZOKI4.BIN|Sectors:37010-37062|Type:File|Size:108544|Path:CDROM/EVENT/NOZOKI4.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:710|ID:CDROM/EVENT/NOZOKI5.BIN|Sectors:37063-37115|Type:File|Size:108544|Path:CDROM/EVENT/NOZOKI5.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:711|ID:CDROM/EVENT/UFOCATCH.BIN|Sectors:37116-37128|Type:File|Size:26624|Path:CDROM/EVENT/UFOCATCH.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:712|ID:CDROM/EXEDIR/BUNKAKEN.EXN|Sectors:37130-37225|Type:File|Size:196608|Path:CDROM/EXEDIR/BUNKAKEN.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:713|ID:CDROM/EXEDIR/BUNKASAI.EXN|Sectors:37226-37321|Type:File|Size:196608|Path:CDROM/EXEDIR/BUNKASAI.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:714|ID:CDROM/EXEDIR/BUNKA_SD.EXN|Sectors:37322-37417|Type:File|Size:196608|Path:CDROM/EXEDIR/BUNKA_SD.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:715|ID:CDROM/EXEDIR/DATE.EXN|Sectors:37418-37513|Type:File|Size:196608|Path:CDROM/EXEDIR/DATE.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:716|ID:CDROM/EXEDIR/DATE2.EXN|Sectors:37514-37609|Type:File|Size:196608|Path:CDROM/EXEDIR/DATE2.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:717|ID:CDROM/EXEDIR/ENDING.EXN|Sectors:37610-37705|Type:File|Size:196608|Path:CDROM/EXEDIR/ENDING.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:718|ID:CDROM/EXEDIR/EN_NICHI.EXN|Sectors:37706-37801|Type:File|Size:196608|Path:CDROM/EXEDIR/EN_NICHI.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:719|ID:CDROM/EXEDIR/ETC.EXN|Sectors:37802-37897|Type:File|Size:196608|Path:CDROM/EXEDIR/ETC.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:720|ID:CDROM/EXEDIR/EVENT.EXN|Sectors:37898-37993|Type:File|Size:196608|Path:CDROM/EXEDIR/EVENT.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:721|ID:CDROM/EXEDIR/GEKO.EXN|Sectors:37994-38089|Type:File|Size:196608|Path:CDROM/EXEDIR/GEKO.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:722|ID:CDROM/EXEDIR/GYOZI.EXN|Sectors:38090-38185|Type:File|Size:196608|Path:CDROM/EXEDIR/GYOZI.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:723|ID:CDROM/EXEDIR/KANGEI.EXN|Sectors:38186-38281|Type:File|Size:196608|Path:CDROM/EXEDIR/KANGEI.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:724|ID:CDROM/EXEDIR/MASTER.EXN|Sectors:38282-38377|Type:File|Size:196608|Path:CDROM/EXEDIR/MASTER.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:725|ID:CDROM/EXEDIR/NAME_ENT.EXN|Sectors:38378-38473|Type:File|Size:196608|Path:CDROM/EXEDIR/NAME_ENT.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:726|ID:CDROM/EXEDIR/O.BIN|Sectors:38474-38569|Type:File|Size:196608|Path:CDROM/EXEDIR/O.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:727|ID:CDROM/EXEDIR/OLH.EXN|Sectors:38570-38665|Type:File|Size:196608|Path:CDROM/EXEDIR/OLH.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:728|ID:CDROM/EXEDIR/OMIMAI.EXN|Sectors:38666-38761|Type:File|Size:196608|Path:CDROM/EXEDIR/OMIMAI.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:729|ID:CDROM/EXEDIR/OPTION.EXN|Sectors:38762-38857|Type:File|Size:196608|Path:CDROM/EXEDIR/OPTION.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:730|ID:CDROM/EXEDIR/RENSYU.EXN|Sectors:38858-38953|Type:File|Size:196608|Path:CDROM/EXEDIR/RENSYU.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:731|ID:CDROM/EXEDIR/RPG_BAT.EXN|Sectors:38954-39049|Type:File|Size:196608|Path:CDROM/EXEDIR/RPG_BAT.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:732|ID:CDROM/EXEDIR/SHOUGATU.EXN|Sectors:39050-39145|Type:File|Size:196608|Path:CDROM/EXEDIR/SHOUGATU.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:733|ID:CDROM/EXEDIR/SHUGAKU.EXN|Sectors:39146-39241|Type:File|Size:196608|Path:CDROM/EXEDIR/SHUGAKU.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:734|ID:CDROM/EXEDIR/TACO.EXN|Sectors:39242-39337|Type:File|Size:196608|Path:CDROM/EXEDIR/TACO.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:735|ID:CDROM/EXEDIR/TAIIKU.EXN|Sectors:39338-39433|Type:File|Size:196608|Path:CDROM/EXEDIR/TAIIKU.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:736|ID:CDROM/EXEDIR/TEL.EXN|Sectors:39434-39529|Type:File|Size:196608|Path:CDROM/EXEDIR/TEL.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:737|ID:CDROM/EXEDIR/TT.EXN|Sectors:39530-39625|Type:File|Size:196608|Path:CDROM/EXEDIR/TT.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:738|ID:CDROM/EXEDIR/VALEN.EXN|Sectors:39626-39721|Type:File|Size:196608|Path:CDROM/EXEDIR/VALEN.EXN|Has mode 2 form 2:No|Has CD audio:No
+    #:739|ID:CDROM/FUKUTEST/ALBUM.NBN|Sectors:39723-39827|Type:File|Size:215040|Path:CDROM/FUKUTEST/ALBUM.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:740|ID:CDROM/FUKUTEST/CALROM.NBN|Sectors:39828-39976|Type:File|Size:305152|Path:CDROM/FUKUTEST/CALROM.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:741|ID:CDROM/FUKUTEST/CLUBMAST.NBN|Sectors:39977-40086|Type:File|Size:225280|Path:CDROM/FUKUTEST/CLUBMAST.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:742|ID:CDROM/FUKUTEST/EFONT162.TIM|Sectors:40087-40103|Type:File|Size:34816|Path:CDROM/FUKUTEST/EFONT162.TIM|Has mode 2 form 2:No|Has CD audio:No
+    #:743|ID:CDROM/FUKUTEST/EFONT162.TIM[0]|Sectors:40087-40103|Type:Tim|Start Offset:0|Dimensions:256x256|Palettes:16|Bpp:4
+    #:744|ID:CDROM/FUKUTEST/EXAMINE.NBN|Sectors:40104-40116|Type:File|Size:26624|Path:CDROM/FUKUTEST/EXAMINE.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:745|ID:CDROM/FUKUTEST/FILESEL.NBN|Sectors:40117-40253|Type:File|Size:280576|Path:CDROM/FUKUTEST/FILESEL.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:746|ID:CDROM/FUKUTEST/GIRLINFO.NBN|Sectors:40254-40286|Type:File|Size:67584|Path:CDROM/FUKUTEST/GIRLINFO.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:747|ID:CDROM/FUKUTEST/JOHO.NBN|Sectors:40287-40324|Type:File|Size:77824|Path:CDROM/FUKUTEST/JOHO.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:748|ID:CDROM/FUKUTEST/MAINROM.NBN|Sectors:40325-40377|Type:File|Size:108544|Path:CDROM/FUKUTEST/MAINROM.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:749|ID:CDROM/FUKUTEST/MEMCARD.NBN|Sectors:40378-40382|Type:File|Size:10240|Path:CDROM/FUKUTEST/MEMCARD.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:750|ID:CDROM/FUKUTEST/NAME_KAN.NBN|Sectors:40383-40388|Type:File|Size:12288|Path:CDROM/FUKUTEST/NAME_KAN.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:751|ID:CDROM/FUKUTEST/NOZOKI.NBN|Sectors:40389-40437|Type:File|Size:100352|Path:CDROM/FUKUTEST/NOZOKI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:752|ID:CDROM/FUKUTEST/OPEN.NBN|Sectors:40438-40611|Type:File|Size:356352|Path:CDROM/FUKUTEST/OPEN.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:753|ID:CDROM/FUKUTEST/OPTION.NBN|Sectors:40612-40672|Type:File|Size:124928|Path:CDROM/FUKUTEST/OPTION.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:754|ID:CDROM/FUKUTEST/O_31_01.NBN|Sectors:40673-40737|Type:File|Size:133120|Path:CDROM/FUKUTEST/O_31_01.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:755|ID:CDROM/FUKUTEST/O_31_02.NBN|Sectors:40738-40802|Type:File|Size:133120|Path:CDROM/FUKUTEST/O_31_02.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:756|ID:CDROM/FUKUTEST/O_31_03.NBN|Sectors:40803-40867|Type:File|Size:133120|Path:CDROM/FUKUTEST/O_31_03.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:757|ID:CDROM/FUKUTEST/O_31_04.NBN|Sectors:40868-40916|Type:File|Size:100352|Path:CDROM/FUKUTEST/O_31_04.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:758|ID:CDROM/FUKUTEST/O_31_05L.NBN|Sectors:40917-40949|Type:File|Size:67584|Path:CDROM/FUKUTEST/O_31_05L.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:759|ID:CDROM/FUKUTEST/O_31_05R.NBN|Sectors:40950-40982|Type:File|Size:67584|Path:CDROM/FUKUTEST/O_31_05R.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:760|ID:CDROM/FUKUTEST/O_31_06.NBN|Sectors:40983-41031|Type:File|Size:100352|Path:CDROM/FUKUTEST/O_31_06.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:761|ID:CDROM/FUKUTEST/O_31_07.NBN|Sectors:41032-41064|Type:File|Size:67584|Path:CDROM/FUKUTEST/O_31_07.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:762|ID:CDROM/FUKUTEST/STAFF_R.NBN|Sectors:41065-41146|Type:File|Size:167936|Path:CDROM/FUKUTEST/STAFF_R.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:763|ID:CDROM/FUKUTEST/STAFF_T.NBN|Sectors:41147-41163|Type:File|Size:34816|Path:CDROM/FUKUTEST/STAFF_T.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:764|ID:CDROM/FUKUTEST/TITLE.NBN|Sectors:41164-41377|Type:File|Size:438272|Path:CDROM/FUKUTEST/TITLE.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:765|ID:CDROM/FUKUTEST/TOKIMEKI.BS|Sectors:41378-41386|Type:File|Size:18432|Path:CDROM/FUKUTEST/TOKIMEKI.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:766|ID:CDROM/FUKUTEST/XA.NBN|Sectors:41387-41444|Type:File|Size:118784|Path:CDROM/FUKUTEST/XA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:767|ID:CDROM/HOLI_SD/SD_P24.NBN|Sectors:41446-41486|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P24.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:768|ID:CDROM/HOLI_SD/SD_P24W.NBN|Sectors:41487-41527|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P24W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:769|ID:CDROM/HOLI_SD/SD_P25.NBN|Sectors:41528-41568|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P25.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:770|ID:CDROM/HOLI_SD/SD_P25W.NBN|Sectors:41569-41609|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P25W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:771|ID:CDROM/HOLI_SD/SD_P26.NBN|Sectors:41610-41650|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P26.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:772|ID:CDROM/HOLI_SD/SD_P26W.NBN|Sectors:41651-41691|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P26W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:773|ID:CDROM/HOLI_SD/SD_P27.NBN|Sectors:41692-41732|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P27.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:774|ID:CDROM/HOLI_SD/SD_P27W.NBN|Sectors:41733-41773|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P27W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:775|ID:CDROM/HOLI_SD/SD_P28.NBN|Sectors:41774-41814|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P28.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:776|ID:CDROM/HOLI_SD/SD_P28W.NBN|Sectors:41815-41855|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P28W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:777|ID:CDROM/HOLI_SD/SD_P29.NBN|Sectors:41856-41896|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P29.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:778|ID:CDROM/HOLI_SD/SD_P29W.NBN|Sectors:41897-41937|Type:File|Size:83968|Path:CDROM/HOLI_SD/SD_P29W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:779|ID:CDROM/LASTPHOT/ALL_C.NBN|Sectors:41939-41987|Type:File|Size:100352|Path:CDROM/LASTPHOT/ALL_C.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:780|ID:CDROM/LASTPHOT/LASTP_AS.NBN|Sectors:41988-42020|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_AS.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:781|ID:CDROM/LASTPHOT/LASTP_HI.NBN|Sectors:42021-42053|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_HI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:782|ID:CDROM/LASTPHOT/LASTP_HU.NBN|Sectors:42054-42086|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_HU.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:783|ID:CDROM/LASTPHOT/LASTP_IZ.NBN|Sectors:42087-42119|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_IZ.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:784|ID:CDROM/LASTPHOT/LASTP_KA.NBN|Sectors:42120-42152|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_KA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:785|ID:CDROM/LASTPHOT/LASTP_KG.NBN|Sectors:42153-42185|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_KG.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:786|ID:CDROM/LASTPHOT/LASTP_KI.NBN|Sectors:42186-42218|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_KI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:787|ID:CDROM/LASTPHOT/LASTP_KO.NBN|Sectors:42219-42251|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_KO.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:788|ID:CDROM/LASTPHOT/LASTP_KY.NBN|Sectors:42252-42284|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_KY.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:789|ID:CDROM/LASTPHOT/LASTP_MI.NBN|Sectors:42285-42317|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_MI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:790|ID:CDROM/LASTPHOT/LASTP_NI.NBN|Sectors:42318-42350|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_NI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:791|ID:CDROM/LASTPHOT/LASTP_TA.NBN|Sectors:42351-42383|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_TA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:792|ID:CDROM/LASTPHOT/LASTP_YU.NBN|Sectors:42384-42416|Type:File|Size:67584|Path:CDROM/LASTPHOT/LASTP_YU.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:793|ID:CDROM/MAIN_SD/SD_P00.NBN|Sectors:42418-42458|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P00.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:794|ID:CDROM/MAIN_SD/SD_P00W.NBN|Sectors:42459-42499|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P00W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:795|ID:CDROM/MAIN_SD/SD_P01.NBN|Sectors:42500-42540|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P01.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:796|ID:CDROM/MAIN_SD/SD_P01W.NBN|Sectors:42541-42581|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P01W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:797|ID:CDROM/MAIN_SD/SD_P02.NBN|Sectors:42582-42622|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P02.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:798|ID:CDROM/MAIN_SD/SD_P02W.NBN|Sectors:42623-42663|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P02W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:799|ID:CDROM/MAIN_SD/SD_P03.NBN|Sectors:42664-42704|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P03.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:800|ID:CDROM/MAIN_SD/SD_P03W.NBN|Sectors:42705-42745|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P03W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:801|ID:CDROM/MAIN_SD/SD_P04.NBN|Sectors:42746-42786|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P04.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:802|ID:CDROM/MAIN_SD/SD_P04W.NBN|Sectors:42787-42827|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P04W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:803|ID:CDROM/MAIN_SD/SD_P05.NBN|Sectors:42828-42868|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P05.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:804|ID:CDROM/MAIN_SD/SD_P05W.NBN|Sectors:42869-42909|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P05W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:805|ID:CDROM/MAIN_SD/SD_P06.NBN|Sectors:42910-42950|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P06.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:806|ID:CDROM/MAIN_SD/SD_P07.NBN|Sectors:42951-42991|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P07.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:807|ID:CDROM/MAIN_SD/SD_P08.NBN|Sectors:42992-43032|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P08.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:808|ID:CDROM/MAIN_SD/SD_P09.NBN|Sectors:43033-43073|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P09.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:809|ID:CDROM/MAIN_SD/SD_P09W.NBN|Sectors:43074-43114|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P09W.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:810|ID:CDROM/MAIN_SD/SD_P0A.NBN|Sectors:43115-43155|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P0A.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:811|ID:CDROM/MAIN_SD/SD_P0AW.NBN|Sectors:43156-43196|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P0AW.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:812|ID:CDROM/MAIN_SD/SD_P0B.NBN|Sectors:43197-43237|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P0B.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:813|ID:CDROM/MAIN_SD/SD_P0BW.NBN|Sectors:43238-43278|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P0BW.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:814|ID:CDROM/MAIN_SD/SD_P0C.NBN|Sectors:43279-43319|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P0C.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:815|ID:CDROM/MAIN_SD/SD_P0CW.NBN|Sectors:43320-43360|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P0CW.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:816|ID:CDROM/MAIN_SD/SD_P0D.NBN|Sectors:43361-43401|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P0D.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:817|ID:CDROM/MAIN_SD/SD_P0DW.NBN|Sectors:43402-43442|Type:File|Size:83968|Path:CDROM/MAIN_SD/SD_P0DW.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:818|ID:CDROM/MASTER/EN_GP.BIN|Sectors:43444-43446|Type:File|Size:6144|Path:CDROM/MASTER/EN_GP.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:819|ID:CDROM/MASTER/G_CON.BIN|Sectors:43447-43449|Type:File|Size:6144|Path:CDROM/MASTER/G_CON.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:820|ID:CDROM/MASTER/KOSIEN.BIN|Sectors:43450-43451|Type:File|Size:4096|Path:CDROM/MASTER/KOSIEN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:821|ID:CDROM/MASTER/MOKUTEN.BIN|Sectors:43452-43454|Type:File|Size:6144|Path:CDROM/MASTER/MOKUTEN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:822|ID:CDROM/MASTER/NOBEL.BIN|Sectors:43455-43457|Type:File|Size:6144|Path:CDROM/MASTER/NOBEL.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:823|ID:CDROM/MASTER/SUI_CON.BIN|Sectors:43458-43460|Type:File|Size:6144|Path:CDROM/MASTER/SUI_CON.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:824|ID:CDROM/MASTER/TAI_MAS.BIN|Sectors:43461-43471|Type:File|Size:22528|Path:CDROM/MASTER/TAI_MAS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:825|ID:CDROM/MASTER/TEAR.BIN|Sectors:43472-43485|Type:File|Size:28672|Path:CDROM/MASTER/TEAR.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:826|ID:CDROM/MASTER/UEKI.BIN|Sectors:43486-43488|Type:File|Size:6144|Path:CDROM/MASTER/UEKI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:827|ID:CDROM/NAME_ENT/NAME_ENT.NBN|Sectors:43490-43543|Type:File|Size:110592|Path:CDROM/NAME_ENT/NAME_ENT.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:828|ID:CDROM/NAME_ENT/NAME_SAK.BS|Sectors:43544-43553|Type:File|Size:20480|Path:CDROM/NAME_ENT/NAME_SAK.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:829|ID:CDROM/PROLODIR/CUT_05.NBN|Sectors:43555-43603|Type:File|Size:100352|Path:CDROM/PROLODIR/CUT_05.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:830|ID:CDROM/PROLODIR/CUT_07.NBN|Sectors:43604-43652|Type:File|Size:100352|Path:CDROM/PROLODIR/CUT_07.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:831|ID:CDROM/PROLODIR/CUT_08.NBN|Sectors:43653-43701|Type:File|Size:100352|Path:CDROM/PROLODIR/CUT_08.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:832|ID:CDROM/PROLODIR/CUT_09.NBN|Sectors:43702-43750|Type:File|Size:100352|Path:CDROM/PROLODIR/CUT_09.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:833|ID:CDROM/PROLODIR/CUT_10.NBN|Sectors:43751-43799|Type:File|Size:100352|Path:CDROM/PROLODIR/CUT_10.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:834|ID:CDROM/PROLODIR/CUT_12.NBN|Sectors:43800-43848|Type:File|Size:100352|Path:CDROM/PROLODIR/CUT_12.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:835|ID:CDROM/PROLODIR/CUT_14.NBN|Sectors:43849-43897|Type:File|Size:100352|Path:CDROM/PROLODIR/CUT_14.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:836|ID:CDROM/PROLODIR/CUT_16.NBN|Sectors:43898-43946|Type:File|Size:100352|Path:CDROM/PROLODIR/CUT_16.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:837|ID:CDROM/PROLODIR/O_01.NBN|Sectors:43947-43959|Type:File|Size:26624|Path:CDROM/PROLODIR/O_01.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:838|ID:CDROM/PROLODIR/O_05.NBN|Sectors:43960-43968|Type:File|Size:18432|Path:CDROM/PROLODIR/O_05.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:839|ID:CDROM/PROLODIR/O_06.NBN|Sectors:43969-43977|Type:File|Size:18432|Path:CDROM/PROLODIR/O_06.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:840|ID:CDROM/PROLODIR/O_07.NBN|Sectors:43978-44002|Type:File|Size:51200|Path:CDROM/PROLODIR/O_07.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:841|ID:CDROM/PROLODIR/O_08.NBN|Sectors:44003-44027|Type:File|Size:51200|Path:CDROM/PROLODIR/O_08.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:842|ID:CDROM/PROLODIR/O_09.NBN|Sectors:44028-44036|Type:File|Size:18432|Path:CDROM/PROLODIR/O_09.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:843|ID:CDROM/PROLODIR/O_10.NBN|Sectors:44037-44061|Type:File|Size:51200|Path:CDROM/PROLODIR/O_10.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:844|ID:CDROM/PROLODIR/O_11.NBN|Sectors:44062-44094|Type:File|Size:67584|Path:CDROM/PROLODIR/O_11.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:845|ID:CDROM/PROLODIR/O_12.NBN|Sectors:44095-44111|Type:File|Size:34816|Path:CDROM/PROLODIR/O_12.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:846|ID:CDROM/PROLODIR/O_13.NBN|Sectors:44112-44176|Type:File|Size:133120|Path:CDROM/PROLODIR/O_13.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:847|ID:CDROM/PROLODIR/O_14.NBN|Sectors:44177-44185|Type:File|Size:18432|Path:CDROM/PROLODIR/O_14.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:848|ID:CDROM/PROLODIR/O_15.NBN|Sectors:44186-44218|Type:File|Size:67584|Path:CDROM/PROLODIR/O_15.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:849|ID:CDROM/PROLODIR/O_16.NBN|Sectors:44219-44243|Type:File|Size:51200|Path:CDROM/PROLODIR/O_16.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:850|ID:CDROM/PROLODIR/P_01_04.BS|Sectors:44244-44252|Type:File|Size:17016|Path:CDROM/PROLODIR/P_01_04.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:851|ID:CDROM/PROLODIR/P_01_04B.BS|Sectors:44253-44261|Type:File|Size:17952|Path:CDROM/PROLODIR/P_01_04B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:852|ID:CDROM/PROLODIR/P_01_05.BS|Sectors:44262-44267|Type:File|Size:10532|Path:CDROM/PROLODIR/P_01_05.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:853|ID:CDROM/PROLODIR/P_01_06.BS|Sectors:44268-44277|Type:File|Size:18492|Path:CDROM/PROLODIR/P_01_06.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:854|ID:CDROM/PROLODIR/P_01_07.BS|Sectors:44278-44287|Type:File|Size:19568|Path:CDROM/PROLODIR/P_01_07.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:855|ID:CDROM/PROLODIR/P_01_07B.BS|Sectors:44288-44292|Type:File|Size:8656|Path:CDROM/PROLODIR/P_01_07B.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:856|ID:CDROM/PROLODIR/P_01_08.BS|Sectors:44293-44298|Type:File|Size:11788|Path:CDROM/PROLODIR/P_01_08.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:857|ID:CDROM/PROLODIR/P_01_09.BS|Sectors:44299-44306|Type:File|Size:15988|Path:CDROM/PROLODIR/P_01_09.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:858|ID:CDROM/SERIFU/DATE_AS.BIN|Sectors:44309-44328|Type:File|Size:40960|Path:CDROM/SERIFU/DATE_AS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:859|ID:CDROM/SERIFU/DATE_FU.BIN|Sectors:44329-44351|Type:File|Size:47104|Path:CDROM/SERIFU/DATE_FU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:860|ID:CDROM/SERIFU/DATE_HI.BIN|Sectors:44352-44372|Type:File|Size:43008|Path:CDROM/SERIFU/DATE_HI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:861|ID:CDROM/SERIFU/DATE_KA.BIN|Sectors:44373-44394|Type:File|Size:45056|Path:CDROM/SERIFU/DATE_KA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:862|ID:CDROM/SERIFU/DATE_KG.BIN|Sectors:44395-44417|Type:File|Size:47104|Path:CDROM/SERIFU/DATE_KG.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:863|ID:CDROM/SERIFU/DATE_KI.BIN|Sectors:44418-44441|Type:File|Size:49152|Path:CDROM/SERIFU/DATE_KI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:864|ID:CDROM/SERIFU/DATE_KO.BIN|Sectors:44442-44464|Type:File|Size:47104|Path:CDROM/SERIFU/DATE_KO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:865|ID:CDROM/SERIFU/DATE_KY.BIN|Sectors:44465-44485|Type:File|Size:43008|Path:CDROM/SERIFU/DATE_KY.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:866|ID:CDROM/SERIFU/DATE_MI.BIN|Sectors:44486-44506|Type:File|Size:43008|Path:CDROM/SERIFU/DATE_MI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:867|ID:CDROM/SERIFU/DATE_NI.BIN|Sectors:44507-44528|Type:File|Size:45056|Path:CDROM/SERIFU/DATE_NI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:868|ID:CDROM/SERIFU/DATE_SA.BIN|Sectors:44529-44550|Type:File|Size:45056|Path:CDROM/SERIFU/DATE_SA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:869|ID:CDROM/SERIFU/ENDING.BIN|Sectors:44551-44567|Type:File|Size:34816|Path:CDROM/SERIFU/ENDING.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:870|ID:CDROM/SERIFU/EPILOG.BIN|Sectors:44568-44576|Type:File|Size:18432|Path:CDROM/SERIFU/EPILOG.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:871|ID:CDROM/SERIFU/EVENT_AS.BIN|Sectors:44577-44580|Type:File|Size:8192|Path:CDROM/SERIFU/EVENT_AS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:872|ID:CDROM/SERIFU/EVENT_FU.BIN|Sectors:44581-44586|Type:File|Size:12288|Path:CDROM/SERIFU/EVENT_FU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:873|ID:CDROM/SERIFU/EVENT_HI.BIN|Sectors:44587-44590|Type:File|Size:8192|Path:CDROM/SERIFU/EVENT_HI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:874|ID:CDROM/SERIFU/EVENT_KA.BIN|Sectors:44591-44595|Type:File|Size:10240|Path:CDROM/SERIFU/EVENT_KA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:875|ID:CDROM/SERIFU/EVENT_KG.BIN|Sectors:44596-44600|Type:File|Size:10240|Path:CDROM/SERIFU/EVENT_KG.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:876|ID:CDROM/SERIFU/EVENT_KI.BIN|Sectors:44601-44603|Type:File|Size:6144|Path:CDROM/SERIFU/EVENT_KI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:877|ID:CDROM/SERIFU/EVENT_KO.BIN|Sectors:44604-44608|Type:File|Size:10240|Path:CDROM/SERIFU/EVENT_KO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:878|ID:CDROM/SERIFU/EVENT_KY.BIN|Sectors:44609-44614|Type:File|Size:12288|Path:CDROM/SERIFU/EVENT_KY.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:879|ID:CDROM/SERIFU/EVENT_MI.BIN|Sectors:44615-44619|Type:File|Size:10240|Path:CDROM/SERIFU/EVENT_MI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:880|ID:CDROM/SERIFU/EVENT_NI.BIN|Sectors:44620-44626|Type:File|Size:14336|Path:CDROM/SERIFU/EVENT_NI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:881|ID:CDROM/SERIFU/EVENT_OT.BIN|Sectors:44627-44633|Type:File|Size:14336|Path:CDROM/SERIFU/EVENT_OT.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:882|ID:CDROM/SERIFU/EVENT_SA.BIN|Sectors:44634-44639|Type:File|Size:12288|Path:CDROM/SERIFU/EVENT_SA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:883|ID:CDROM/SERIFU/GASSHUKU.BIN|Sectors:44640-44698|Type:File|Size:120832|Path:CDROM/SERIFU/GASSHUKU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:884|ID:CDROM/SERIFU/GASSH_FU.BIN|Sectors:44699-44743|Type:File|Size:92160|Path:CDROM/SERIFU/GASSH_FU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:885|ID:CDROM/SERIFU/GEKO.BIN|Sectors:44744-44779|Type:File|Size:73728|Path:CDROM/SERIFU/GEKO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:886|ID:CDROM/SERIFU/GROUP_D.BIN|Sectors:44780-44796|Type:File|Size:34816|Path:CDROM/SERIFU/GROUP_D.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:887|ID:CDROM/SERIFU/G_APPEAR.BIN|Sectors:44797-44812|Type:File|Size:32768|Path:CDROM/SERIFU/G_APPEAR.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:888|ID:CDROM/SERIFU/G_BIRTH.BIN|Sectors:44813-44834|Type:File|Size:45056|Path:CDROM/SERIFU/G_BIRTH.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:889|ID:CDROM/SERIFU/G_INVITE.BIN|Sectors:44835-44850|Type:File|Size:32768|Path:CDROM/SERIFU/G_INVITE.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:890|ID:CDROM/SERIFU/HAGEMASI.BIN|Sectors:44851-44856|Type:File|Size:12288|Path:CDROM/SERIFU/HAGEMASI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:891|ID:CDROM/SERIFU/KARADATA.BIN|Sectors:44857-44859|Type:File|Size:6144|Path:CDROM/SERIFU/KARADATA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:892|ID:CDROM/SERIFU/NYUBU.BIN|Sectors:44860-44862|Type:File|Size:6144|Path:CDROM/SERIFU/NYUBU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:893|ID:CDROM/SERIFU/OMIMAI.BIN|Sectors:44863-44866|Type:File|Size:8192|Path:CDROM/SERIFU/OMIMAI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:894|ID:CDROM/SERIFU/P_BIRTH.BIN|Sectors:44867-44869|Type:File|Size:6144|Path:CDROM/SERIFU/P_BIRTH.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:895|ID:CDROM/SERIFU/SERIFU.BIN|Sectors:44870-44871|Type:File|Size:4096|Path:CDROM/SERIFU/SERIFU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:896|ID:CDROM/SERIFU/SHOGATU.BIN|Sectors:44872-44923|Type:File|Size:106496|Path:CDROM/SERIFU/SHOGATU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:897|ID:CDROM/SERIFU/SHUGAKU.BIN|Sectors:44924-44968|Type:File|Size:92160|Path:CDROM/SERIFU/SHUGAKU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:898|ID:CDROM/SERIFU/TAKU3.BIN|Sectors:44969-44971|Type:File|Size:6144|Path:CDROM/SERIFU/TAKU3.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:899|ID:CDROM/SERIFU/VALEN.BIN|Sectors:44972-44978|Type:File|Size:14336|Path:CDROM/SERIFU/VALEN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:900|ID:CDROM/SERIFU/WHITE.BIN|Sectors:44979-44987|Type:File|Size:18432|Path:CDROM/SERIFU/WHITE.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:901|ID:CDROM/SERIFU/XMAS.BIN|Sectors:44988-45001|Type:File|Size:28672|Path:CDROM/SERIFU/XMAS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:902|ID:CDROM/SERIFU/ZAKOSEN.BIN|Sectors:45002-45002|Type:File|Size:2048|Path:CDROM/SERIFU/ZAKOSEN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:903|ID:CDROM/SHIAI/SIAI_B.BIN|Sectors:45004-45030|Type:File|Size:55296|Path:CDROM/SHIAI/SIAI_B.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:904|ID:CDROM/SHIAI/SIAI_F.BIN|Sectors:45031-45056|Type:File|Size:53248|Path:CDROM/SHIAI/SIAI_F.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:905|ID:CDROM/SHIAI/SIAI_S.BIN|Sectors:45057-45083|Type:File|Size:55296|Path:CDROM/SHIAI/SIAI_S.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:906|ID:CDROM/SHIAI/SIAI_T.BIN|Sectors:45084-45110|Type:File|Size:55296|Path:CDROM/SHIAI/SIAI_T.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:907|ID:CDROM/SHIAI/SIAI_TX.BIN|Sectors:45111-45117|Type:File|Size:14336|Path:CDROM/SHIAI/SIAI_TX.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:908|ID:CDROM/SHIAI/SIAI_Y.BIN|Sectors:45118-45144|Type:File|Size:55296|Path:CDROM/SHIAI/SIAI_Y.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:909|ID:CDROM/SPEAKTST/TEST_AS.BIN|Sectors:45146-45184|Type:File|Size:79872|Path:CDROM/SPEAKTST/TEST_AS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:910|ID:CDROM/SPEAKTST/TEST_FU.BIN|Sectors:45185-45275|Type:File|Size:186368|Path:CDROM/SPEAKTST/TEST_FU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:911|ID:CDROM/SPEAKTST/TEST_HI.BIN|Sectors:45276-45329|Type:File|Size:110592|Path:CDROM/SPEAKTST/TEST_HI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:912|ID:CDROM/SPEAKTST/TEST_KA.BIN|Sectors:45330-45384|Type:File|Size:112640|Path:CDROM/SPEAKTST/TEST_KA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:913|ID:CDROM/SPEAKTST/TEST_KG.BIN|Sectors:45385-45428|Type:File|Size:90112|Path:CDROM/SPEAKTST/TEST_KG.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:914|ID:CDROM/SPEAKTST/TEST_KI.BIN|Sectors:45429-45484|Type:File|Size:114688|Path:CDROM/SPEAKTST/TEST_KI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:915|ID:CDROM/SPEAKTST/TEST_KO.BIN|Sectors:45485-45534|Type:File|Size:102400|Path:CDROM/SPEAKTST/TEST_KO.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:916|ID:CDROM/SPEAKTST/TEST_KY.BIN|Sectors:45535-45596|Type:File|Size:126976|Path:CDROM/SPEAKTST/TEST_KY.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:917|ID:CDROM/SPEAKTST/TEST_MI.BIN|Sectors:45597-45638|Type:File|Size:86016|Path:CDROM/SPEAKTST/TEST_MI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:918|ID:CDROM/SPEAKTST/TEST_NI.BIN|Sectors:45639-45694|Type:File|Size:114688|Path:CDROM/SPEAKTST/TEST_NI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:919|ID:CDROM/SPEAKTST/TEST_OT.BIN|Sectors:45695-45714|Type:File|Size:40960|Path:CDROM/SPEAKTST/TEST_OT.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:920|ID:CDROM/SPEAKTST/TEST_SA.BIN|Sectors:45715-45757|Type:File|Size:88064|Path:CDROM/SPEAKTST/TEST_SA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:921|ID:CDROM/STAFF2/STAF2AS.NBN|Sectors:45759-45771|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2AS.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:922|ID:CDROM/STAFF2/STAF2COL.NBN|Sectors:45772-45772|Type:File|Size:2048|Path:CDROM/STAFF2/STAF2COL.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:923|ID:CDROM/STAFF2/STAF2HI.NBN|Sectors:45773-45785|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2HI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:924|ID:CDROM/STAFF2/STAF2HU.NBN|Sectors:45786-45798|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2HU.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:925|ID:CDROM/STAFF2/STAF2IJ.NBN|Sectors:45799-45811|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2IJ.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:926|ID:CDROM/STAFF2/STAF2KG.NBN|Sectors:45812-45824|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2KG.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:927|ID:CDROM/STAFF2/STAF2KO.NBN|Sectors:45825-45837|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2KO.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:928|ID:CDROM/STAFF2/STAF2KS.NBN|Sectors:45838-45850|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2KS.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:929|ID:CDROM/STAFF2/STAF2KT.NBN|Sectors:45851-45863|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2KT.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:930|ID:CDROM/STAFF2/STAF2KY.NBN|Sectors:45864-45876|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2KY.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:931|ID:CDROM/STAFF2/STAF2MK.NBN|Sectors:45877-45889|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2MK.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:932|ID:CDROM/STAFF2/STAF2NZ.NBN|Sectors:45890-45902|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2NZ.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:933|ID:CDROM/STAFF2/STAF2SA.NBN|Sectors:45903-45915|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2SA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:934|ID:CDROM/STAFF2/STAF2TA.NBN|Sectors:45916-45928|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2TA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:935|ID:CDROM/STAFF2/STAF2YO.NBN|Sectors:45929-45941|Type:File|Size:26624|Path:CDROM/STAFF2/STAF2YO.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:936|ID:CDROM/TACO/3D_0.BS|Sectors:45944-45951|Type:File|Size:16384|Path:CDROM/TACO/3D_0.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:937|ID:CDROM/TACO/3D_1.BS|Sectors:45952-45960|Type:File|Size:18432|Path:CDROM/TACO/3D_1.BS|Has mode 2 form 2:No|Has CD audio:No
+    #:938|ID:CDROM/TACO/ALBUM1.NBN|Sectors:45961-46065|Type:File|Size:215040|Path:CDROM/TACO/ALBUM1.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:939|ID:CDROM/TACO/BAKU.TMD|Sectors:46066-46066|Type:File|Size:2048|Path:CDROM/TACO/BAKU.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:940|ID:CDROM/TACO/BS00.NBN|Sectors:46067-46098|Type:File|Size:65536|Path:CDROM/TACO/BS00.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:941|ID:CDROM/TACO/BS00.TMD|Sectors:46099-46103|Type:File|Size:10240|Path:CDROM/TACO/BS00.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:942|ID:CDROM/TACO/BS01.NBN|Sectors:46104-46135|Type:File|Size:65536|Path:CDROM/TACO/BS01.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:943|ID:CDROM/TACO/BS01.TMD|Sectors:46136-46153|Type:File|Size:36864|Path:CDROM/TACO/BS01.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:944|ID:CDROM/TACO/BS01_MTX.NBN|Sectors:46154-46165|Type:File|Size:23712|Path:CDROM/TACO/BS01_MTX.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:945|ID:CDROM/TACO/C_JIKI.NBN|Sectors:46166-46170|Type:File|Size:10240|Path:CDROM/TACO/C_JIKI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:946|ID:CDROM/TACO/DRA.TMD|Sectors:46171-46177|Type:File|Size:14336|Path:CDROM/TACO/DRA.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:947|ID:CDROM/TACO/DRA_MTX.NBN|Sectors:46178-46182|Type:File|Size:9072|Path:CDROM/TACO/DRA_MTX.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:948|ID:CDROM/TACO/D_IWA.NBN|Sectors:46183-46191|Type:File|Size:18432|Path:CDROM/TACO/D_IWA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:949|ID:CDROM/TACO/D_IWA.TMD|Sectors:46192-46192|Type:File|Size:2048|Path:CDROM/TACO/D_IWA.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:950|ID:CDROM/TACO/D_JIKI.TMD|Sectors:46193-46194|Type:File|Size:4096|Path:CDROM/TACO/D_JIKI.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:951|ID:CDROM/TACO/ENE_COL.NBN|Sectors:46195-46199|Type:File|Size:10240|Path:CDROM/TACO/ENE_COL.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:952|ID:CDROM/TACO/EYE.TMD|Sectors:46200-46202|Type:File|Size:6144|Path:CDROM/TACO/EYE.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:953|ID:CDROM/TACO/FLACK.TMD|Sectors:46203-46204|Type:File|Size:4096|Path:CDROM/TACO/FLACK.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:954|ID:CDROM/TACO/ITEM.TMD|Sectors:46205-46205|Type:File|Size:2048|Path:CDROM/TACO/ITEM.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:955|ID:CDROM/TACO/IWA.NBN|Sectors:46206-46213|Type:File|Size:16384|Path:CDROM/TACO/IWA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:956|ID:CDROM/TACO/IWA.TMD|Sectors:46214-46214|Type:File|Size:2048|Path:CDROM/TACO/IWA.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:957|ID:CDROM/TACO/JIKI.TMD|Sectors:46215-46216|Type:File|Size:4096|Path:CDROM/TACO/JIKI.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:958|ID:CDROM/TACO/JIMEN.NBN|Sectors:46217-46248|Type:File|Size:65536|Path:CDROM/TACO/JIMEN.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:959|ID:CDROM/TACO/NICHE.TMD|Sectors:46249-46252|Type:File|Size:8192|Path:CDROM/TACO/NICHE.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:960|ID:CDROM/TACO/SKIN.TMD|Sectors:46253-46258|Type:File|Size:12288|Path:CDROM/TACO/SKIN.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:961|ID:CDROM/TACO/SOUSE.TMD|Sectors:46259-46260|Type:File|Size:4096|Path:CDROM/TACO/SOUSE.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:962|ID:CDROM/TACO/SPI.TMD|Sectors:46261-46264|Type:File|Size:8192|Path:CDROM/TACO/SPI.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:963|ID:CDROM/TACO/SPI2.TMD|Sectors:46265-46267|Type:File|Size:6144|Path:CDROM/TACO/SPI2.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:964|ID:CDROM/TACO/SYS_COL.NBN|Sectors:46268-46270|Type:File|Size:6144|Path:CDROM/TACO/SYS_COL.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:965|ID:CDROM/TACO/TACOETC.NBN|Sectors:46271-46290|Type:File|Size:40448|Path:CDROM/TACO/TACOETC.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:966|ID:CDROM/TACO/TACOJIKI.NBN|Sectors:46291-46322|Type:File|Size:65536|Path:CDROM/TACO/TACOJIKI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:967|ID:CDROM/TACO/TACOTEX.NBN|Sectors:46323-46355|Type:File|Size:67584|Path:CDROM/TACO/TACOTEX.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:968|ID:CDROM/TACO/TACOTEXO.NBN|Sectors:46356-46356|Type:File|Size:2048|Path:CDROM/TACO/TACOTEXO.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:969|ID:CDROM/TACO/TAKO.TMD|Sectors:46357-46366|Type:File|Size:20480|Path:CDROM/TACO/TAKO.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:970|ID:CDROM/TACO/TAKO_MTX.NBN|Sectors:46367-46387|Type:File|Size:42320|Path:CDROM/TACO/TAKO_MTX.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:971|ID:CDROM/TACO/TAMA.TMD|Sectors:46388-46388|Type:File|Size:2048|Path:CDROM/TACO/TAMA.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:972|ID:CDROM/TACO/T_DRA.NBN|Sectors:46389-46420|Type:File|Size:65536|Path:CDROM/TACO/T_DRA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:973|ID:CDROM/TACO/T_EX0.NBN|Sectors:46421-46453|Type:File|Size:67584|Path:CDROM/TACO/T_EX0.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:974|ID:CDROM/TACO/T_HAMA.NBN|Sectors:46454-46462|Type:File|Size:18432|Path:CDROM/TACO/T_HAMA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:975|ID:CDROM/TACO/T_JIKI.NBN|Sectors:46463-46495|Type:File|Size:67584|Path:CDROM/TACO/T_JIKI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:976|ID:CDROM/TACO/T_NICHE.NBN|Sectors:46496-46528|Type:File|Size:67584|Path:CDROM/TACO/T_NICHE.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:977|ID:CDROM/TACO/T_SKIN.NBN|Sectors:46529-46561|Type:File|Size:67584|Path:CDROM/TACO/T_SKIN.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:978|ID:CDROM/TACO/T_SORA.NBN|Sectors:46562-46578|Type:File|Size:34816|Path:CDROM/TACO/T_SORA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:979|ID:CDROM/TACO/T_SUNA.NBN|Sectors:46579-46587|Type:File|Size:18432|Path:CDROM/TACO/T_SUNA.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:980|ID:CDROM/TACO/T_TAKO1.NBN|Sectors:46588-46620|Type:File|Size:67584|Path:CDROM/TACO/T_TAKO1.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:981|ID:CDROM/TACO/T_TAKO2.NBN|Sectors:46621-46653|Type:File|Size:67584|Path:CDROM/TACO/T_TAKO2.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:982|ID:CDROM/TACO/T_UMI.NBN|Sectors:46654-46662|Type:File|Size:18432|Path:CDROM/TACO/T_UMI.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:983|ID:CDROM/TACO/T_ZA00.NBN|Sectors:46663-46695|Type:File|Size:67584|Path:CDROM/TACO/T_ZA00.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:984|ID:CDROM/TACO/WANG.TMD|Sectors:46696-46698|Type:File|Size:6144|Path:CDROM/TACO/WANG.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:985|ID:CDROM/TACO/ZK00.TMD|Sectors:46699-46701|Type:File|Size:6144|Path:CDROM/TACO/ZK00.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:986|ID:CDROM/TACO/ZK01.TMD|Sectors:46702-46704|Type:File|Size:6144|Path:CDROM/TACO/ZK01.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:987|ID:CDROM/TACO/ZK02.TMD|Sectors:46705-46706|Type:File|Size:4096|Path:CDROM/TACO/ZK02.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:988|ID:CDROM/TACO/ZK03.TMD|Sectors:46707-46709|Type:File|Size:6144|Path:CDROM/TACO/ZK03.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:989|ID:CDROM/TACO/ZK04.TMD|Sectors:46710-46712|Type:File|Size:6144|Path:CDROM/TACO/ZK04.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:990|ID:CDROM/TACO/ZK05.TMD|Sectors:46713-46714|Type:File|Size:4096|Path:CDROM/TACO/ZK05.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:991|ID:CDROM/TACO/ZK_0.NBN|Sectors:46715-46746|Type:File|Size:65536|Path:CDROM/TACO/ZK_0.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:992|ID:CDROM/TACO/ZK_1.NBN|Sectors:46747-46778|Type:File|Size:65536|Path:CDROM/TACO/ZK_1.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:993|ID:CDROM/TACO/ZK_2.NBN|Sectors:46779-46810|Type:File|Size:65536|Path:CDROM/TACO/ZK_2.NBN|Has mode 2 form 2:No|Has CD audio:No
+    #:994|ID:CDROM/TAIIKU/F_DANCE.BIN|Sectors:46812-46813|Type:File|Size:4096|Path:CDROM/TAIIKU/F_DANCE.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:995|ID:CDROM/TAIIKU/KARI.BIN|Sectors:46814-47006|Type:File|Size:395264|Path:CDROM/TAIIKU/KARI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:996|ID:CDROM/TAIIKU/KASETU.BIN|Sectors:47007-47044|Type:File|Size:77824|Path:CDROM/TAIIKU/KASETU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:997|ID:CDROM/TAIIKU/KISA23.BIN|Sectors:47045-47045|Type:File|Size:2048|Path:CDROM/TAIIKU/KISA23.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:998|ID:CDROM/TAIIKU/KIYOTAI.BIN|Sectors:47046-47046|Type:File|Size:2048|Path:CDROM/TAIIKU/KIYOTAI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:999|ID:CDROM/TAIIKU/NININ.BIN|Sectors:47047-47207|Type:File|Size:329728|Path:CDROM/TAIIKU/NININ.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1000|ID:CDROM/TAIIKU/NINSETU.BIN|Sectors:47208-47286|Type:File|Size:161792|Path:CDROM/TAIIKU/NINSETU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1001|ID:CDROM/TAIIKU/SPOON.BIN|Sectors:47287-47471|Type:File|Size:378880|Path:CDROM/TAIIKU/SPOON.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1002|ID:CDROM/TAIIKU/SPSETU.BIN|Sectors:47472-47509|Type:File|Size:77824|Path:CDROM/TAIIKU/SPSETU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1003|ID:CDROM/TAIIKU/TAI_BG.BIN|Sectors:47510-47644|Type:File|Size:276480|Path:CDROM/TAIIKU/TAI_BG.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1004|ID:CDROM/TAIIKU/TAI_TX.BIN|Sectors:47645-47645|Type:File|Size:2048|Path:CDROM/TAIIKU/TAI_TX.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1005|ID:CDROM/TAIIKU/TAMA.BIN|Sectors:47646-47830|Type:File|Size:378880|Path:CDROM/TAIIKU/TAMA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1006|ID:CDROM/TAIIKU/TAOPD.BIN|Sectors:47831-47860|Type:File|Size:61440|Path:CDROM/TAIIKU/TAOPD.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1007|ID:CDROM/TAIIKU/TASETU.BIN|Sectors:47861-47906|Type:File|Size:94208|Path:CDROM/TAIIKU/TASETU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1008|ID:CDROM/TAIIKU/T_KIS_EV.BIN|Sectors:47907-47975|Type:File|Size:141312|Path:CDROM/TAIIKU/T_KIS_EV.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1009|ID:CDROM/TAIIKU/T_KIY_EV.BIN|Sectors:47976-48036|Type:File|Size:124928|Path:CDROM/TAIIKU/T_KIY_EV.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1010|ID:CDROM/TARA_OBJ/BUS.BIN|Sectors:48038-48050|Type:File|Size:26624|Path:CDROM/TARA_OBJ/BUS.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1011|ID:CDROM/TARA_OBJ/CLUBMAST.BIN|Sectors:48051-48160|Type:File|Size:225280|Path:CDROM/TARA_OBJ/CLUBMAST.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1012|ID:CDROM/TARA_OBJ/HANA.BIN|Sectors:48161-48194|Type:File|Size:69632|Path:CDROM/TARA_OBJ/HANA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1013|ID:CDROM/TARA_OBJ/HANABI.BIN|Sectors:48195-48328|Type:File|Size:274432|Path:CDROM/TARA_OBJ/HANABI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1014|ID:CDROM/TARA_OBJ/HOSI.BIN|Sectors:48329-48341|Type:File|Size:26624|Path:CDROM/TARA_OBJ/HOSI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1015|ID:CDROM/TARA_OBJ/HOUCHOU.BIN|Sectors:48342-48350|Type:File|Size:18432|Path:CDROM/TARA_OBJ/HOUCHOU.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1016|ID:CDROM/TARA_OBJ/KANRAN.BIN|Sectors:48351-48399|Type:File|Size:100352|Path:CDROM/TARA_OBJ/KANRAN.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1017|ID:CDROM/TARA_OBJ/KARAKASI.BIN|Sectors:48400-48401|Type:File|Size:4096|Path:CDROM/TARA_OBJ/KARAKASI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1018|ID:CDROM/TARA_OBJ/KIRAKIRA.BIN|Sectors:48402-48462|Type:File|Size:124928|Path:CDROM/TARA_OBJ/KIRAKIRA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1019|ID:CDROM/TARA_OBJ/NI_PARA.BIN|Sectors:48463-48491|Type:File|Size:59392|Path:CDROM/TARA_OBJ/NI_PARA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1020|ID:CDROM/TARA_OBJ/OMIKUJI.BIN|Sectors:48492-48546|Type:File|Size:112640|Path:CDROM/TARA_OBJ/OMIKUJI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1021|ID:CDROM/TARA_OBJ/OTAMA.BIN|Sectors:48547-48555|Type:File|Size:18432|Path:CDROM/TARA_OBJ/OTAMA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1022|ID:CDROM/TARA_OBJ/VIR_IWA.BIN|Sectors:48556-48556|Type:File|Size:2048|Path:CDROM/TARA_OBJ/VIR_IWA.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1023|ID:CDROM/TARA_OBJ/XMASTREE.BIN|Sectors:48557-48569|Type:File|Size:26624|Path:CDROM/TARA_OBJ/XMASTREE.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1024|ID:CDROM/TARA_OBJ/XMAS_PRE.BIN|Sectors:48570-48646|Type:File|Size:157696|Path:CDROM/TARA_OBJ/XMAS_PRE.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1025|ID:CDROM/TARA_OBJ/YUKI.BIN|Sectors:48647-48660|Type:File|Size:28672|Path:CDROM/TARA_OBJ/YUKI.BIN|Has mode 2 form 2:No|Has CD audio:No
+    #:1026|ID:CDROM/TMD/A.TMD|Sectors:48662-48662|Type:File|Size:2048|Path:CDROM/TMD/A.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1027|ID:CDROM/TMD/ALBUM.TMD|Sectors:48663-48663|Type:File|Size:2048|Path:CDROM/TMD/ALBUM.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1028|ID:CDROM/TMD/COREOB00.TMD|Sectors:48664-48668|Type:File|Size:10240|Path:CDROM/TMD/COREOB00.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1029|ID:CDROM/TMD/D.TMD|Sectors:48669-48670|Type:File|Size:4096|Path:CDROM/TMD/D.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1030|ID:CDROM/TMD/DOU.TMD|Sectors:48671-48672|Type:File|Size:4096|Path:CDROM/TMD/DOU.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1031|ID:CDROM/TMD/DUM.TMD|Sectors:48673-48673|Type:File|Size:2048|Path:CDROM/TMD/DUM.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1032|ID:CDROM/TMD/D_M_DOU.TMD|Sectors:48674-48675|Type:File|Size:4096|Path:CDROM/TMD/D_M_DOU.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1033|ID:CDROM/TMD/D_M_KUBI.TMD|Sectors:48676-48678|Type:File|Size:6144|Path:CDROM/TMD/D_M_KUBI.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1034|ID:CDROM/TMD/D_S_DOU.TMD|Sectors:48679-48680|Type:File|Size:4096|Path:CDROM/TMD/D_S_DOU.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1035|ID:CDROM/TMD/D_S_KUBI.TMD|Sectors:48681-48681|Type:File|Size:2048|Path:CDROM/TMD/D_S_KUBI.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1036|ID:CDROM/TMD/D_S_TU.TMD|Sectors:48682-48682|Type:File|Size:2048|Path:CDROM/TMD/D_S_TU.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1037|ID:CDROM/TMD/ENDING.TMD|Sectors:48683-48683|Type:File|Size:2048|Path:CDROM/TMD/ENDING.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1038|ID:CDROM/TMD/H.TMD|Sectors:48684-48685|Type:File|Size:4096|Path:CDROM/TMD/H.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1039|ID:CDROM/TMD/J_1.TMD|Sectors:48686-48686|Type:File|Size:2048|Path:CDROM/TMD/J_1.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1040|ID:CDROM/TMD/J_2.TMD|Sectors:48687-48687|Type:File|Size:2048|Path:CDROM/TMD/J_2.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1041|ID:CDROM/TMD/R5_SP1.TMD|Sectors:48688-48689|Type:File|Size:4096|Path:CDROM/TMD/R5_SP1.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1042|ID:CDROM/TMD/RB.TMD|Sectors:48690-48691|Type:File|Size:4096|Path:CDROM/TMD/RB.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1043|ID:CDROM/TMD/T.TMD|Sectors:48692-48693|Type:File|Size:4096|Path:CDROM/TMD/T.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1044|ID:CDROM/TMD/TAMA1.TMD|Sectors:48694-48695|Type:File|Size:4096|Path:CDROM/TMD/TAMA1.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1045|ID:CDROM/TMD/TAMA2.TMD|Sectors:48696-48698|Type:File|Size:6144|Path:CDROM/TMD/TAMA2.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1046|ID:CDROM/TMD/TEX.TMD|Sectors:48699-48699|Type:File|Size:2048|Path:CDROM/TMD/TEX.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1047|ID:CDROM/TMD/TEX2.TMD|Sectors:48700-48700|Type:File|Size:2048|Path:CDROM/TMD/TEX2.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1048|ID:CDROM/TMD/ZAKO00.TMD|Sectors:48701-48702|Type:File|Size:4096|Path:CDROM/TMD/ZAKO00.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1049|ID:CDROM/TMD/ZAKO01.TMD|Sectors:48703-48704|Type:File|Size:4096|Path:CDROM/TMD/ZAKO01.TMD|Has mode 2 form 2:No|Has CD audio:No
+    #:1050|ID:CDROM/TWINSGD/TBTA.DAT|Sectors:48706-48875|Type:File|Size:348160|Path:CDROM/TWINSGD/TBTA.DAT|Has mode 2 form 2:No|Has CD audio:No
+    #:1051|ID:CDROM/VAB_SE/ACT_CLAP.VB|Sectors:48880-48904|Type:File|Size:50768|Path:CDROM/VAB_SE/ACT_CLAP.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1052|ID:CDROM/VAB_SE/ACT_CLAP.VH|Sectors:48905-48906|Type:File|Size:3104|Path:CDROM/VAB_SE/ACT_CLAP.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1053|ID:CDROM/VAB_SE/ASA_TAMA.VB|Sectors:48907-48945|Type:File|Size:78000|Path:CDROM/VAB_SE/ASA_TAMA.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1054|ID:CDROM/VAB_SE/ASA_TAMA.VH|Sectors:48946-48947|Type:File|Size:3104|Path:CDROM/VAB_SE/ASA_TAMA.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1055|ID:CDROM/VAB_SE/BOSS1_SE.VB|Sectors:48948-48976|Type:File|Size:57616|Path:CDROM/VAB_SE/BOSS1_SE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1056|ID:CDROM/VAB_SE/BOSS1_SE.VH|Sectors:48977-48978|Type:File|Size:3104|Path:CDROM/VAB_SE/BOSS1_SE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1057|ID:CDROM/VAB_SE/BOSS2_SE.VB|Sectors:48979-49006|Type:File|Size:55424|Path:CDROM/VAB_SE/BOSS2_SE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1058|ID:CDROM/VAB_SE/BOSS2_SE.VH|Sectors:49007-49008|Type:File|Size:3104|Path:CDROM/VAB_SE/BOSS2_SE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1059|ID:CDROM/VAB_SE/BOSS3_SE.VB|Sectors:49009-49028|Type:File|Size:40224|Path:CDROM/VAB_SE/BOSS3_SE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1060|ID:CDROM/VAB_SE/BOSS3_SE.VH|Sectors:49029-49030|Type:File|Size:3104|Path:CDROM/VAB_SE/BOSS3_SE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1061|ID:CDROM/VAB_SE/COM_MIX.VB|Sectors:49031-49061|Type:File|Size:62400|Path:CDROM/VAB_SE/COM_MIX.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1062|ID:CDROM/VAB_SE/COM_MIX.VH|Sectors:49062-49063|Type:File|Size:3104|Path:CDROM/VAB_SE/COM_MIX.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1063|ID:CDROM/VAB_SE/EFF1.BAK|Sectors:49064-49065|Type:File|Size:3616|Path:CDROM/VAB_SE/EFF1.BAK|Has mode 2 form 2:No|Has CD audio:No
+    #:1064|ID:CDROM/VAB_SE/EFF1.VB|Sectors:49066-49118|Type:File|Size:108048|Path:CDROM/VAB_SE/EFF1.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1065|ID:CDROM/VAB_SE/EFF1.VH|Sectors:49119-49120|Type:File|Size:3616|Path:CDROM/VAB_SE/EFF1.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1066|ID:CDROM/VAB_SE/EFF2.BAK|Sectors:49121-49122|Type:File|Size:3616|Path:CDROM/VAB_SE/EFF2.BAK|Has mode 2 form 2:No|Has CD audio:No
+    #:1067|ID:CDROM/VAB_SE/EFF2.VB|Sectors:49123-49154|Type:File|Size:64640|Path:CDROM/VAB_SE/EFF2.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1068|ID:CDROM/VAB_SE/EFF2.VH|Sectors:49155-49156|Type:File|Size:3616|Path:CDROM/VAB_SE/EFF2.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1069|ID:CDROM/VAB_SE/FUJI_OSE.VB|Sectors:49157-49172|Type:File|Size:30832|Path:CDROM/VAB_SE/FUJI_OSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1070|ID:CDROM/VAB_SE/FUJI_OSE.VH|Sectors:49173-49174|Type:File|Size:3104|Path:CDROM/VAB_SE/FUJI_OSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1071|ID:CDROM/VAB_SE/FUJI_TAM.VB|Sectors:49175-49192|Type:File|Size:35632|Path:CDROM/VAB_SE/FUJI_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1072|ID:CDROM/VAB_SE/FUJI_TAM.VH|Sectors:49193-49194|Type:File|Size:3104|Path:CDROM/VAB_SE/FUJI_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1073|ID:CDROM/VAB_SE/GAL_GIO1.VB|Sectors:49195-49232|Type:File|Size:76032|Path:CDROM/VAB_SE/GAL_GIO1.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1074|ID:CDROM/VAB_SE/GAL_GIO1.VH|Sectors:49233-49234|Type:File|Size:3104|Path:CDROM/VAB_SE/GAL_GIO1.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1075|ID:CDROM/VAB_SE/GAL_GIO2.VB|Sectors:49235-49264|Type:File|Size:59424|Path:CDROM/VAB_SE/GAL_GIO2.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1076|ID:CDROM/VAB_SE/GAL_GIO2.VH|Sectors:49265-49266|Type:File|Size:3104|Path:CDROM/VAB_SE/GAL_GIO2.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1077|ID:CDROM/VAB_SE/GASSYUSE.VB|Sectors:49267-49276|Type:File|Size:18656|Path:CDROM/VAB_SE/GASSYUSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1078|ID:CDROM/VAB_SE/GASSYUSE.VH|Sectors:49277-49278|Type:File|Size:3104|Path:CDROM/VAB_SE/GASSYUSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1079|ID:CDROM/VAB_SE/HIMO_TAM.VB|Sectors:49279-49298|Type:File|Size:40960|Path:CDROM/VAB_SE/HIMO_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1080|ID:CDROM/VAB_SE/HIMO_TAM.VH|Sectors:49299-49300|Type:File|Size:3104|Path:CDROM/VAB_SE/HIMO_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1081|ID:CDROM/VAB_SE/KAGA_TAM.VB|Sectors:49301-49345|Type:File|Size:91520|Path:CDROM/VAB_SE/KAGA_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1082|ID:CDROM/VAB_SE/KAGA_TAM.VH|Sectors:49346-49347|Type:File|Size:3104|Path:CDROM/VAB_SE/KAGA_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1083|ID:CDROM/VAB_SE/KANN_SE.VB|Sectors:49348-49357|Type:File|Size:20480|Path:CDROM/VAB_SE/KANN_SE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1084|ID:CDROM/VAB_SE/KANN_SE.VH|Sectors:49358-49359|Type:File|Size:3104|Path:CDROM/VAB_SE/KANN_SE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1085|ID:CDROM/VAB_SE/KARI_VO.VB|Sectors:49360-49428|Type:File|Size:140720|Path:CDROM/VAB_SE/KARI_VO.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1086|ID:CDROM/VAB_SE/KARI_VO.VH|Sectors:49429-49430|Type:File|Size:3104|Path:CDROM/VAB_SE/KARI_VO.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1087|ID:CDROM/VAB_SE/KATA_TAM.VB|Sectors:49431-49452|Type:File|Size:44592|Path:CDROM/VAB_SE/KATA_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1088|ID:CDROM/VAB_SE/KATA_TAM.VH|Sectors:49453-49454|Type:File|Size:3104|Path:CDROM/VAB_SE/KATA_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1089|ID:CDROM/VAB_SE/KISA_TAM.VB|Sectors:49455-49481|Type:File|Size:54832|Path:CDROM/VAB_SE/KISA_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1090|ID:CDROM/VAB_SE/KISA_TAM.VH|Sectors:49482-49483|Type:File|Size:3104|Path:CDROM/VAB_SE/KISA_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1091|ID:CDROM/VAB_SE/KIYO_TAM.VB|Sectors:49484-49520|Type:File|Size:73760|Path:CDROM/VAB_SE/KIYO_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1092|ID:CDROM/VAB_SE/KIYO_TAM.VH|Sectors:49521-49522|Type:File|Size:3104|Path:CDROM/VAB_SE/KIYO_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1093|ID:CDROM/VAB_SE/KOSI_TAM.VB|Sectors:49523-49570|Type:File|Size:97760|Path:CDROM/VAB_SE/KOSI_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1094|ID:CDROM/VAB_SE/KOSI_TAM.VH|Sectors:49571-49572|Type:File|Size:3104|Path:CDROM/VAB_SE/KOSI_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1095|ID:CDROM/VAB_SE/MIKI_TAM.VB|Sectors:49573-49592|Type:File|Size:40192|Path:CDROM/VAB_SE/MIKI_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1096|ID:CDROM/VAB_SE/MIKI_TAM.VH|Sectors:49593-49594|Type:File|Size:3104|Path:CDROM/VAB_SE/MIKI_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1097|ID:CDROM/VAB_SE/NATURESE.VB|Sectors:49595-49616|Type:File|Size:43616|Path:CDROM/VAB_SE/NATURESE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1098|ID:CDROM/VAB_SE/NATURESE.VH|Sectors:49617-49618|Type:File|Size:3104|Path:CDROM/VAB_SE/NATURESE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1099|ID:CDROM/VAB_SE/NEWAGESE.VB|Sectors:49619-49631|Type:File|Size:24736|Path:CDROM/VAB_SE/NEWAGESE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1100|ID:CDROM/VAB_SE/NEWAGESE.VH|Sectors:49632-49633|Type:File|Size:3104|Path:CDROM/VAB_SE/NEWAGESE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1101|ID:CDROM/VAB_SE/NIJI_TAM.VB|Sectors:49634-49658|Type:File|Size:49856|Path:CDROM/VAB_SE/NIJI_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1102|ID:CDROM/VAB_SE/NIJI_TAM.VH|Sectors:49659-49660|Type:File|Size:3104|Path:CDROM/VAB_SE/NIJI_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1103|ID:CDROM/VAB_SE/NININ_VO.VB|Sectors:49661-49692|Type:File|Size:64880|Path:CDROM/VAB_SE/NININ_VO.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1104|ID:CDROM/VAB_SE/NININ_VO.VH|Sectors:49693-49694|Type:File|Size:3104|Path:CDROM/VAB_SE/NININ_VO.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1105|ID:CDROM/VAB_SE/RPG_CLB1.VB|Sectors:49695-49723|Type:File|Size:59232|Path:CDROM/VAB_SE/RPG_CLB1.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1106|ID:CDROM/VAB_SE/RPG_CLB1.VH|Sectors:49724-49725|Type:File|Size:3616|Path:CDROM/VAB_SE/RPG_CLB1.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1107|ID:CDROM/VAB_SE/RPG_CLB2.VB|Sectors:49726-49745|Type:File|Size:39232|Path:CDROM/VAB_SE/RPG_CLB2.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1108|ID:CDROM/VAB_SE/RPG_CLB2.VH|Sectors:49746-49747|Type:File|Size:3104|Path:CDROM/VAB_SE/RPG_CLB2.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1109|ID:CDROM/VAB_SE/RPG_CLB3.VB|Sectors:49748-49778|Type:File|Size:63248|Path:CDROM/VAB_SE/RPG_CLB3.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1110|ID:CDROM/VAB_SE/RPG_CLB3.VH|Sectors:49779-49780|Type:File|Size:3104|Path:CDROM/VAB_SE/RPG_CLB3.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1111|ID:CDROM/VAB_SE/RPG_CLB4.VB|Sectors:49781-49811|Type:File|Size:61792|Path:CDROM/VAB_SE/RPG_CLB4.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1112|ID:CDROM/VAB_SE/RPG_CLB4.VH|Sectors:49812-49813|Type:File|Size:3104|Path:CDROM/VAB_SE/RPG_CLB4.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1113|ID:CDROM/VAB_SE/RPG_GAL.VB|Sectors:49814-49857|Type:File|Size:89440|Path:CDROM/VAB_SE/RPG_GAL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1114|ID:CDROM/VAB_SE/RPG_GAL.VH|Sectors:49858-49859|Type:File|Size:3616|Path:CDROM/VAB_SE/RPG_GAL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1115|ID:CDROM/VAB_SE/RPG_GAL1.VB|Sectors:49860-49909|Type:File|Size:101280|Path:CDROM/VAB_SE/RPG_GAL1.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1116|ID:CDROM/VAB_SE/RPG_GAL1.VH|Sectors:49910-49911|Type:File|Size:3616|Path:CDROM/VAB_SE/RPG_GAL1.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1117|ID:CDROM/VAB_SE/RPG_GAL2.VB|Sectors:49912-49964|Type:File|Size:108288|Path:CDROM/VAB_SE/RPG_GAL2.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1118|ID:CDROM/VAB_SE/RPG_GAL2.VH|Sectors:49965-49966|Type:File|Size:3616|Path:CDROM/VAB_SE/RPG_GAL2.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1119|ID:CDROM/VAB_SE/RPG_GAL3.VB|Sectors:49967-50016|Type:File|Size:101504|Path:CDROM/VAB_SE/RPG_GAL3.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1120|ID:CDROM/VAB_SE/RPG_GAL3.VH|Sectors:50017-50018|Type:File|Size:3616|Path:CDROM/VAB_SE/RPG_GAL3.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1121|ID:CDROM/VAB_SE/RPG_HOK.VB|Sectors:50019-50043|Type:File|Size:51008|Path:CDROM/VAB_SE/RPG_HOK.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1122|ID:CDROM/VAB_SE/RPG_HOK.VH|Sectors:50044-50045|Type:File|Size:3104|Path:CDROM/VAB_SE/RPG_HOK.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1123|ID:CDROM/VAB_SE/RPG_NAR.VB|Sectors:50046-50072|Type:File|Size:53584|Path:CDROM/VAB_SE/RPG_NAR.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1124|ID:CDROM/VAB_SE/RPG_NAR.VH|Sectors:50073-50074|Type:File|Size:3104|Path:CDROM/VAB_SE/RPG_NAR.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1125|ID:CDROM/VAB_SE/RPG_OKI.VB|Sectors:50075-50101|Type:File|Size:55232|Path:CDROM/VAB_SE/RPG_OKI.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1126|ID:CDROM/VAB_SE/RPG_OKI.VH|Sectors:50102-50103|Type:File|Size:3104|Path:CDROM/VAB_SE/RPG_OKI.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1127|ID:CDROM/VAB_SE/RPG_ROBO.VB|Sectors:50104-50134|Type:File|Size:61936|Path:CDROM/VAB_SE/RPG_ROBO.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1128|ID:CDROM/VAB_SE/RPG_ROBO.VH|Sectors:50135-50136|Type:File|Size:3616|Path:CDROM/VAB_SE/RPG_ROBO.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1129|ID:CDROM/VAB_SE/RPG_SYU.VB|Sectors:50137-50189|Type:File|Size:107776|Path:CDROM/VAB_SE/RPG_SYU.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1130|ID:CDROM/VAB_SE/RPG_SYU.VH|Sectors:50190-50191|Type:File|Size:3616|Path:CDROM/VAB_SE/RPG_SYU.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1131|ID:CDROM/VAB_SE/RPG_UFO.VB|Sectors:50192-50237|Type:File|Size:93408|Path:CDROM/VAB_SE/RPG_UFO.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1132|ID:CDROM/VAB_SE/RPG_UFO.VH|Sectors:50238-50239|Type:File|Size:3616|Path:CDROM/VAB_SE/RPG_UFO.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1133|ID:CDROM/VAB_SE/SAOT_TAM.VB|Sectors:50240-50262|Type:File|Size:46560|Path:CDROM/VAB_SE/SAOT_TAM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1134|ID:CDROM/VAB_SE/SAOT_TAM.VH|Sectors:50263-50264|Type:File|Size:3104|Path:CDROM/VAB_SE/SAOT_TAM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1135|ID:CDROM/VAB_SE/SCLFESSE.VB|Sectors:50265-50309|Type:File|Size:91696|Path:CDROM/VAB_SE/SCLFESSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1136|ID:CDROM/VAB_SE/SCLFESSE.VH|Sectors:50310-50311|Type:File|Size:3104|Path:CDROM/VAB_SE/SCLFESSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1137|ID:CDROM/VAB_SE/SE_DATE.VB|Sectors:50312-50336|Type:File|Size:50096|Path:CDROM/VAB_SE/SE_DATE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1138|ID:CDROM/VAB_SE/SE_DATE.VH|Sectors:50337-50338|Type:File|Size:3104|Path:CDROM/VAB_SE/SE_DATE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1139|ID:CDROM/VAB_SE/SE_ENNIT.VB|Sectors:50339-50386|Type:File|Size:98240|Path:CDROM/VAB_SE/SE_ENNIT.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1140|ID:CDROM/VAB_SE/SE_ENNIT.VH|Sectors:50387-50388|Type:File|Size:3104|Path:CDROM/VAB_SE/SE_ENNIT.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1141|ID:CDROM/VAB_SE/SE_SHOUG.VB|Sectors:50389-50418|Type:File|Size:60752|Path:CDROM/VAB_SE/SE_SHOUG.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1142|ID:CDROM/VAB_SE/SE_SHOUG.VH|Sectors:50419-50420|Type:File|Size:3104|Path:CDROM/VAB_SE/SE_SHOUG.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1143|ID:CDROM/VAB_SE/SE_SYUGA.VB|Sectors:50421-50463|Type:File|Size:87568|Path:CDROM/VAB_SE/SE_SYUGA.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1144|ID:CDROM/VAB_SE/SE_SYUGA.VH|Sectors:50464-50465|Type:File|Size:3104|Path:CDROM/VAB_SE/SE_SYUGA.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1145|ID:CDROM/VAB_SE/SHOPSE.VB|Sectors:50466-50468|Type:File|Size:4528|Path:CDROM/VAB_SE/SHOPSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1146|ID:CDROM/VAB_SE/SHOPSE.VH|Sectors:50469-50470|Type:File|Size:3104|Path:CDROM/VAB_SE/SHOPSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1147|ID:CDROM/VAB_SE/SHOT_SE.VB|Sectors:50471-50520|Type:File|Size:101312|Path:CDROM/VAB_SE/SHOT_SE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1148|ID:CDROM/VAB_SE/SHOT_SE.VH|Sectors:50521-50522|Type:File|Size:3616|Path:CDROM/VAB_SE/SHOT_SE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1149|ID:CDROM/VAB_SE/SHOT_SYS.VB|Sectors:50523-50554|Type:File|Size:65184|Path:CDROM/VAB_SE/SHOT_SYS.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1150|ID:CDROM/VAB_SE/SHOT_SYS.VH|Sectors:50555-50556|Type:File|Size:3104|Path:CDROM/VAB_SE/SHOT_SYS.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1151|ID:CDROM/VAB_SE/SUMDATSE.VB|Sectors:50557-50571|Type:File|Size:29840|Path:CDROM/VAB_SE/SUMDATSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1152|ID:CDROM/VAB_SE/SUMDATSE.VH|Sectors:50572-50573|Type:File|Size:3104|Path:CDROM/VAB_SE/SUMDATSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1153|ID:CDROM/VAB_SE/SYS_MIX.VB|Sectors:50574-50591|Type:File|Size:35376|Path:CDROM/VAB_SE/SYS_MIX.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1154|ID:CDROM/VAB_SE/SYS_MIX.VH|Sectors:50592-50593|Type:File|Size:3104|Path:CDROM/VAB_SE/SYS_MIX.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1155|ID:CDROM/VAB_SE/UNDO_SE.VB|Sectors:50594-50628|Type:File|Size:70656|Path:CDROM/VAB_SE/UNDO_SE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1156|ID:CDROM/VAB_SE/UNDO_SE.VH|Sectors:50629-50630|Type:File|Size:3104|Path:CDROM/VAB_SE/UNDO_SE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1157|ID:CDROM/VAB_SE/VISUALSE.VB|Sectors:50631-50646|Type:File|Size:31968|Path:CDROM/VAB_SE/VISUALSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1158|ID:CDROM/VAB_SE/VISUALSE.VH|Sectors:50647-50648|Type:File|Size:3104|Path:CDROM/VAB_SE/VISUALSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1159|ID:CDROM/VAB_SE/VOL_BASE.VB|Sectors:50649-50701|Type:File|Size:108176|Path:CDROM/VAB_SE/VOL_BASE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1160|ID:CDROM/VAB_SE/VOL_BASE.VH|Sectors:50702-50705|Type:File|Size:6176|Path:CDROM/VAB_SE/VOL_BASE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1161|ID:CDROM/VAB_SE/WINDATSE.VB|Sectors:50706-50718|Type:File|Size:26080|Path:CDROM/VAB_SE/WINDATSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1162|ID:CDROM/VAB_SE/WINDATSE.VH|Sectors:50719-50720|Type:File|Size:3104|Path:CDROM/VAB_SE/WINDATSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1163|ID:CDROM/VAB_SE/XMASSE.VB|Sectors:50721-50734|Type:File|Size:28160|Path:CDROM/VAB_SE/XMASSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1164|ID:CDROM/VAB_SE/XMASSE.VH|Sectors:50735-50736|Type:File|Size:3104|Path:CDROM/VAB_SE/XMASSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1165|ID:CDROM/VAB_SE/YUENSE.VB|Sectors:50737-50788|Type:File|Size:105680|Path:CDROM/VAB_SE/YUENSE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1166|ID:CDROM/VAB_SE/YUENSE.VH|Sectors:50789-50790|Type:File|Size:3104|Path:CDROM/VAB_SE/YUENSE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1167|ID:CDROM/VAB_SE/YUKIG_SE.VB|Sectors:50791-50796|Type:File|Size:10640|Path:CDROM/VAB_SE/YUKIG_SE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1168|ID:CDROM/VAB_SE/YUKIG_SE.VH|Sectors:50797-50798|Type:File|Size:3104|Path:CDROM/VAB_SE/YUKIG_SE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1169|ID:CDROM/VAB_SEQ/ASA.SEQ|Sectors:50805-50810|Type:File|Size:12268|Path:CDROM/VAB_SEQ/ASA.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1170|ID:CDROM/VAB_SEQ/ASA.VB|Sectors:50811-50879|Type:File|Size:139344|Path:CDROM/VAB_SEQ/ASA.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1171|ID:CDROM/VAB_SEQ/ASA.VH|Sectors:50880-50883|Type:File|Size:7200|Path:CDROM/VAB_SEQ/ASA.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1172|ID:CDROM/VAB_SEQ/AUTUMN.SEQ|Sectors:50884-50896|Type:File|Size:24736|Path:CDROM/VAB_SEQ/AUTUMN.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1173|ID:CDROM/VAB_SEQ/AUTUMN.VB|Sectors:50897-50968|Type:File|Size:146224|Path:CDROM/VAB_SEQ/AUTUMN.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1174|ID:CDROM/VAB_SEQ/AUTUMN.VH|Sectors:50969-50973|Type:File|Size:9248|Path:CDROM/VAB_SEQ/AUTUMN.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1175|ID:CDROM/VAB_SEQ/AUTUMN2.SEQ|Sectors:50974-50977|Type:File|Size:8168|Path:CDROM/VAB_SEQ/AUTUMN2.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1176|ID:CDROM/VAB_SEQ/AUTUMN2.VB|Sectors:50978-51055|Type:File|Size:157744|Path:CDROM/VAB_SEQ/AUTUMN2.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1177|ID:CDROM/VAB_SEQ/AUTUMN2.VH|Sectors:51056-51059|Type:File|Size:7712|Path:CDROM/VAB_SEQ/AUTUMN2.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1178|ID:CDROM/VAB_SEQ/BOSS2.SEQ|Sectors:51060-51076|Type:File|Size:33708|Path:CDROM/VAB_SEQ/BOSS2.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1179|ID:CDROM/VAB_SEQ/BOSS2.VB|Sectors:51077-51144|Type:File|Size:137376|Path:CDROM/VAB_SEQ/BOSS2.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1180|ID:CDROM/VAB_SEQ/BOSS2.VH|Sectors:51145-51150|Type:File|Size:10272|Path:CDROM/VAB_SEQ/BOSS2.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1181|ID:CDROM/VAB_SEQ/BOSSA.SEQ|Sectors:51151-51154|Type:File|Size:7964|Path:CDROM/VAB_SEQ/BOSSA.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1182|ID:CDROM/VAB_SEQ/BOSSA.VB|Sectors:51155-51231|Type:File|Size:156016|Path:CDROM/VAB_SEQ/BOSSA.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1183|ID:CDROM/VAB_SEQ/BOSSA.VH|Sectors:51232-51236|Type:File|Size:8224|Path:CDROM/VAB_SEQ/BOSSA.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1184|ID:CDROM/VAB_SEQ/BOSSB.SEQ|Sectors:51237-51239|Type:File|Size:4664|Path:CDROM/VAB_SEQ/BOSSB.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1185|ID:CDROM/VAB_SEQ/BOSSB.VB|Sectors:51240-51318|Type:File|Size:160016|Path:CDROM/VAB_SEQ/BOSSB.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1186|ID:CDROM/VAB_SEQ/BOSSB.VH|Sectors:51319-51322|Type:File|Size:7712|Path:CDROM/VAB_SEQ/BOSSB.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1187|ID:CDROM/VAB_SEQ/BOSSC.SEQ|Sectors:51323-51326|Type:File|Size:8116|Path:CDROM/VAB_SEQ/BOSSC.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1188|ID:CDROM/VAB_SEQ/BOSSC.VB|Sectors:51327-51402|Type:File|Size:155440|Path:CDROM/VAB_SEQ/BOSSC.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1189|ID:CDROM/VAB_SEQ/BOSSC.VH|Sectors:51403-51406|Type:File|Size:6176|Path:CDROM/VAB_SEQ/BOSSC.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1190|ID:CDROM/VAB_SEQ/BOSSD.SEQ|Sectors:51407-51411|Type:File|Size:9428|Path:CDROM/VAB_SEQ/BOSSD.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1191|ID:CDROM/VAB_SEQ/BOSSD.VB|Sectors:51412-51491|Type:File|Size:163808|Path:CDROM/VAB_SEQ/BOSSD.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1192|ID:CDROM/VAB_SEQ/BOSSD.VH|Sectors:51492-51496|Type:File|Size:9248|Path:CDROM/VAB_SEQ/BOSSD.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1193|ID:CDROM/VAB_SEQ/CLUB.SEQ|Sectors:51497-51522|Type:File|Size:51548|Path:CDROM/VAB_SEQ/CLUB.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1194|ID:CDROM/VAB_SEQ/CLUB.VB|Sectors:51523-51599|Type:File|Size:156448|Path:CDROM/VAB_SEQ/CLUB.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1195|ID:CDROM/VAB_SEQ/CLUB.VH|Sectors:51600-51605|Type:File|Size:10784|Path:CDROM/VAB_SEQ/CLUB.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1196|ID:CDROM/VAB_SEQ/CULTMAN.SEQ|Sectors:51606-51620|Type:File|Size:30360|Path:CDROM/VAB_SEQ/CULTMAN.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1197|ID:CDROM/VAB_SEQ/CULTMAN.VB|Sectors:51621-51689|Type:File|Size:139712|Path:CDROM/VAB_SEQ/CULTMAN.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1198|ID:CDROM/VAB_SEQ/CULTMAN.VH|Sectors:51690-51695|Type:File|Size:10784|Path:CDROM/VAB_SEQ/CULTMAN.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1199|ID:CDROM/VAB_SEQ/DATEG.SEQ|Sectors:51696-51709|Type:File|Size:27388|Path:CDROM/VAB_SEQ/DATEG.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1200|ID:CDROM/VAB_SEQ/DATEG.VB|Sectors:51710-51782|Type:File|Size:148864|Path:CDROM/VAB_SEQ/DATEG.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1201|ID:CDROM/VAB_SEQ/DATEG.VH|Sectors:51783-51787|Type:File|Size:8224|Path:CDROM/VAB_SEQ/DATEG.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1202|ID:CDROM/VAB_SEQ/DAYS.SEQ|Sectors:51788-51804|Type:File|Size:33448|Path:CDROM/VAB_SEQ/DAYS.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1203|ID:CDROM/VAB_SEQ/DAYS.VB|Sectors:51805-51874|Type:File|Size:142016|Path:CDROM/VAB_SEQ/DAYS.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1204|ID:CDROM/VAB_SEQ/DAYS.VH|Sectors:51875-51880|Type:File|Size:10784|Path:CDROM/VAB_SEQ/DAYS.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1205|ID:CDROM/VAB_SEQ/ENNITI.SEQ|Sectors:51881-51891|Type:File|Size:21864|Path:CDROM/VAB_SEQ/ENNITI.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1206|ID:CDROM/VAB_SEQ/ENNITI.VB|Sectors:51892-51967|Type:File|Size:154528|Path:CDROM/VAB_SEQ/ENNITI.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1207|ID:CDROM/VAB_SEQ/ENNITI.VH|Sectors:51968-51972|Type:File|Size:8224|Path:CDROM/VAB_SEQ/ENNITI.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1208|ID:CDROM/VAB_SEQ/EXAMIN.SEQ|Sectors:51973-51978|Type:File|Size:10336|Path:CDROM/VAB_SEQ/EXAMIN.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1209|ID:CDROM/VAB_SEQ/EXAMIN.VB|Sectors:51979-52053|Type:File|Size:152080|Path:CDROM/VAB_SEQ/EXAMIN.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1210|ID:CDROM/VAB_SEQ/EXAMIN.VH|Sectors:52054-52059|Type:File|Size:10784|Path:CDROM/VAB_SEQ/EXAMIN.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1211|ID:CDROM/VAB_SEQ/FUJI_ORG.SEQ|Sectors:52060-52064|Type:File|Size:8840|Path:CDROM/VAB_SEQ/FUJI_ORG.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1212|ID:CDROM/VAB_SEQ/FUJI_ORG.VB|Sectors:52065-52144|Type:File|Size:163456|Path:CDROM/VAB_SEQ/FUJI_ORG.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1213|ID:CDROM/VAB_SEQ/FUJI_ORG.VH|Sectors:52145-52146|Type:File|Size:3616|Path:CDROM/VAB_SEQ/FUJI_ORG.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1214|ID:CDROM/VAB_SEQ/FUJI_VOL.SEQ|Sectors:52147-52151|Type:File|Size:9524|Path:CDROM/VAB_SEQ/FUJI_VOL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1215|ID:CDROM/VAB_SEQ/FUJI_VOL.VB|Sectors:52152-52193|Type:File|Size:84080|Path:CDROM/VAB_SEQ/FUJI_VOL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1216|ID:CDROM/VAB_SEQ/FUJI_VOL.VH|Sectors:52194-52198|Type:File|Size:9760|Path:CDROM/VAB_SEQ/FUJI_VOL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1217|ID:CDROM/VAB_SEQ/GASSYUKU.SEQ|Sectors:52199-52208|Type:File|Size:18508|Path:CDROM/VAB_SEQ/GASSYUKU.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1218|ID:CDROM/VAB_SEQ/GASSYUKU.VB|Sectors:52209-52288|Type:File|Size:163264|Path:CDROM/VAB_SEQ/GASSYUKU.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1219|ID:CDROM/VAB_SEQ/GASSYUKU.VH|Sectors:52289-52294|Type:File|Size:10784|Path:CDROM/VAB_SEQ/GASSYUKU.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1220|ID:CDROM/VAB_SEQ/HIMO.SEQ|Sectors:52295-52298|Type:File|Size:6948|Path:CDROM/VAB_SEQ/HIMO.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1221|ID:CDROM/VAB_SEQ/HIMO.VB|Sectors:52299-52363|Type:File|Size:131696|Path:CDROM/VAB_SEQ/HIMO.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1222|ID:CDROM/VAB_SEQ/HIMO.VH|Sectors:52364-52367|Type:File|Size:6688|Path:CDROM/VAB_SEQ/HIMO.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1223|ID:CDROM/VAB_SEQ/IJYU_VOL.SEQ|Sectors:52368-52371|Type:File|Size:6416|Path:CDROM/VAB_SEQ/IJYU_VOL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1224|ID:CDROM/VAB_SEQ/IJYU_VOL.VB|Sectors:52372-52440|Type:File|Size:139680|Path:CDROM/VAB_SEQ/IJYU_VOL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1225|ID:CDROM/VAB_SEQ/IJYU_VOL.VH|Sectors:52441-52446|Type:File|Size:10272|Path:CDROM/VAB_SEQ/IJYU_VOL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1226|ID:CDROM/VAB_SEQ/INIT_VOL.SEQ|Sectors:52447-52454|Type:File|Size:14616|Path:CDROM/VAB_SEQ/INIT_VOL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1227|ID:CDROM/VAB_SEQ/INIT_VOL.VB|Sectors:52455-52526|Type:File|Size:145696|Path:CDROM/VAB_SEQ/INIT_VOL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1228|ID:CDROM/VAB_SEQ/INIT_VOL.VH|Sectors:52527-52530|Type:File|Size:7712|Path:CDROM/VAB_SEQ/INIT_VOL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1229|ID:CDROM/VAB_SEQ/KATA.SEQ|Sectors:52531-52534|Type:File|Size:6860|Path:CDROM/VAB_SEQ/KATA.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1230|ID:CDROM/VAB_SEQ/KATA.VB|Sectors:52535-52601|Type:File|Size:135584|Path:CDROM/VAB_SEQ/KATA.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1231|ID:CDROM/VAB_SEQ/KATA.VH|Sectors:52602-52605|Type:File|Size:6176|Path:CDROM/VAB_SEQ/KATA.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1232|ID:CDROM/VAB_SEQ/KINTA.SEQ|Sectors:52606-52623|Type:File|Size:35468|Path:CDROM/VAB_SEQ/KINTA.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1233|ID:CDROM/VAB_SEQ/KINTA.VB|Sectors:52624-52685|Type:File|Size:126720|Path:CDROM/VAB_SEQ/KINTA.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1234|ID:CDROM/VAB_SEQ/KINTA.VH|Sectors:52686-52691|Type:File|Size:10272|Path:CDROM/VAB_SEQ/KINTA.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1235|ID:CDROM/VAB_SEQ/KISA.SEQ|Sectors:52692-52693|Type:File|Size:2956|Path:CDROM/VAB_SEQ/KISA.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1236|ID:CDROM/VAB_SEQ/KISA.VB|Sectors:52694-52713|Type:File|Size:40800|Path:CDROM/VAB_SEQ/KISA.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1237|ID:CDROM/VAB_SEQ/KISA.VH|Sectors:52714-52716|Type:File|Size:5152|Path:CDROM/VAB_SEQ/KISA.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1238|ID:CDROM/VAB_SEQ/KIYO.SEQ|Sectors:52717-52720|Type:File|Size:6496|Path:CDROM/VAB_SEQ/KIYO.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1239|ID:CDROM/VAB_SEQ/KIYO.VB|Sectors:52721-52769|Type:File|Size:98432|Path:CDROM/VAB_SEQ/KIYO.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1240|ID:CDROM/VAB_SEQ/KIYO.VH|Sectors:52770-52773|Type:File|Size:6176|Path:CDROM/VAB_SEQ/KIYO.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1241|ID:CDROM/VAB_SEQ/KOKU_VOL.BAK|Sectors:52774-52779|Type:File|Size:10784|Path:CDROM/VAB_SEQ/KOKU_VOL.BAK|Has mode 2 form 2:No|Has CD audio:No
+    #:1242|ID:CDROM/VAB_SEQ/KOKU_VOL.SEQ|Sectors:52780-52800|Type:File|Size:41360|Path:CDROM/VAB_SEQ/KOKU_VOL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1243|ID:CDROM/VAB_SEQ/KOKU_VOL.VB|Sectors:52801-52858|Type:File|Size:118720|Path:CDROM/VAB_SEQ/KOKU_VOL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1244|ID:CDROM/VAB_SEQ/KOKU_VOL.VH|Sectors:52859-52864|Type:File|Size:10784|Path:CDROM/VAB_SEQ/KOKU_VOL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1245|ID:CDROM/VAB_SEQ/KOSI.SEQ|Sectors:52865-52866|Type:File|Size:4052|Path:CDROM/VAB_SEQ/KOSI.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1246|ID:CDROM/VAB_SEQ/KOSI.VB|Sectors:52867-52922|Type:File|Size:113712|Path:CDROM/VAB_SEQ/KOSI.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1247|ID:CDROM/VAB_SEQ/KOSI.VH|Sectors:52923-52926|Type:File|Size:6176|Path:CDROM/VAB_SEQ/KOSI.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1248|ID:CDROM/VAB_SEQ/LASTDATE.SEQ|Sectors:52927-52929|Type:File|Size:5164|Path:CDROM/VAB_SEQ/LASTDATE.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1249|ID:CDROM/VAB_SEQ/LASTDATE.VB|Sectors:52930-53002|Type:File|Size:148080|Path:CDROM/VAB_SEQ/LASTDATE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1250|ID:CDROM/VAB_SEQ/LASTDATE.VH|Sectors:53003-53007|Type:File|Size:8736|Path:CDROM/VAB_SEQ/LASTDATE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1251|ID:CDROM/VAB_SEQ/MIKI.SEQ|Sectors:53008-53009|Type:File|Size:3636|Path:CDROM/VAB_SEQ/MIKI.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1252|ID:CDROM/VAB_SEQ/MIKI.VB|Sectors:53010-53060|Type:File|Size:103616|Path:CDROM/VAB_SEQ/MIKI.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1253|ID:CDROM/VAB_SEQ/MIKI.VH|Sectors:53061-53064|Type:File|Size:7712|Path:CDROM/VAB_SEQ/MIKI.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1254|ID:CDROM/VAB_SEQ/MIRA.SEQ|Sectors:53065-53068|Type:File|Size:6316|Path:CDROM/VAB_SEQ/MIRA.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1255|ID:CDROM/VAB_SEQ/MIRA.VB|Sectors:53069-53132|Type:File|Size:129040|Path:CDROM/VAB_SEQ/MIRA.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1256|ID:CDROM/VAB_SEQ/MIRA.VH|Sectors:53133-53136|Type:File|Size:6176|Path:CDROM/VAB_SEQ/MIRA.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1257|ID:CDROM/VAB_SEQ/NARR_VOL.SEQ|Sectors:53137-53144|Type:File|Size:15112|Path:CDROM/VAB_SEQ/NARR_VOL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1258|ID:CDROM/VAB_SEQ/NARR_VOL.VB|Sectors:53145-53172|Type:File|Size:56800|Path:CDROM/VAB_SEQ/NARR_VOL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1259|ID:CDROM/VAB_SEQ/NARR_VOL.VH|Sectors:53173-53175|Type:File|Size:4128|Path:CDROM/VAB_SEQ/NARR_VOL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1260|ID:CDROM/VAB_SEQ/NATURE1.SEQ|Sectors:53176-53185|Type:File|Size:19784|Path:CDROM/VAB_SEQ/NATURE1.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1261|ID:CDROM/VAB_SEQ/NATURE1.VB|Sectors:53186-53265|Type:File|Size:162992|Path:CDROM/VAB_SEQ/NATURE1.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1262|ID:CDROM/VAB_SEQ/NATURE1.VH|Sectors:53266-53271|Type:File|Size:10272|Path:CDROM/VAB_SEQ/NATURE1.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1263|ID:CDROM/VAB_SEQ/NATURE2.BAK|Sectors:53272-53277|Type:File|Size:10784|Path:CDROM/VAB_SEQ/NATURE2.BAK|Has mode 2 form 2:No|Has CD audio:No
+    #:1264|ID:CDROM/VAB_SEQ/NATURE2.SEQ|Sectors:53278-53283|Type:File|Size:10980|Path:CDROM/VAB_SEQ/NATURE2.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1265|ID:CDROM/VAB_SEQ/NATURE2.VB|Sectors:53284-53363|Type:File|Size:162272|Path:CDROM/VAB_SEQ/NATURE2.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1266|ID:CDROM/VAB_SEQ/NATURE2.VH|Sectors:53364-53369|Type:File|Size:10784|Path:CDROM/VAB_SEQ/NATURE2.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1267|ID:CDROM/VAB_SEQ/NEWAGE.SEQ|Sectors:53370-53379|Type:File|Size:20028|Path:CDROM/VAB_SEQ/NEWAGE.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1268|ID:CDROM/VAB_SEQ/NEWAGE.VB|Sectors:53380-53458|Type:File|Size:161344|Path:CDROM/VAB_SEQ/NEWAGE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1269|ID:CDROM/VAB_SEQ/NEWAGE.VH|Sectors:53459-53464|Type:File|Size:10784|Path:CDROM/VAB_SEQ/NEWAGE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1270|ID:CDROM/VAB_SEQ/NIJI.SEQ|Sectors:53465-53469|Type:File|Size:8844|Path:CDROM/VAB_SEQ/NIJI.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1271|ID:CDROM/VAB_SEQ/NIJI.VB|Sectors:53470-53516|Type:File|Size:95072|Path:CDROM/VAB_SEQ/NIJI.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1272|ID:CDROM/VAB_SEQ/NIJI.VH|Sectors:53517-53519|Type:File|Size:5664|Path:CDROM/VAB_SEQ/NIJI.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1273|ID:CDROM/VAB_SEQ/PRO_VOL.SEQ|Sectors:53520-53533|Type:File|Size:27624|Path:CDROM/VAB_SEQ/PRO_VOL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1274|ID:CDROM/VAB_SEQ/PRO_VOL.VB|Sectors:53534-53612|Type:File|Size:160288|Path:CDROM/VAB_SEQ/PRO_VOL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1275|ID:CDROM/VAB_SEQ/PRO_VOL.VH|Sectors:53613-53617|Type:File|Size:9760|Path:CDROM/VAB_SEQ/PRO_VOL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1276|ID:CDROM/VAB_SEQ/ROMEO.SEQ|Sectors:53618-53629|Type:File|Size:24480|Path:CDROM/VAB_SEQ/ROMEO.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1277|ID:CDROM/VAB_SEQ/ROMEO.VB|Sectors:53630-53674|Type:File|Size:91904|Path:CDROM/VAB_SEQ/ROMEO.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1278|ID:CDROM/VAB_SEQ/ROMEO.VH|Sectors:53675-53679|Type:File|Size:9760|Path:CDROM/VAB_SEQ/ROMEO.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1279|ID:CDROM/VAB_SEQ/RPG_BTL.SEQ|Sectors:53680-53690|Type:File|Size:21192|Path:CDROM/VAB_SEQ/RPG_BTL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1280|ID:CDROM/VAB_SEQ/RPG_BTL.VB|Sectors:53691-53768|Type:File|Size:158912|Path:CDROM/VAB_SEQ/RPG_BTL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1281|ID:CDROM/VAB_SEQ/RPG_BTL.VH|Sectors:53769-53773|Type:File|Size:9760|Path:CDROM/VAB_SEQ/RPG_BTL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1282|ID:CDROM/VAB_SEQ/SCLFEST.SEQ|Sectors:53774-53781|Type:File|Size:15840|Path:CDROM/VAB_SEQ/SCLFEST.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1283|ID:CDROM/VAB_SEQ/SCLFEST.VB|Sectors:53782-53861|Type:File|Size:162784|Path:CDROM/VAB_SEQ/SCLFEST.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1284|ID:CDROM/VAB_SEQ/SCLFEST.VH|Sectors:53862-53867|Type:File|Size:10784|Path:CDROM/VAB_SEQ/SCLFEST.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1285|ID:CDROM/VAB_SEQ/SHOGATU.SEQ|Sectors:53868-53873|Type:File|Size:12280|Path:CDROM/VAB_SEQ/SHOGATU.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1286|ID:CDROM/VAB_SEQ/SHOGATU.VB|Sectors:53874-53921|Type:File|Size:97360|Path:CDROM/VAB_SEQ/SHOGATU.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1287|ID:CDROM/VAB_SEQ/SHOGATU.VH|Sectors:53922-53924|Type:File|Size:5664|Path:CDROM/VAB_SEQ/SHOGATU.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1288|ID:CDROM/VAB_SEQ/SHOOT.BAK|Sectors:53925-53930|Type:File|Size:10784|Path:CDROM/VAB_SEQ/SHOOT.BAK|Has mode 2 form 2:No|Has CD audio:No
+    #:1289|ID:CDROM/VAB_SEQ/SHOOT.SEQ|Sectors:53931-53967|Type:File|Size:74612|Path:CDROM/VAB_SEQ/SHOOT.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1290|ID:CDROM/VAB_SEQ/SHOOT.VB|Sectors:53968-54045|Type:File|Size:159440|Path:CDROM/VAB_SEQ/SHOOT.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1291|ID:CDROM/VAB_SEQ/SHOOT.VH|Sectors:54046-54051|Type:File|Size:10784|Path:CDROM/VAB_SEQ/SHOOT.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1292|ID:CDROM/VAB_SEQ/SHOP.SEQ|Sectors:54052-54068|Type:File|Size:33924|Path:CDROM/VAB_SEQ/SHOP.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1293|ID:CDROM/VAB_SEQ/SHOP.VB|Sectors:54069-54148|Type:File|Size:163424|Path:CDROM/VAB_SEQ/SHOP.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1294|ID:CDROM/VAB_SEQ/SHOP.VH|Sectors:54149-54154|Type:File|Size:10784|Path:CDROM/VAB_SEQ/SHOP.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1295|ID:CDROM/VAB_SEQ/SPRING.SEQ|Sectors:54155-54164|Type:File|Size:18516|Path:CDROM/VAB_SEQ/SPRING.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1296|ID:CDROM/VAB_SEQ/SPRING.VB|Sectors:54165-54242|Type:File|Size:158992|Path:CDROM/VAB_SEQ/SPRING.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1297|ID:CDROM/VAB_SEQ/SPRING.VH|Sectors:54243-54247|Type:File|Size:8736|Path:CDROM/VAB_SEQ/SPRING.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1298|ID:CDROM/VAB_SEQ/STUDIUM.SEQ|Sectors:54248-54258|Type:File|Size:21816|Path:CDROM/VAB_SEQ/STUDIUM.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1299|ID:CDROM/VAB_SEQ/STUDIUM.VB|Sectors:54259-54338|Type:File|Size:162192|Path:CDROM/VAB_SEQ/STUDIUM.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1300|ID:CDROM/VAB_SEQ/STUDIUM.VH|Sectors:54339-54344|Type:File|Size:10272|Path:CDROM/VAB_SEQ/STUDIUM.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1301|ID:CDROM/VAB_SEQ/SUMDATE.SEQ|Sectors:54345-54353|Type:File|Size:16884|Path:CDROM/VAB_SEQ/SUMDATE.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1302|ID:CDROM/VAB_SEQ/SUMDATE.VB|Sectors:54354-54416|Type:File|Size:127664|Path:CDROM/VAB_SEQ/SUMDATE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1303|ID:CDROM/VAB_SEQ/SUMDATE.VH|Sectors:54417-54421|Type:File|Size:9760|Path:CDROM/VAB_SEQ/SUMDATE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1304|ID:CDROM/VAB_SEQ/SUMMER.SEQ|Sectors:54422-54443|Type:File|Size:44812|Path:CDROM/VAB_SEQ/SUMMER.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1305|ID:CDROM/VAB_SEQ/SUMMER.VB|Sectors:54444-54516|Type:File|Size:148688|Path:CDROM/VAB_SEQ/SUMMER.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1306|ID:CDROM/VAB_SEQ/SUMMER.VH|Sectors:54517-54520|Type:File|Size:7712|Path:CDROM/VAB_SEQ/SUMMER.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1307|ID:CDROM/VAB_SEQ/SYUGAKU.BAK|Sectors:54521-54526|Type:File|Size:10784|Path:CDROM/VAB_SEQ/SYUGAKU.BAK|Has mode 2 form 2:No|Has CD audio:No
+    #:1308|ID:CDROM/VAB_SEQ/SYUGAKU.SEQ|Sectors:54527-54549|Type:File|Size:47044|Path:CDROM/VAB_SEQ/SYUGAKU.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1309|ID:CDROM/VAB_SEQ/SYUGAKU.VB|Sectors:54550-54628|Type:File|Size:160992|Path:CDROM/VAB_SEQ/SYUGAKU.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1310|ID:CDROM/VAB_SEQ/SYUGAKU.VH|Sectors:54629-54634|Type:File|Size:10784|Path:CDROM/VAB_SEQ/SYUGAKU.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1311|ID:CDROM/VAB_SEQ/TATE.SEQ|Sectors:54635-54636|Type:File|Size:2096|Path:CDROM/VAB_SEQ/TATE.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1312|ID:CDROM/VAB_SEQ/TATE.VB|Sectors:54637-54672|Type:File|Size:72512|Path:CDROM/VAB_SEQ/TATE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1313|ID:CDROM/VAB_SEQ/TATE.VH|Sectors:54673-54676|Type:File|Size:6688|Path:CDROM/VAB_SEQ/TATE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1314|ID:CDROM/VAB_SEQ/TOSHOKAN.SEQ|Sectors:54677-54681|Type:File|Size:9608|Path:CDROM/VAB_SEQ/TOSHOKAN.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1315|ID:CDROM/VAB_SEQ/TOSHOKAN.VB|Sectors:54682-54761|Type:File|Size:162400|Path:CDROM/VAB_SEQ/TOSHOKAN.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1316|ID:CDROM/VAB_SEQ/TOSHOKAN.VH|Sectors:54762-54767|Type:File|Size:10784|Path:CDROM/VAB_SEQ/TOSHOKAN.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1317|ID:CDROM/VAB_SEQ/TWIN.SEQ|Sectors:54768-54780|Type:File|Size:25900|Path:CDROM/VAB_SEQ/TWIN.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1318|ID:CDROM/VAB_SEQ/TWIN.VB|Sectors:54781-54859|Type:File|Size:160864|Path:CDROM/VAB_SEQ/TWIN.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1319|ID:CDROM/VAB_SEQ/TWIN.VH|Sectors:54860-54864|Type:File|Size:8736|Path:CDROM/VAB_SEQ/TWIN.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1320|ID:CDROM/VAB_SEQ/UNDOKAI.SEQ|Sectors:54865-54897|Type:File|Size:67180|Path:CDROM/VAB_SEQ/UNDOKAI.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1321|ID:CDROM/VAB_SEQ/UNDOKAI.VB|Sectors:54898-54975|Type:File|Size:158400|Path:CDROM/VAB_SEQ/UNDOKAI.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1322|ID:CDROM/VAB_SEQ/UNDOKAI.VH|Sectors:54976-54980|Type:File|Size:9760|Path:CDROM/VAB_SEQ/UNDOKAI.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1323|ID:CDROM/VAB_SEQ/UNDOKAI2.SEQ|Sectors:54981-54992|Type:File|Size:24504|Path:CDROM/VAB_SEQ/UNDOKAI2.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1324|ID:CDROM/VAB_SEQ/UNDOKAI2.VB|Sectors:54993-55071|Type:File|Size:161536|Path:CDROM/VAB_SEQ/UNDOKAI2.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1325|ID:CDROM/VAB_SEQ/UNDOKAI2.VH|Sectors:55072-55076|Type:File|Size:8736|Path:CDROM/VAB_SEQ/UNDOKAI2.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1326|ID:CDROM/VAB_SEQ/VAC_FUYU.SEQ|Sectors:55077-55083|Type:File|Size:13268|Path:CDROM/VAB_SEQ/VAC_FUYU.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1327|ID:CDROM/VAB_SEQ/VAC_FUYU.VB|Sectors:55084-55116|Type:File|Size:65776|Path:CDROM/VAB_SEQ/VAC_FUYU.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1328|ID:CDROM/VAB_SEQ/VAC_FUYU.VH|Sectors:55117-55120|Type:File|Size:7200|Path:CDROM/VAB_SEQ/VAC_FUYU.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1329|ID:CDROM/VAB_SEQ/VAC_HARU.SEQ|Sectors:55121-55135|Type:File|Size:29392|Path:CDROM/VAB_SEQ/VAC_HARU.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1330|ID:CDROM/VAB_SEQ/VAC_HARU.VB|Sectors:55136-55181|Type:File|Size:93856|Path:CDROM/VAB_SEQ/VAC_HARU.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1331|ID:CDROM/VAB_SEQ/VAC_HARU.VH|Sectors:55182-55185|Type:File|Size:6688|Path:CDROM/VAB_SEQ/VAC_HARU.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1332|ID:CDROM/VAB_SEQ/VAC_HUYU.SEQ|Sectors:55186-55188|Type:File|Size:4416|Path:CDROM/VAB_SEQ/VAC_HUYU.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1333|ID:CDROM/VAB_SEQ/VAC_HUYU.VB|Sectors:55189-55213|Type:File|Size:51008|Path:CDROM/VAB_SEQ/VAC_HUYU.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1334|ID:CDROM/VAB_SEQ/VAC_HUYU.VH|Sectors:55214-55217|Type:File|Size:6688|Path:CDROM/VAB_SEQ/VAC_HUYU.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1335|ID:CDROM/VAB_SEQ/VAC_NATU.SEQ|Sectors:55218-55228|Type:File|Size:22232|Path:CDROM/VAB_SEQ/VAC_NATU.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1336|ID:CDROM/VAB_SEQ/VAC_NATU.VB|Sectors:55229-55262|Type:File|Size:68496|Path:CDROM/VAB_SEQ/VAC_NATU.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1337|ID:CDROM/VAB_SEQ/VAC_NATU.VH|Sectors:55263-55267|Type:File|Size:8224|Path:CDROM/VAB_SEQ/VAC_NATU.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1338|ID:CDROM/VAB_SEQ/VISUAL.SEQ|Sectors:55268-55273|Type:File|Size:11348|Path:CDROM/VAB_SEQ/VISUAL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1339|ID:CDROM/VAB_SEQ/VISUAL.VB|Sectors:55274-55328|Type:File|Size:111600|Path:CDROM/VAB_SEQ/VISUAL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1340|ID:CDROM/VAB_SEQ/VISUAL.VH|Sectors:55329-55334|Type:File|Size:10272|Path:CDROM/VAB_SEQ/VISUAL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1341|ID:CDROM/VAB_SEQ/WINDATE.SEQ|Sectors:55335-55341|Type:File|Size:12732|Path:CDROM/VAB_SEQ/WINDATE.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1342|ID:CDROM/VAB_SEQ/WINDATE.VB|Sectors:55342-55420|Type:File|Size:160048|Path:CDROM/VAB_SEQ/WINDATE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1343|ID:CDROM/VAB_SEQ/WINDATE.VH|Sectors:55421-55425|Type:File|Size:9760|Path:CDROM/VAB_SEQ/WINDATE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1344|ID:CDROM/VAB_SEQ/WINTER.SEQ|Sectors:55426-55435|Type:File|Size:20000|Path:CDROM/VAB_SEQ/WINTER.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1345|ID:CDROM/VAB_SEQ/WINTER.VB|Sectors:55436-55512|Type:File|Size:156640|Path:CDROM/VAB_SEQ/WINTER.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1346|ID:CDROM/VAB_SEQ/WINTER.VH|Sectors:55513-55517|Type:File|Size:9248|Path:CDROM/VAB_SEQ/WINTER.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1347|ID:CDROM/VAB_SEQ/XMAS.SEQ|Sectors:55518-55549|Type:File|Size:65184|Path:CDROM/VAB_SEQ/XMAS.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1348|ID:CDROM/VAB_SEQ/XMAS.VB|Sectors:55550-55624|Type:File|Size:151744|Path:CDROM/VAB_SEQ/XMAS.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1349|ID:CDROM/VAB_SEQ/XMAS.VH|Sectors:55625-55630|Type:File|Size:10784|Path:CDROM/VAB_SEQ/XMAS.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1350|ID:CDROM/VAB_SEQ/YOSI_VOL.SEQ|Sectors:55631-55638|Type:File|Size:15424|Path:CDROM/VAB_SEQ/YOSI_VOL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1351|ID:CDROM/VAB_SEQ/YOSI_VOL.VB|Sectors:55639-55702|Type:File|Size:129040|Path:CDROM/VAB_SEQ/YOSI_VOL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1352|ID:CDROM/VAB_SEQ/YOSI_VOL.VH|Sectors:55703-55707|Type:File|Size:8224|Path:CDROM/VAB_SEQ/YOSI_VOL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1353|ID:CDROM/VAB_SEQ/YUKIGASE.SEQ|Sectors:55708-55712|Type:File|Size:9128|Path:CDROM/VAB_SEQ/YUKIGASE.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1354|ID:CDROM/VAB_SEQ/YUKIGASE.VB|Sectors:55713-55790|Type:File|Size:159616|Path:CDROM/VAB_SEQ/YUKIGASE.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1355|ID:CDROM/VAB_SEQ/YUKIGASE.VH|Sectors:55791-55795|Type:File|Size:9760|Path:CDROM/VAB_SEQ/YUKIGASE.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1356|ID:CDROM/VAB_SEQ/YUMI_VOL.SEQ|Sectors:55796-55803|Type:File|Size:14844|Path:CDROM/VAB_SEQ/YUMI_VOL.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1357|ID:CDROM/VAB_SEQ/YUMI_VOL.VB|Sectors:55804-55877|Type:File|Size:149856|Path:CDROM/VAB_SEQ/YUMI_VOL.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1358|ID:CDROM/VAB_SEQ/YUMI_VOL.VH|Sectors:55878-55882|Type:File|Size:8736|Path:CDROM/VAB_SEQ/YUMI_VOL.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1359|ID:CDROM/VAB_SEQ/YUUEN.SEQ|Sectors:55883-55900|Type:File|Size:34828|Path:CDROM/VAB_SEQ/YUUEN.SEQ|Has mode 2 form 2:No|Has CD audio:No
+    #:1360|ID:CDROM/VAB_SEQ/YUUEN.VB|Sectors:55901-55980|Type:File|Size:163408|Path:CDROM/VAB_SEQ/YUUEN.VB|Has mode 2 form 2:No|Has CD audio:No
+    #:1361|ID:CDROM/VAB_SEQ/YUUEN.VH|Sectors:55981-55986|Type:File|Size:10784|Path:CDROM/VAB_SEQ/YUUEN.VH|Has mode 2 form 2:No|Has CD audio:No
+    #:1362|ID:CDROM/XA_G/FUJISAKI.XA|Sectors:55988-87251|Type:File|Size:64028672|Path:CDROM/XA_G/FUJISAKI.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1363|ID:CDROM/XA_G/FUJISAKI.XA[0]|Sectors:55988-87220|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1364|ID:CDROM/XA_G/FUJISAKI.XA[1]|Sectors:55989-87221|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1365|ID:CDROM/XA_G/FUJISAKI.XA[2]|Sectors:55990-87222|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1366|ID:CDROM/XA_G/FUJISAKI.XA[3]|Sectors:55991-87223|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1367|ID:CDROM/XA_G/FUJISAKI.XA[4]|Sectors:55992-87224|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1368|ID:CDROM/XA_G/FUJISAKI.XA[5]|Sectors:55993-87225|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1369|ID:CDROM/XA_G/FUJISAKI.XA[6]|Sectors:55994-87226|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1370|ID:CDROM/XA_G/FUJISAKI.XA[7]|Sectors:55995-87227|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1371|ID:CDROM/XA_G/FUJISAKI.XA[8]|Sectors:55996-87228|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1372|ID:CDROM/XA_G/FUJISAKI.XA[9]|Sectors:55997-87229|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1373|ID:CDROM/XA_G/FUJISAKI.XA[10]|Sectors:55998-87230|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1374|ID:CDROM/XA_G/FUJISAKI.XA[11]|Sectors:55999-87231|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1375|ID:CDROM/XA_G/FUJISAKI.XA[12]|Sectors:56000-87232|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1376|ID:CDROM/XA_G/FUJISAKI.XA[13]|Sectors:56001-87233|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1377|ID:CDROM/XA_G/FUJISAKI.XA[14]|Sectors:56002-87234|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1378|ID:CDROM/XA_G/FUJISAKI.XA[15]|Sectors:56003-87235|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1379|ID:CDROM/XA_G/FUJISAKI.XA[16]|Sectors:56004-87236|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1380|ID:CDROM/XA_G/FUJISAKI.XA[17]|Sectors:56005-87237|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1381|ID:CDROM/XA_G/FUJISAKI.XA[18]|Sectors:56006-87238|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1382|ID:CDROM/XA_G/FUJISAKI.XA[19]|Sectors:56007-87239|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1383|ID:CDROM/XA_G/FUJISAKI.XA[20]|Sectors:56008-87240|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1384|ID:CDROM/XA_G/FUJISAKI.XA[21]|Sectors:56009-87241|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1385|ID:CDROM/XA_G/FUJISAKI.XA[22]|Sectors:56010-87242|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1386|ID:CDROM/XA_G/FUJISAKI.XA[23]|Sectors:56011-87243|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1387|ID:CDROM/XA_G/FUJISAKI.XA[24]|Sectors:56012-87244|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1388|ID:CDROM/XA_G/FUJISAKI.XA[25]|Sectors:56013-87245|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1389|ID:CDROM/XA_G/FUJISAKI.XA[26]|Sectors:56014-87246|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1390|ID:CDROM/XA_G/FUJISAKI.XA[27]|Sectors:56015-87247|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1391|ID:CDROM/XA_G/FUJISAKI.XA[28]|Sectors:56016-87248|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1392|ID:CDROM/XA_G/FUJISAKI.XA[29]|Sectors:56017-87249|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1393|ID:CDROM/XA_G/FUJISAKI.XA[30]|Sectors:56018-87250|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1394|ID:CDROM/XA_G/FUJISAKI.XA[31]|Sectors:56019-87251|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1395|ID:CDROM/XA_G/YOSHIO.XA|Sectors:87252-94771|Type:File|Size:15400960|Path:CDROM/XA_G/YOSHIO.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1396|ID:CDROM/XA_G/YOSHIO.XA[0]|Sectors:87252-94740|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1397|ID:CDROM/XA_G/YOSHIO.XA[1]|Sectors:87253-94741|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1398|ID:CDROM/XA_G/YOSHIO.XA[2]|Sectors:87254-94742|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1399|ID:CDROM/XA_G/YOSHIO.XA[3]|Sectors:87255-94743|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1400|ID:CDROM/XA_G/YOSHIO.XA[4]|Sectors:87256-94744|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1401|ID:CDROM/XA_G/YOSHIO.XA[5]|Sectors:87257-94745|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1402|ID:CDROM/XA_G/YOSHIO.XA[6]|Sectors:87258-94746|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1403|ID:CDROM/XA_G/YOSHIO.XA[7]|Sectors:87259-94747|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1404|ID:CDROM/XA_G/YOSHIO.XA[8]|Sectors:87260-94748|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1405|ID:CDROM/XA_G/YOSHIO.XA[9]|Sectors:87261-94749|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1406|ID:CDROM/XA_G/YOSHIO.XA[10]|Sectors:87262-94750|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1407|ID:CDROM/XA_G/YOSHIO.XA[11]|Sectors:87263-94751|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1408|ID:CDROM/XA_G/YOSHIO.XA[12]|Sectors:87264-94752|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1409|ID:CDROM/XA_G/YOSHIO.XA[13]|Sectors:87265-94753|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1410|ID:CDROM/XA_G/YOSHIO.XA[14]|Sectors:87266-94754|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1411|ID:CDROM/XA_G/YOSHIO.XA[15]|Sectors:87267-94755|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1412|ID:CDROM/XA_G/YOSHIO.XA[16]|Sectors:87268-94756|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1413|ID:CDROM/XA_G/YOSHIO.XA[17]|Sectors:87269-94757|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1414|ID:CDROM/XA_G/YOSHIO.XA[18]|Sectors:87270-94758|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1415|ID:CDROM/XA_G/YOSHIO.XA[19]|Sectors:87271-94759|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1416|ID:CDROM/XA_G/YOSHIO.XA[20]|Sectors:87272-94760|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1417|ID:CDROM/XA_G/YOSHIO.XA[21]|Sectors:87273-94761|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1418|ID:CDROM/XA_G/YOSHIO.XA[22]|Sectors:87274-94762|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1419|ID:CDROM/XA_G/YOSHIO.XA[23]|Sectors:87275-94763|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1420|ID:CDROM/XA_G/YOSHIO.XA[24]|Sectors:87276-94764|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1421|ID:CDROM/XA_G/YOSHIO.XA[25]|Sectors:87277-94765|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1422|ID:CDROM/XA_G/YOSHIO.XA[26]|Sectors:87278-94766|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1423|ID:CDROM/XA_G/YOSHIO.XA[27]|Sectors:87279-94767|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1424|ID:CDROM/XA_G/YOSHIO.XA[28]|Sectors:87280-94768|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1425|ID:CDROM/XA_G/YOSHIO.XA[29]|Sectors:87281-94769|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1426|ID:CDROM/XA_G/YOSHIO.XA[30]|Sectors:87282-94770|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1427|ID:CDROM/XA_G/YOSHIO.XA[31]|Sectors:87283-94771|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1428|ID:CDROM/XA_G/YUMI.XA|Sectors:94772-109715|Type:File|Size:30605312|Path:CDROM/XA_G/YUMI.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1429|ID:CDROM/XA_G/YUMI.XA[0]|Sectors:94772-109684|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1430|ID:CDROM/XA_G/YUMI.XA[1]|Sectors:94773-109685|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1431|ID:CDROM/XA_G/YUMI.XA[2]|Sectors:94774-109686|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1432|ID:CDROM/XA_G/YUMI.XA[3]|Sectors:94775-109687|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1433|ID:CDROM/XA_G/YUMI.XA[4]|Sectors:94776-109688|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1434|ID:CDROM/XA_G/YUMI.XA[5]|Sectors:94777-109689|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1435|ID:CDROM/XA_G/YUMI.XA[6]|Sectors:94778-109690|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1436|ID:CDROM/XA_G/YUMI.XA[7]|Sectors:94779-109691|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1437|ID:CDROM/XA_G/YUMI.XA[8]|Sectors:94780-109692|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1438|ID:CDROM/XA_G/YUMI.XA[9]|Sectors:94781-109693|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1439|ID:CDROM/XA_G/YUMI.XA[10]|Sectors:94782-109694|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1440|ID:CDROM/XA_G/YUMI.XA[11]|Sectors:94783-109695|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1441|ID:CDROM/XA_G/YUMI.XA[12]|Sectors:94784-109696|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1442|ID:CDROM/XA_G/YUMI.XA[13]|Sectors:94785-109697|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1443|ID:CDROM/XA_G/YUMI.XA[14]|Sectors:94786-109698|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1444|ID:CDROM/XA_G/YUMI.XA[15]|Sectors:94787-109699|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1445|ID:CDROM/XA_G/YUMI.XA[16]|Sectors:94788-109700|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1446|ID:CDROM/XA_G/YUMI.XA[17]|Sectors:94789-109701|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1447|ID:CDROM/XA_G/YUMI.XA[18]|Sectors:94790-109702|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1448|ID:CDROM/XA_G/YUMI.XA[19]|Sectors:94791-109703|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1449|ID:CDROM/XA_G/YUMI.XA[20]|Sectors:94792-109704|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1450|ID:CDROM/XA_G/YUMI.XA[21]|Sectors:94793-109705|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1451|ID:CDROM/XA_G/YUMI.XA[22]|Sectors:94794-109706|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1452|ID:CDROM/XA_G/YUMI.XA[23]|Sectors:94795-109707|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1453|ID:CDROM/XA_G/YUMI.XA[24]|Sectors:94796-109708|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1454|ID:CDROM/XA_G/YUMI.XA[25]|Sectors:94797-109709|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1455|ID:CDROM/XA_G/YUMI.XA[26]|Sectors:94798-109710|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1456|ID:CDROM/XA_G/YUMI.XA[27]|Sectors:94799-109711|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1457|ID:CDROM/XA_G/YUMI.XA[28]|Sectors:94800-109712|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1458|ID:CDROM/XA_G/YUMI.XA[29]|Sectors:94801-109713|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1459|ID:CDROM/XA_G/YUMI.XA[30]|Sectors:94802-109714|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1460|ID:CDROM/XA_G/YUMI.XA[31]|Sectors:94803-109715|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1461|ID:CDROM/XA_G/ASAHINA.XA|Sectors:109716-123411|Type:File|Size:28049408|Path:CDROM/XA_G/ASAHINA.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1462|ID:CDROM/XA_G/ASAHINA.XA[0]|Sectors:109716-123380|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1463|ID:CDROM/XA_G/ASAHINA.XA[1]|Sectors:109717-123381|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1464|ID:CDROM/XA_G/ASAHINA.XA[2]|Sectors:109718-123382|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1465|ID:CDROM/XA_G/ASAHINA.XA[3]|Sectors:109719-123383|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1466|ID:CDROM/XA_G/ASAHINA.XA[4]|Sectors:109720-121048|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1467|ID:CDROM/XA_G/ASAHINA.XA[5]|Sectors:109721-123385|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1468|ID:CDROM/XA_G/ASAHINA.XA[6]|Sectors:109722-123386|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1469|ID:CDROM/XA_G/ASAHINA.XA[7]|Sectors:109723-123387|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1470|ID:CDROM/XA_G/ASAHINA.XA[8]|Sectors:109724-123388|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1471|ID:CDROM/XA_G/ASAHINA.XA[9]|Sectors:109725-123389|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1472|ID:CDROM/XA_G/ASAHINA.XA[10]|Sectors:109726-123390|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1473|ID:CDROM/XA_G/ASAHINA.XA[11]|Sectors:109727-123391|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1474|ID:CDROM/XA_G/ASAHINA.XA[12]|Sectors:109728-123392|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1475|ID:CDROM/XA_G/ASAHINA.XA[13]|Sectors:109729-123393|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1476|ID:CDROM/XA_G/ASAHINA.XA[14]|Sectors:109730-123394|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1477|ID:CDROM/XA_G/ASAHINA.XA[15]|Sectors:109731-123395|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1478|ID:CDROM/XA_G/ASAHINA.XA[16]|Sectors:109732-123396|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1479|ID:CDROM/XA_G/ASAHINA.XA[17]|Sectors:109733-123397|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1480|ID:CDROM/XA_G/ASAHINA.XA[18]|Sectors:109734-123398|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1481|ID:CDROM/XA_G/ASAHINA.XA[19]|Sectors:109735-123399|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1482|ID:CDROM/XA_G/ASAHINA.XA[20]|Sectors:109736-123400|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1483|ID:CDROM/XA_G/ASAHINA.XA[21]|Sectors:109737-123401|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1484|ID:CDROM/XA_G/ASAHINA.XA[22]|Sectors:109738-123402|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1485|ID:CDROM/XA_G/ASAHINA.XA[23]|Sectors:109739-123403|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1486|ID:CDROM/XA_G/ASAHINA.XA[24]|Sectors:109740-123404|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1487|ID:CDROM/XA_G/ASAHINA.XA[25]|Sectors:109741-123405|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1488|ID:CDROM/XA_G/ASAHINA.XA[26]|Sectors:109742-123406|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1489|ID:CDROM/XA_G/ASAHINA.XA[27]|Sectors:109743-123407|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1490|ID:CDROM/XA_G/ASAHINA.XA[28]|Sectors:109744-123408|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1491|ID:CDROM/XA_G/ASAHINA.XA[29]|Sectors:109745-123409|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1492|ID:CDROM/XA_G/ASAHINA.XA[30]|Sectors:109746-123410|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1493|ID:CDROM/XA_G/ASAHINA.XA[31]|Sectors:109747-123411|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1494|ID:CDROM/XA_G/ASAHINA.XA[32]|Sectors:121112-123384|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1495|ID:CDROM/XA_G/HIMOO.XA|Sectors:123412-141651|Type:File|Size:37355520|Path:CDROM/XA_G/HIMOO.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1496|ID:CDROM/XA_G/HIMOO.XA[0]|Sectors:123412-141620|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1497|ID:CDROM/XA_G/HIMOO.XA[1]|Sectors:123413-141621|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1498|ID:CDROM/XA_G/HIMOO.XA[2]|Sectors:123414-141622|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1499|ID:CDROM/XA_G/HIMOO.XA[3]|Sectors:123415-141623|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1500|ID:CDROM/XA_G/HIMOO.XA[4]|Sectors:123416-141624|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1501|ID:CDROM/XA_G/HIMOO.XA[5]|Sectors:123417-141625|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1502|ID:CDROM/XA_G/HIMOO.XA[6]|Sectors:123418-141626|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1503|ID:CDROM/XA_G/HIMOO.XA[7]|Sectors:123419-141627|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1504|ID:CDROM/XA_G/HIMOO.XA[8]|Sectors:123420-141628|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1505|ID:CDROM/XA_G/HIMOO.XA[9]|Sectors:123421-141629|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1506|ID:CDROM/XA_G/HIMOO.XA[10]|Sectors:123422-141630|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1507|ID:CDROM/XA_G/HIMOO.XA[11]|Sectors:123423-141631|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1508|ID:CDROM/XA_G/HIMOO.XA[12]|Sectors:123424-141632|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1509|ID:CDROM/XA_G/HIMOO.XA[13]|Sectors:123425-141633|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1510|ID:CDROM/XA_G/HIMOO.XA[14]|Sectors:123426-141634|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1511|ID:CDROM/XA_G/HIMOO.XA[15]|Sectors:123427-141635|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1512|ID:CDROM/XA_G/HIMOO.XA[16]|Sectors:123428-141636|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1513|ID:CDROM/XA_G/HIMOO.XA[17]|Sectors:123429-141637|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1514|ID:CDROM/XA_G/HIMOO.XA[18]|Sectors:123430-141638|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1515|ID:CDROM/XA_G/HIMOO.XA[19]|Sectors:123431-141639|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1516|ID:CDROM/XA_G/HIMOO.XA[20]|Sectors:123432-141640|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1517|ID:CDROM/XA_G/HIMOO.XA[21]|Sectors:123433-141641|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1518|ID:CDROM/XA_G/HIMOO.XA[22]|Sectors:123434-141642|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1519|ID:CDROM/XA_G/HIMOO.XA[23]|Sectors:123435-141643|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1520|ID:CDROM/XA_G/HIMOO.XA[24]|Sectors:123436-141644|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1521|ID:CDROM/XA_G/HIMOO.XA[25]|Sectors:123437-141645|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1522|ID:CDROM/XA_G/HIMOO.XA[26]|Sectors:123438-141646|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1523|ID:CDROM/XA_G/HIMOO.XA[27]|Sectors:123439-141647|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1524|ID:CDROM/XA_G/HIMOO.XA[28]|Sectors:123440-141648|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1525|ID:CDROM/XA_G/HIMOO.XA[29]|Sectors:123441-141649|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1526|ID:CDROM/XA_G/HIMOO.XA[30]|Sectors:123442-141650|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1527|ID:CDROM/XA_G/HIMOO.XA[31]|Sectors:123443-141651|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1528|ID:CDROM/XA_G/KAGAMI.XA|Sectors:141652-157843|Type:File|Size:33161216|Path:CDROM/XA_G/KAGAMI.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1529|ID:CDROM/XA_G/KAGAMI.XA[0]|Sectors:141652-157812|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1530|ID:CDROM/XA_G/KAGAMI.XA[1]|Sectors:141653-157813|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1531|ID:CDROM/XA_G/KAGAMI.XA[2]|Sectors:141654-157814|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1532|ID:CDROM/XA_G/KAGAMI.XA[3]|Sectors:141655-157815|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1533|ID:CDROM/XA_G/KAGAMI.XA[4]|Sectors:141656-157816|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1534|ID:CDROM/XA_G/KAGAMI.XA[5]|Sectors:141657-157817|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1535|ID:CDROM/XA_G/KAGAMI.XA[6]|Sectors:141658-157818|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1536|ID:CDROM/XA_G/KAGAMI.XA[7]|Sectors:141659-157819|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1537|ID:CDROM/XA_G/KAGAMI.XA[8]|Sectors:141660-157820|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1538|ID:CDROM/XA_G/KAGAMI.XA[9]|Sectors:141661-157821|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1539|ID:CDROM/XA_G/KAGAMI.XA[10]|Sectors:141662-157822|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1540|ID:CDROM/XA_G/KAGAMI.XA[11]|Sectors:141663-157823|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1541|ID:CDROM/XA_G/KAGAMI.XA[12]|Sectors:141664-157824|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1542|ID:CDROM/XA_G/KAGAMI.XA[13]|Sectors:141665-157825|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1543|ID:CDROM/XA_G/KAGAMI.XA[14]|Sectors:141666-157826|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1544|ID:CDROM/XA_G/KAGAMI.XA[15]|Sectors:141667-157827|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1545|ID:CDROM/XA_G/KAGAMI.XA[16]|Sectors:141668-157828|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1546|ID:CDROM/XA_G/KAGAMI.XA[17]|Sectors:141669-157829|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1547|ID:CDROM/XA_G/KAGAMI.XA[18]|Sectors:141670-157830|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1548|ID:CDROM/XA_G/KAGAMI.XA[19]|Sectors:141671-157831|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1549|ID:CDROM/XA_G/KAGAMI.XA[20]|Sectors:141672-157832|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1550|ID:CDROM/XA_G/KAGAMI.XA[21]|Sectors:141673-157833|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1551|ID:CDROM/XA_G/KAGAMI.XA[22]|Sectors:141674-157834|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1552|ID:CDROM/XA_G/KAGAMI.XA[23]|Sectors:141675-157835|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1553|ID:CDROM/XA_G/KAGAMI.XA[24]|Sectors:141676-157836|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1554|ID:CDROM/XA_G/KAGAMI.XA[25]|Sectors:141677-157837|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1555|ID:CDROM/XA_G/KAGAMI.XA[26]|Sectors:141678-157838|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1556|ID:CDROM/XA_G/KAGAMI.XA[27]|Sectors:141679-157839|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1557|ID:CDROM/XA_G/KAGAMI.XA[28]|Sectors:141680-157840|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1558|ID:CDROM/XA_G/KAGAMI.XA[29]|Sectors:141681-157841|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1559|ID:CDROM/XA_G/KAGAMI.XA[30]|Sectors:141682-157842|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1560|ID:CDROM/XA_G/KAGAMI.XA[31]|Sectors:141683-157843|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1561|ID:CDROM/XA_G/KATAGIRI.XA|Sectors:157844-176467|Type:File|Size:38141952|Path:CDROM/XA_G/KATAGIRI.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1562|ID:CDROM/XA_G/KATAGIRI.XA[0]|Sectors:157844-176436|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1563|ID:CDROM/XA_G/KATAGIRI.XA[1]|Sectors:157845-176437|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1564|ID:CDROM/XA_G/KATAGIRI.XA[2]|Sectors:157846-176438|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1565|ID:CDROM/XA_G/KATAGIRI.XA[3]|Sectors:157847-176439|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1566|ID:CDROM/XA_G/KATAGIRI.XA[4]|Sectors:157848-176440|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1567|ID:CDROM/XA_G/KATAGIRI.XA[5]|Sectors:157849-176441|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1568|ID:CDROM/XA_G/KATAGIRI.XA[6]|Sectors:157850-176442|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1569|ID:CDROM/XA_G/KATAGIRI.XA[7]|Sectors:157851-176443|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1570|ID:CDROM/XA_G/KATAGIRI.XA[8]|Sectors:157852-176444|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1571|ID:CDROM/XA_G/KATAGIRI.XA[9]|Sectors:157853-176445|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1572|ID:CDROM/XA_G/KATAGIRI.XA[10]|Sectors:157854-176446|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1573|ID:CDROM/XA_G/KATAGIRI.XA[11]|Sectors:157855-176447|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1574|ID:CDROM/XA_G/KATAGIRI.XA[12]|Sectors:157856-176448|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1575|ID:CDROM/XA_G/KATAGIRI.XA[13]|Sectors:157857-176449|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1576|ID:CDROM/XA_G/KATAGIRI.XA[14]|Sectors:157858-176450|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1577|ID:CDROM/XA_G/KATAGIRI.XA[15]|Sectors:157859-176451|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1578|ID:CDROM/XA_G/KATAGIRI.XA[16]|Sectors:157860-176452|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1579|ID:CDROM/XA_G/KATAGIRI.XA[17]|Sectors:157861-176453|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1580|ID:CDROM/XA_G/KATAGIRI.XA[18]|Sectors:157862-176454|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1581|ID:CDROM/XA_G/KATAGIRI.XA[19]|Sectors:157863-176455|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1582|ID:CDROM/XA_G/KATAGIRI.XA[20]|Sectors:157864-176456|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1583|ID:CDROM/XA_G/KATAGIRI.XA[21]|Sectors:157865-176457|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1584|ID:CDROM/XA_G/KATAGIRI.XA[22]|Sectors:157866-176458|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1585|ID:CDROM/XA_G/KATAGIRI.XA[23]|Sectors:157867-176459|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1586|ID:CDROM/XA_G/KATAGIRI.XA[24]|Sectors:157868-176460|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1587|ID:CDROM/XA_G/KATAGIRI.XA[25]|Sectors:157869-176461|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1588|ID:CDROM/XA_G/KATAGIRI.XA[26]|Sectors:157870-176462|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1589|ID:CDROM/XA_G/KATAGIRI.XA[27]|Sectors:157871-176463|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1590|ID:CDROM/XA_G/KATAGIRI.XA[28]|Sectors:157872-176464|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1591|ID:CDROM/XA_G/KATAGIRI.XA[29]|Sectors:157873-176465|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1592|ID:CDROM/XA_G/KATAGIRI.XA[30]|Sectors:157874-176466|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1593|ID:CDROM/XA_G/KATAGIRI.XA[31]|Sectors:157875-176467|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1594|ID:CDROM/XA_G/KISARAGI.XA|Sectors:176468-196595|Type:File|Size:41222144|Path:CDROM/XA_G/KISARAGI.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1595|ID:CDROM/XA_G/KISARAGI.XA[0]|Sectors:176468-196564|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1596|ID:CDROM/XA_G/KISARAGI.XA[1]|Sectors:176469-196565|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1597|ID:CDROM/XA_G/KISARAGI.XA[2]|Sectors:176470-196566|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1598|ID:CDROM/XA_G/KISARAGI.XA[3]|Sectors:176471-196567|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1599|ID:CDROM/XA_G/KISARAGI.XA[4]|Sectors:176472-196568|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1600|ID:CDROM/XA_G/KISARAGI.XA[5]|Sectors:176473-196569|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1601|ID:CDROM/XA_G/KISARAGI.XA[6]|Sectors:176474-196570|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1602|ID:CDROM/XA_G/KISARAGI.XA[7]|Sectors:176475-196571|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1603|ID:CDROM/XA_G/KISARAGI.XA[8]|Sectors:176476-196572|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1604|ID:CDROM/XA_G/KISARAGI.XA[9]|Sectors:176477-196573|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1605|ID:CDROM/XA_G/KISARAGI.XA[10]|Sectors:176478-196574|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1606|ID:CDROM/XA_G/KISARAGI.XA[11]|Sectors:176479-196575|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1607|ID:CDROM/XA_G/KISARAGI.XA[12]|Sectors:176480-196576|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1608|ID:CDROM/XA_G/KISARAGI.XA[13]|Sectors:176481-196577|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1609|ID:CDROM/XA_G/KISARAGI.XA[14]|Sectors:176482-196578|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1610|ID:CDROM/XA_G/KISARAGI.XA[15]|Sectors:176483-196579|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1611|ID:CDROM/XA_G/KISARAGI.XA[16]|Sectors:176484-196580|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1612|ID:CDROM/XA_G/KISARAGI.XA[17]|Sectors:176485-196581|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1613|ID:CDROM/XA_G/KISARAGI.XA[18]|Sectors:176486-196582|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1614|ID:CDROM/XA_G/KISARAGI.XA[19]|Sectors:176487-196583|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1615|ID:CDROM/XA_G/KISARAGI.XA[20]|Sectors:176488-196584|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1616|ID:CDROM/XA_G/KISARAGI.XA[21]|Sectors:176489-196585|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1617|ID:CDROM/XA_G/KISARAGI.XA[22]|Sectors:176490-196586|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1618|ID:CDROM/XA_G/KISARAGI.XA[23]|Sectors:176491-196587|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1619|ID:CDROM/XA_G/KISARAGI.XA[24]|Sectors:176492-196588|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1620|ID:CDROM/XA_G/KISARAGI.XA[25]|Sectors:176493-196589|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1621|ID:CDROM/XA_G/KISARAGI.XA[26]|Sectors:176494-196590|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1622|ID:CDROM/XA_G/KISARAGI.XA[27]|Sectors:176495-196591|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1623|ID:CDROM/XA_G/KISARAGI.XA[28]|Sectors:176496-196592|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1624|ID:CDROM/XA_G/KISARAGI.XA[29]|Sectors:176497-196593|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1625|ID:CDROM/XA_G/KISARAGI.XA[30]|Sectors:176498-196594|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1626|ID:CDROM/XA_G/KISARAGI.XA[31]|Sectors:176499-196595|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1627|ID:CDROM/XA_G/KIYOKAWA.XA|Sectors:196596-212979|Type:File|Size:33554432|Path:CDROM/XA_G/KIYOKAWA.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1628|ID:CDROM/XA_G/KIYOKAWA.XA[0]|Sectors:196596-212948|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1629|ID:CDROM/XA_G/KIYOKAWA.XA[1]|Sectors:196597-212949|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1630|ID:CDROM/XA_G/KIYOKAWA.XA[2]|Sectors:196598-212950|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1631|ID:CDROM/XA_G/KIYOKAWA.XA[3]|Sectors:196599-212951|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1632|ID:CDROM/XA_G/KIYOKAWA.XA[4]|Sectors:196600-212952|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1633|ID:CDROM/XA_G/KIYOKAWA.XA[5]|Sectors:196601-212953|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1634|ID:CDROM/XA_G/KIYOKAWA.XA[6]|Sectors:196602-212954|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1635|ID:CDROM/XA_G/KIYOKAWA.XA[7]|Sectors:196603-212955|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1636|ID:CDROM/XA_G/KIYOKAWA.XA[8]|Sectors:196604-212956|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1637|ID:CDROM/XA_G/KIYOKAWA.XA[9]|Sectors:196605-212957|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1638|ID:CDROM/XA_G/KIYOKAWA.XA[10]|Sectors:196606-212958|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1639|ID:CDROM/XA_G/KIYOKAWA.XA[11]|Sectors:196607-212959|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1640|ID:CDROM/XA_G/KIYOKAWA.XA[12]|Sectors:196608-212960|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1641|ID:CDROM/XA_G/KIYOKAWA.XA[13]|Sectors:196609-212961|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1642|ID:CDROM/XA_G/KIYOKAWA.XA[14]|Sectors:196610-212962|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1643|ID:CDROM/XA_G/KIYOKAWA.XA[15]|Sectors:196611-212963|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1644|ID:CDROM/XA_G/KIYOKAWA.XA[16]|Sectors:196612-212964|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1645|ID:CDROM/XA_G/KIYOKAWA.XA[17]|Sectors:196613-212965|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1646|ID:CDROM/XA_G/KIYOKAWA.XA[18]|Sectors:196614-212966|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1647|ID:CDROM/XA_G/KIYOKAWA.XA[19]|Sectors:196615-212967|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1648|ID:CDROM/XA_G/KIYOKAWA.XA[20]|Sectors:196616-212968|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1649|ID:CDROM/XA_G/KIYOKAWA.XA[21]|Sectors:196617-212969|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1650|ID:CDROM/XA_G/KIYOKAWA.XA[22]|Sectors:196618-212970|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1651|ID:CDROM/XA_G/KIYOKAWA.XA[23]|Sectors:196619-212971|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1652|ID:CDROM/XA_G/KIYOKAWA.XA[24]|Sectors:196620-212972|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1653|ID:CDROM/XA_G/KIYOKAWA.XA[25]|Sectors:196621-212973|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1654|ID:CDROM/XA_G/KIYOKAWA.XA[26]|Sectors:196622-212974|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1655|ID:CDROM/XA_G/KIYOKAWA.XA[27]|Sectors:196623-212975|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1656|ID:CDROM/XA_G/KIYOKAWA.XA[28]|Sectors:196624-212976|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1657|ID:CDROM/XA_G/KIYOKAWA.XA[29]|Sectors:196625-212977|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1658|ID:CDROM/XA_G/KIYOKAWA.XA[30]|Sectors:196626-212978|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1659|ID:CDROM/XA_G/KIYOKAWA.XA[31]|Sectors:196627-212979|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1660|ID:CDROM/XA_G/KOSHIKI.XA|Sectors:212980-233683|Type:File|Size:42401792|Path:CDROM/XA_G/KOSHIKI.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1661|ID:CDROM/XA_G/KOSHIKI.XA[0]|Sectors:212980-233652|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1662|ID:CDROM/XA_G/KOSHIKI.XA[1]|Sectors:212981-233653|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1663|ID:CDROM/XA_G/KOSHIKI.XA[2]|Sectors:212982-233654|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1664|ID:CDROM/XA_G/KOSHIKI.XA[3]|Sectors:212983-233655|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1665|ID:CDROM/XA_G/KOSHIKI.XA[4]|Sectors:212984-233656|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1666|ID:CDROM/XA_G/KOSHIKI.XA[5]|Sectors:212985-233657|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1667|ID:CDROM/XA_G/KOSHIKI.XA[6]|Sectors:212986-233658|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1668|ID:CDROM/XA_G/KOSHIKI.XA[7]|Sectors:212987-233659|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1669|ID:CDROM/XA_G/KOSHIKI.XA[8]|Sectors:212988-233660|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1670|ID:CDROM/XA_G/KOSHIKI.XA[9]|Sectors:212989-233661|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1671|ID:CDROM/XA_G/KOSHIKI.XA[10]|Sectors:212990-233662|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1672|ID:CDROM/XA_G/KOSHIKI.XA[11]|Sectors:212991-233663|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1673|ID:CDROM/XA_G/KOSHIKI.XA[12]|Sectors:212992-233664|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1674|ID:CDROM/XA_G/KOSHIKI.XA[13]|Sectors:212993-233665|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1675|ID:CDROM/XA_G/KOSHIKI.XA[14]|Sectors:212994-233666|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1676|ID:CDROM/XA_G/KOSHIKI.XA[15]|Sectors:212995-233667|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1677|ID:CDROM/XA_G/KOSHIKI.XA[16]|Sectors:212996-233668|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1678|ID:CDROM/XA_G/KOSHIKI.XA[17]|Sectors:212997-233669|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1679|ID:CDROM/XA_G/KOSHIKI.XA[18]|Sectors:212998-233670|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1680|ID:CDROM/XA_G/KOSHIKI.XA[19]|Sectors:212999-233671|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1681|ID:CDROM/XA_G/KOSHIKI.XA[20]|Sectors:213000-233672|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1682|ID:CDROM/XA_G/KOSHIKI.XA[21]|Sectors:213001-233673|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1683|ID:CDROM/XA_G/KOSHIKI.XA[22]|Sectors:213002-233674|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1684|ID:CDROM/XA_G/KOSHIKI.XA[23]|Sectors:213003-233675|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1685|ID:CDROM/XA_G/KOSHIKI.XA[24]|Sectors:213004-233676|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1686|ID:CDROM/XA_G/KOSHIKI.XA[25]|Sectors:213005-233677|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1687|ID:CDROM/XA_G/KOSHIKI.XA[26]|Sectors:213006-233678|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1688|ID:CDROM/XA_G/KOSHIKI.XA[27]|Sectors:213007-233679|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1689|ID:CDROM/XA_G/KOSHIKI.XA[28]|Sectors:213008-233680|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1690|ID:CDROM/XA_G/KOSHIKI.XA[29]|Sectors:213009-233681|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1691|ID:CDROM/XA_G/KOSHIKI.XA[30]|Sectors:213010-233682|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1692|ID:CDROM/XA_G/KOSHIKI.XA[31]|Sectors:213011-233683|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1693|ID:CDROM/XA_G/NIJINO.XA|Sectors:233684-248851|Type:File|Size:31064064|Path:CDROM/XA_G/NIJINO.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1694|ID:CDROM/XA_G/NIJINO.XA[0]|Sectors:233684-248820|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1695|ID:CDROM/XA_G/NIJINO.XA[1]|Sectors:233685-248821|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1696|ID:CDROM/XA_G/NIJINO.XA[2]|Sectors:233686-248822|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1697|ID:CDROM/XA_G/NIJINO.XA[3]|Sectors:233687-248823|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1698|ID:CDROM/XA_G/NIJINO.XA[4]|Sectors:233688-248824|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1699|ID:CDROM/XA_G/NIJINO.XA[5]|Sectors:233689-248825|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1700|ID:CDROM/XA_G/NIJINO.XA[6]|Sectors:233690-248826|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1701|ID:CDROM/XA_G/NIJINO.XA[7]|Sectors:233691-248827|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1702|ID:CDROM/XA_G/NIJINO.XA[8]|Sectors:233692-248828|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1703|ID:CDROM/XA_G/NIJINO.XA[9]|Sectors:233693-248829|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1704|ID:CDROM/XA_G/NIJINO.XA[10]|Sectors:233694-248830|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1705|ID:CDROM/XA_G/NIJINO.XA[11]|Sectors:233695-248831|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1706|ID:CDROM/XA_G/NIJINO.XA[12]|Sectors:233696-248832|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1707|ID:CDROM/XA_G/NIJINO.XA[13]|Sectors:233697-248833|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1708|ID:CDROM/XA_G/NIJINO.XA[14]|Sectors:233698-248834|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1709|ID:CDROM/XA_G/NIJINO.XA[15]|Sectors:233699-248835|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1710|ID:CDROM/XA_G/NIJINO.XA[16]|Sectors:233700-248836|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1711|ID:CDROM/XA_G/NIJINO.XA[17]|Sectors:233701-248837|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1712|ID:CDROM/XA_G/NIJINO.XA[18]|Sectors:233702-248838|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1713|ID:CDROM/XA_G/NIJINO.XA[19]|Sectors:233703-248839|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1714|ID:CDROM/XA_G/NIJINO.XA[20]|Sectors:233704-248840|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1715|ID:CDROM/XA_G/NIJINO.XA[21]|Sectors:233705-248841|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1716|ID:CDROM/XA_G/NIJINO.XA[22]|Sectors:233706-248842|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1717|ID:CDROM/XA_G/NIJINO.XA[23]|Sectors:233707-248843|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1718|ID:CDROM/XA_G/NIJINO.XA[24]|Sectors:233708-248844|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1719|ID:CDROM/XA_G/NIJINO.XA[25]|Sectors:233709-248845|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1720|ID:CDROM/XA_G/NIJINO.XA[26]|Sectors:233710-248846|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1721|ID:CDROM/XA_G/NIJINO.XA[27]|Sectors:233711-248847|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1722|ID:CDROM/XA_G/NIJINO.XA[28]|Sectors:233712-248848|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1723|ID:CDROM/XA_G/NIJINO.XA[29]|Sectors:233713-248849|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1724|ID:CDROM/XA_G/NIJINO.XA[30]|Sectors:233714-248850|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1725|ID:CDROM/XA_G/NIJINO.XA[31]|Sectors:233715-248851|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1726|ID:CDROM/XA_G/ETC.XA|Sectors:248852-254739|Type:File|Size:12058624|Path:CDROM/XA_G/ETC.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1727|ID:CDROM/XA_G/ETC.XA[0]|Sectors:248852-254708|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1728|ID:CDROM/XA_G/ETC.XA[1]|Sectors:248853-254709|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1729|ID:CDROM/XA_G/ETC.XA[2]|Sectors:248854-254710|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1730|ID:CDROM/XA_G/ETC.XA[3]|Sectors:248855-254711|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1731|ID:CDROM/XA_G/ETC.XA[4]|Sectors:248856-254712|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1732|ID:CDROM/XA_G/ETC.XA[5]|Sectors:248857-254713|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1733|ID:CDROM/XA_G/ETC.XA[6]|Sectors:248858-254714|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1734|ID:CDROM/XA_G/ETC.XA[7]|Sectors:248859-254715|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1735|ID:CDROM/XA_G/ETC.XA[8]|Sectors:248860-254716|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1736|ID:CDROM/XA_G/ETC.XA[9]|Sectors:248861-254717|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1737|ID:CDROM/XA_G/ETC.XA[10]|Sectors:248862-254718|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1738|ID:CDROM/XA_G/ETC.XA[11]|Sectors:248863-254719|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1739|ID:CDROM/XA_G/ETC.XA[12]|Sectors:248864-254720|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1740|ID:CDROM/XA_G/ETC.XA[13]|Sectors:248865-254721|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1741|ID:CDROM/XA_G/ETC.XA[14]|Sectors:248866-254722|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1742|ID:CDROM/XA_G/ETC.XA[15]|Sectors:248867-254723|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1743|ID:CDROM/XA_G/ETC.XA[16]|Sectors:248868-254724|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1744|ID:CDROM/XA_G/ETC.XA[17]|Sectors:248869-254725|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1745|ID:CDROM/XA_G/ETC.XA[18]|Sectors:248870-254726|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1746|ID:CDROM/XA_G/ETC.XA[19]|Sectors:248871-254727|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1747|ID:CDROM/XA_G/ETC.XA[20]|Sectors:248872-254728|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1748|ID:CDROM/XA_G/ETC.XA[21]|Sectors:248873-254729|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1749|ID:CDROM/XA_G/ETC.XA[22]|Sectors:248874-254730|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1750|ID:CDROM/XA_G/ETC.XA[23]|Sectors:248875-254731|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1751|ID:CDROM/XA_G/ETC.XA[24]|Sectors:248876-254732|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1752|ID:CDROM/XA_G/ETC.XA[25]|Sectors:248877-254733|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1753|ID:CDROM/XA_G/ETC.XA[26]|Sectors:248878-254734|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1754|ID:CDROM/XA_G/ETC.XA[27]|Sectors:248879-254735|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1755|ID:CDROM/XA_G/ETC.XA[28]|Sectors:248880-254736|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1756|ID:CDROM/XA_G/ETC.XA[29]|Sectors:248881-254737|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1757|ID:CDROM/XA_G/ETC.XA[30]|Sectors:248882-254738|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1758|ID:CDROM/XA_G/ETC.XA[31]|Sectors:248883-254739|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1759|ID:CDROM/XA_G/BGM378.XA|Sectors:254740-283515|Type:File|Size:58933248|Path:CDROM/XA_G/BGM378.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1760|ID:CDROM/XA_G/BGM378.XA[0]|Sectors:254740-254868|Type:XA|Channel:0|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1761|ID:CDROM/XA_G/BGM378.XA[1]|Sectors:254741-283509|Type:XA|Channel:1|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1762|ID:CDROM/XA_G/BGM378.XA[2]|Sectors:254742-255318|Type:XA|Channel:2|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1763|ID:CDROM/XA_G/BGM378.XA[3]|Sectors:254743-283511|Type:XA|Channel:3|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1764|ID:CDROM/XA_G/BGM378.XA[4]|Sectors:254744-255416|Type:XA|Channel:4|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1765|ID:CDROM/XA_G/BGM378.XA[5]|Sectors:254745-255265|Type:XA|Channel:5|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1766|ID:CDROM/XA_G/BGM378.XA[6]|Sectors:254746-283514|Type:XA|Channel:6|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1767|ID:CDROM/XA_G/BGM378.XA[7]|Sectors:254747-283515|Type:XA|Channel:7|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1768|ID:CDROM/XA_G/BGM378.XA[8]|Sectors:255244-262332|Type:XA|Channel:0|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1769|ID:CDROM/XA_G/BGM378.XA[9]|Sectors:255457-283513|Type:XA|Channel:5|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1770|ID:CDROM/XA_G/BGM378.XA[10]|Sectors:255510-283510|Type:XA|Channel:2|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1771|ID:CDROM/XA_G/BGM378.XA[11]|Sectors:255608-283512|Type:XA|Channel:4|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1772|ID:CDROM/XA_G/BGM378.XA[12]|Sectors:262340-262340|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1773|ID:CDROM/XA_G/BGM378.XA[13]|Sectors:262348-262348|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1774|ID:CDROM/XA_G/BGM378.XA[14]|Sectors:262356-262356|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1775|ID:CDROM/XA_G/BGM378.XA[15]|Sectors:262364-262364|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1776|ID:CDROM/XA_G/BGM378.XA[16]|Sectors:262372-262372|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1777|ID:CDROM/XA_G/BGM378.XA[17]|Sectors:262380-262380|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1778|ID:CDROM/XA_G/BGM378.XA[18]|Sectors:262388-262388|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1779|ID:CDROM/XA_G/BGM378.XA[19]|Sectors:262396-262396|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1780|ID:CDROM/XA_G/BGM378.XA[20]|Sectors:262404-262404|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1781|ID:CDROM/XA_G/BGM378.XA[21]|Sectors:262412-262412|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1782|ID:CDROM/XA_G/BGM378.XA[22]|Sectors:262420-262420|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1783|ID:CDROM/XA_G/BGM378.XA[23]|Sectors:262428-262428|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1784|ID:CDROM/XA_G/BGM378.XA[24]|Sectors:262436-262436|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1785|ID:CDROM/XA_G/BGM378.XA[25]|Sectors:262444-262444|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1786|ID:CDROM/XA_G/BGM378.XA[26]|Sectors:262452-262452|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1787|ID:CDROM/XA_G/BGM378.XA[27]|Sectors:262460-262460|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1788|ID:CDROM/XA_G/BGM378.XA[28]|Sectors:262468-262468|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1789|ID:CDROM/XA_G/BGM378.XA[29]|Sectors:262476-262476|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1790|ID:CDROM/XA_G/BGM378.XA[30]|Sectors:262484-262484|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1791|ID:CDROM/XA_G/BGM378.XA[31]|Sectors:262492-262492|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1792|ID:CDROM/XA_G/BGM378.XA[32]|Sectors:262500-262500|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1793|ID:CDROM/XA_G/BGM378.XA[33]|Sectors:262508-262508|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1794|ID:CDROM/XA_G/BGM378.XA[34]|Sectors:262516-262516|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1795|ID:CDROM/XA_G/BGM378.XA[35]|Sectors:262524-262524|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1796|ID:CDROM/XA_G/BGM378.XA[36]|Sectors:262532-262532|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1797|ID:CDROM/XA_G/BGM378.XA[37]|Sectors:262540-262540|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1798|ID:CDROM/XA_G/BGM378.XA[38]|Sectors:262548-262548|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1799|ID:CDROM/XA_G/BGM378.XA[39]|Sectors:262556-262556|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1800|ID:CDROM/XA_G/BGM378.XA[40]|Sectors:262564-262564|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1801|ID:CDROM/XA_G/BGM378.XA[41]|Sectors:262572-262572|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1802|ID:CDROM/XA_G/BGM378.XA[42]|Sectors:262580-262580|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1803|ID:CDROM/XA_G/BGM378.XA[43]|Sectors:262588-262588|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1804|ID:CDROM/XA_G/BGM378.XA[44]|Sectors:262596-262596|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1805|ID:CDROM/XA_G/BGM378.XA[45]|Sectors:262604-262604|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1806|ID:CDROM/XA_G/BGM378.XA[46]|Sectors:262612-262612|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1807|ID:CDROM/XA_G/BGM378.XA[47]|Sectors:262620-262620|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1808|ID:CDROM/XA_G/BGM378.XA[48]|Sectors:262628-262628|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1809|ID:CDROM/XA_G/BGM378.XA[49]|Sectors:262636-262636|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1810|ID:CDROM/XA_G/BGM378.XA[50]|Sectors:262644-262644|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1811|ID:CDROM/XA_G/BGM378.XA[51]|Sectors:262652-262652|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1812|ID:CDROM/XA_G/BGM378.XA[52]|Sectors:262660-262660|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1813|ID:CDROM/XA_G/BGM378.XA[53]|Sectors:262668-262668|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1814|ID:CDROM/XA_G/BGM378.XA[54]|Sectors:262676-262676|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1815|ID:CDROM/XA_G/BGM378.XA[55]|Sectors:262684-262684|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1816|ID:CDROM/XA_G/BGM378.XA[56]|Sectors:262692-262692|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1817|ID:CDROM/XA_G/BGM378.XA[57]|Sectors:262700-262700|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1818|ID:CDROM/XA_G/BGM378.XA[58]|Sectors:262708-262708|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1819|ID:CDROM/XA_G/BGM378.XA[59]|Sectors:262716-262716|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1820|ID:CDROM/XA_G/BGM378.XA[60]|Sectors:262724-262724|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1821|ID:CDROM/XA_G/BGM378.XA[61]|Sectors:262732-262732|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1822|ID:CDROM/XA_G/BGM378.XA[62]|Sectors:262740-262740|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1823|ID:CDROM/XA_G/BGM378.XA[63]|Sectors:262748-262748|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1824|ID:CDROM/XA_G/BGM378.XA[64]|Sectors:262756-262756|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1825|ID:CDROM/XA_G/BGM378.XA[65]|Sectors:262764-262764|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1826|ID:CDROM/XA_G/BGM378.XA[66]|Sectors:262772-262772|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1827|ID:CDROM/XA_G/BGM378.XA[67]|Sectors:262780-262780|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1828|ID:CDROM/XA_G/BGM378.XA[68]|Sectors:262788-262788|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1829|ID:CDROM/XA_G/BGM378.XA[69]|Sectors:262796-262796|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1830|ID:CDROM/XA_G/BGM378.XA[70]|Sectors:262804-262804|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1831|ID:CDROM/XA_G/BGM378.XA[71]|Sectors:262812-262812|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1832|ID:CDROM/XA_G/BGM378.XA[72]|Sectors:262820-262820|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1833|ID:CDROM/XA_G/BGM378.XA[73]|Sectors:262828-262828|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1834|ID:CDROM/XA_G/BGM378.XA[74]|Sectors:262836-262836|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1835|ID:CDROM/XA_G/BGM378.XA[75]|Sectors:262844-262844|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1836|ID:CDROM/XA_G/BGM378.XA[76]|Sectors:262852-262852|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1837|ID:CDROM/XA_G/BGM378.XA[77]|Sectors:262860-262860|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:-1|Disc speed:?
+    #:1838|ID:CDROM/XA_G/BGM378.XA[78]|Sectors:262868-283508|Type:XA|Channel:0|Stereo?:Yes|Samples/Sec:37800|Bits/Sample:4|Sector stride:8|Disc speed:2x
+    #:1839|ID:CDROM/XA_G/MIKIHARA.XA|Sectors:283516-298363|Type:File|Size:30408704|Path:CDROM/XA_G/MIKIHARA.XA|Has mode 2 form 2:Yes|Has CD audio:No
+    #:1840|ID:CDROM/XA_G/MIKIHARA.XA[0]|Sectors:283516-298332|Type:XA|Channel:0|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1841|ID:CDROM/XA_G/MIKIHARA.XA[1]|Sectors:283517-298333|Type:XA|Channel:1|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1842|ID:CDROM/XA_G/MIKIHARA.XA[2]|Sectors:283518-298334|Type:XA|Channel:2|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1843|ID:CDROM/XA_G/MIKIHARA.XA[3]|Sectors:283519-298335|Type:XA|Channel:3|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1844|ID:CDROM/XA_G/MIKIHARA.XA[4]|Sectors:283520-298336|Type:XA|Channel:4|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1845|ID:CDROM/XA_G/MIKIHARA.XA[5]|Sectors:283521-298337|Type:XA|Channel:5|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1846|ID:CDROM/XA_G/MIKIHARA.XA[6]|Sectors:283522-298338|Type:XA|Channel:6|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1847|ID:CDROM/XA_G/MIKIHARA.XA[7]|Sectors:283523-298339|Type:XA|Channel:7|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1848|ID:CDROM/XA_G/MIKIHARA.XA[8]|Sectors:283524-298340|Type:XA|Channel:8|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1849|ID:CDROM/XA_G/MIKIHARA.XA[9]|Sectors:283525-298341|Type:XA|Channel:9|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1850|ID:CDROM/XA_G/MIKIHARA.XA[10]|Sectors:283526-298342|Type:XA|Channel:10|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1851|ID:CDROM/XA_G/MIKIHARA.XA[11]|Sectors:283527-298343|Type:XA|Channel:11|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1852|ID:CDROM/XA_G/MIKIHARA.XA[12]|Sectors:283528-298344|Type:XA|Channel:12|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1853|ID:CDROM/XA_G/MIKIHARA.XA[13]|Sectors:283529-298345|Type:XA|Channel:13|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1854|ID:CDROM/XA_G/MIKIHARA.XA[14]|Sectors:283530-298346|Type:XA|Channel:14|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1855|ID:CDROM/XA_G/MIKIHARA.XA[15]|Sectors:283531-298347|Type:XA|Channel:15|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1856|ID:CDROM/XA_G/MIKIHARA.XA[16]|Sectors:283532-298348|Type:XA|Channel:16|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1857|ID:CDROM/XA_G/MIKIHARA.XA[17]|Sectors:283533-298349|Type:XA|Channel:17|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1858|ID:CDROM/XA_G/MIKIHARA.XA[18]|Sectors:283534-298350|Type:XA|Channel:18|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1859|ID:CDROM/XA_G/MIKIHARA.XA[19]|Sectors:283535-298351|Type:XA|Channel:19|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1860|ID:CDROM/XA_G/MIKIHARA.XA[20]|Sectors:283536-298352|Type:XA|Channel:20|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1861|ID:CDROM/XA_G/MIKIHARA.XA[21]|Sectors:283537-298353|Type:XA|Channel:21|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1862|ID:CDROM/XA_G/MIKIHARA.XA[22]|Sectors:283538-298354|Type:XA|Channel:22|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1863|ID:CDROM/XA_G/MIKIHARA.XA[23]|Sectors:283539-298355|Type:XA|Channel:23|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1864|ID:CDROM/XA_G/MIKIHARA.XA[24]|Sectors:283540-298356|Type:XA|Channel:24|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1865|ID:CDROM/XA_G/MIKIHARA.XA[25]|Sectors:283541-298357|Type:XA|Channel:25|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1866|ID:CDROM/XA_G/MIKIHARA.XA[26]|Sectors:283542-298358|Type:XA|Channel:26|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1867|ID:CDROM/XA_G/MIKIHARA.XA[27]|Sectors:283543-298359|Type:XA|Channel:27|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1868|ID:CDROM/XA_G/MIKIHARA.XA[28]|Sectors:283544-298360|Type:XA|Channel:28|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1869|ID:CDROM/XA_G/MIKIHARA.XA[29]|Sectors:283545-298361|Type:XA|Channel:29|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1870|ID:CDROM/XA_G/MIKIHARA.XA[30]|Sectors:283546-298362|Type:XA|Channel:30|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1871|ID:CDROM/XA_G/MIKIHARA.XA[31]|Sectors:283547-298363|Type:XA|Channel:31|Stereo?:No|Samples/Sec:18900|Bits/Sample:4|Sector stride:32|Disc speed:2x
+    #:1872|ID:CDROM/DADIR/TR02.DA|Sectors:298664-317710|Type:File|Size:39008256|Path:CDROM/DADIR/TR02.DA|Has mode 2 form 2:No|Has CD audio:No
