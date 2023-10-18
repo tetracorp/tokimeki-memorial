@@ -6,3 +6,7 @@ You_, using Ghidra to reverse-engineer the original game binaries.
 For information on the project's findings and methods, see the project website:
 
 <https://tetracorp.github.io/tokimeki-memorial>
+
+As of 2023, this page is no longer being updated. It's a huge game, and I don't
+have the time to give it the dedicated analysis it deserves. If you're
+interested, feel free to use the information here.
