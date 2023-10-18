@@ -275,7 +275,7 @@ Several of these function names are pulled from `exedir/o.bin`, a leftover
 object file. This means the game's developers called this function
 `fujisaki_2nin_birth_check`, where "2nin" probably means 「二人」, meaning two
 people or a couple, more commonly read "futari". The function names
-`get_grp`, `reserved_date`, `birth_day_check` and get_g_zyotai_s` are also from
+`get_grp`, `reserved_date`, `birth_day_check` and `get_g_zyotai_s` are also from
 the object file.
 
 The check is only passed if:
